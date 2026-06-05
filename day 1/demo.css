@@ -50,8 +50,9 @@ body{
     width: 100%;
     max-width: 800px;
     height: auto;
-    display: block;
-    margin: auto;
+    margin: 20px;
+    padding: 20px;
+   
 }
 
 .second-section{
