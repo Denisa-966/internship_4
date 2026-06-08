@@ -12,6 +12,7 @@
     align-items: center;
     background-color: #10ffcf;
     padding: 15px 40px;
+    border: dashed rgb(18, 18, 18);
 }
 
 /* Logo/Icon */
@@ -53,6 +54,7 @@
     align-items: center;
     justify-content: right;
     padding: 15px 40px;
+    border: dashed rgb(171, 241, 236);
 }
 .first-section1{
     color: rgb(252, 245, 245);
