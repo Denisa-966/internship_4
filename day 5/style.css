@@ -1,5 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #10ffcf;
+    padding: 15px 40px;
+}
+
+/* Logo/Icon */
+.first-section{
+    color: rgb(13, 13, 13);
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Menu */
+.second-section ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.second-section ul li a{
+    text-decoration: none;
+    color: rgb(26, 25, 25);
+    font-size: 18px;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+.second-section ul li a:hover{
+    background-color: rgb(4, 4, 4);
+    color: #f1e6e6;
     
+}
+
+
+.navtwo{
+
+    display: flex;
+    background-color: #080808;
+    color: white;
+    align-items: center;
+    justify-content: right;
+    padding: 15px 40px;
+}
+.first-section1{
+    color: rgb(252, 245, 245);
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    justify-content: center;
+    
+}
+
+/* Menu */
+.second-section2 ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    margin-left: 15px;
+}
+
+.second-section2 ul li a{
+    text-decoration: none;
+    color: rgb(236, 230, 230);
+    font-size: 18px;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+.second-section2 ul li a:hover{
+    background-color: rgb(245, 242, 242);
+    color: #050404;
+    
+}
+.navtwo .btn{
+    margin-left: auto;
+}
+
+.button{
+    border: 2px solid rgb(171, 241, 236);
+    border-radius: 15px;
+    font-size: 15px;
+    width: 90px;
+    height: 40px;
+    background-color: aliceblue;
+    color: black;
 }
