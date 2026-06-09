@@ -28,7 +28,7 @@ a{
     text-decoration: none;
     padding: 10px;
     margin: 10px;
-    
+
 }
 img{
     height: 60vh;
@@ -39,8 +39,10 @@ img{
 
 
 .form-box{
-    background-color: rgb(248, 3, 3);
+    background-color: cadetblue;
     border: 2px solid black;
+    border-radius: 5px;
+    color: black;
     padding: 30px;
     margin: 30px;
 
