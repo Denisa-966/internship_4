@@ -4,9 +4,12 @@
   box-sizing: border-box;
 }
 :root{
+  --main-color: white;
   --primary-color: #F5F7FA;
+
   --secondary-color:#4CAF4F;
   --third-color: #2632383;
+  --fourth-color:#717171; 
 }
 body {
   font-family: "Inter", sans-serif;
@@ -27,6 +30,11 @@ h1{
 h2{
   font-weight: 600;
   font-size: 36px;
+  line-height: 1.2;
+}
+h3{
+  font-weight: 700;
+  font-size: 28px;
   line-height: 1.2;
 }
 .container {
@@ -194,7 +202,7 @@ a{
 .experience-para{
    line-height: .6;
    font-weight: 400;
-   color: #717171;
+   color: var(--fourth-color);
    margin-bottom: 32px;
 
 }
@@ -214,7 +222,10 @@ a{
 }
  
 /*------------------------------------ clients-section------------------------ */
-
+.clients-section{
+  padding-top:40px;
+  background-color: var(--main-color);
+}
 .clients-section-container{
 text-align: center;
 
@@ -223,27 +234,91 @@ text-align: center;
   margin-bottom: 8px;
 }
 .clients-para{
+  color:var(--fourth-color);
   margin-bottom: 16px;
+  font-weight: 500;
 }
 
-.logo-icon{
-  margin-inline: 144px;
+
+.logo-showcase-wrapper{
+
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
-  gap:136px;
+  gap: 30px;
+
+  
+
+}
+
+.logo-showcase-icon{
+
+  width: 48px;
+  aspect-ratio: 1;
+
 
 }
 
 
+/* ----------------community-section--------------------- */
 
+.communtiy-section{
 
+  padding-top: 40px;
 
+}
+.communtiy-primary-heading{
+  padding-inline: 220px;
+  width: 100%;
+  margin-bottom: 10px;
+  
 
+}
 
+.communtiy-heading{
 
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+.box-model-heading{
+  height: 88px;
+}
 
+.community-box{
+  display: flex;
+  gap:35px;
+  padding-inline: 60px;
+  
+}
+.box-model{
 
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding-inline: 32px;
+  padding-block: 24px;
+  width: 300px;
+  height: 260px;
+  border: 1px solid white;
+  box-shadow: 1px 1px 4px 0px rgb(207, 204, 204);
+  text-align: center;
+}
+.box-model-wrapper{
+  width: 65px;
+  height: 56px;
+}
+.communtiy-para{
+  color:var(--fourth-color);
+}
+
+.box-model-para{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--third-color);
+}
 
 
 
