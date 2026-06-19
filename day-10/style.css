@@ -18,15 +18,6 @@ body {
   line-height: 1.2;
 }
 
-.header {
-  top: 0;
-  width: 100%;
-  position: sticky;
-  box-shadow: 4px 4px 6px #00000045;
-  z-index: 999;
-  background-color: white;
-  padding-block: 15px;
-}
 
 .container {
   width: 100%;
@@ -48,6 +39,17 @@ img {
   height: 100%;
   width: 100%;
   object-fit: contain;
+}
+
+
+.header {
+  top: 0;
+  width: 100%;
+  position: sticky;
+  box-shadow: 4px 4px 6px #00000045;
+  z-index: 999;
+  background-color: white;
+  padding-block: 15px;
 }
 
 .nav {
@@ -281,6 +283,7 @@ img {
   min-height: 20px;
   max-width: 130px;
   cursor: pointer;
+  transition: all .3s ease-in-out;
    filter: grayscale(1);
 }
 
@@ -328,7 +331,10 @@ footer {
    color: rgb(0, 172, 141);
   transition: all 0.3s ease-in-out;
 }
+.footer-icon:hover{
 
+  color: white;
+}
 
 .footer-icon-wrapper{
   display: flex;
