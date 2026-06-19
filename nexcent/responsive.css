@@ -1,0 +1,29 @@
+@media only screen and (max-width: 991px) {
+    .experience-heading{
+        font-size: 40px;
+    }
+    .experience-para{
+   line-height: 1.3;
+  }
+
+       
+    
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .experience-contant {
+       
+        flex-direction: column-reverse;
+    }
+
+
+}
+@media only screen and (max-width: 479px) {
+  .experience-heading{
+        font-size: 25px;
+    }
+
+
+}

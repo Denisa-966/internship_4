@@ -14,34 +14,69 @@ body {
   line-height: 1.5;
   font-weight: 500;
   display: flex;
+  background-color: var(--primary-color);
   flex-direction: column;
   min-height: 100vh;
   line-height: 1.2;
 }
-
-
+h1{
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+h2{
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.2;
+}
 .container {
   width: 100%;
-  max-width: 1440px;
   margin-inline: auto;
-  padding-inline: 16px;
+  padding-inline: 20px;
 }
+.header-container{
+  max-width:1255px;
+}
+
+.section-container{
+ max-width:1192px;
+}
+
+.footer-container{
+  max-width: 1150px;
+}
+
 
 img {
   max-width: 100%;
   display: block;
+}
+
+.img-contain{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 .img-cover {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-.img-contain{
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
+.btn{
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: 4px;
 }
-
+.btn:hover{
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+}
+a{
+  text-decoration: none;
+  text-align: center;
+}
 /* --------------------------------header-------------------------------- */
 
 .header {
@@ -56,7 +91,7 @@ img {
 
 .nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     
 }
@@ -128,30 +163,30 @@ img {
 -----------------------------first-section-------------------------------- */
 
 .first-section{
+  width: 100%;
   min-height: 600px;
   background-color: var(--primary-color);
+  margin-bottom: 40px;
 }
 .experience-contant{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 104px;
+  gap: 20px;
   padding-block: 60px;
   
 }
 .experience-contant-left{
   max-width: 658px;
-  display: flex;
-  flex-direction: column;
+  margin-bottom:16px
 }
 
 .experience-heading{
-  font-size: 68px;
   font-weight: 600;
   color: #18191F;
-  line-height: 1.1;
   margin-bottom: 16px;
 }
+
 .experience-heading-1{
   color: var(--secondary-color);
  
@@ -165,23 +200,40 @@ img {
 }
 .experience-btn{
   padding: 14px 32px;
-  max-width: 182px;
-  min-height: 40px;
+  max-width: 128px;
+  min-height: 52px;
+
 }
+
+
 
 
 .experience-contant-right{
   max-width: 392px;
   min-height: 408px;
 }
+ 
+/*------------------------------------ clients-section------------------------ */
 
+.clients-section-container{
+text-align: center;
 
+}
+.clients{
+  margin-bottom: 8px;
+}
+.clients-para{
+  margin-bottom: 16px;
+}
 
+.logo-icon{
+  margin-inline: 144px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:136px;
 
-
-
-
-
+}
 
 
 
