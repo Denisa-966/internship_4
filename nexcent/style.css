@@ -39,8 +39,9 @@ h3{
 }
 .container {
   width: 100%;
-  margin-inline: auto;
   padding-inline: 20px;
+  margin-inline: auto;
+
 }
 .header-container{
   max-width:1255px;
@@ -84,11 +85,19 @@ img {
 a{
   text-decoration: none;
   text-align: center;
-  display: block;
+  display: block; 
+
+
+}
+
+p{
+  color: var(--fourth-color);
+  font-weight: 400;
 }
 /* --------------------------------header-------------------------------- */
 
 .header {
+  
   top: 0;
   min-height:84px;
   width: 100%;
@@ -100,7 +109,7 @@ a{
 
 .nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     
 }
@@ -134,6 +143,7 @@ a{
   color: var(--primary-color);
   border-radius: 4px;
 }
+
 
 .login-btn{
   display: flex;
@@ -172,6 +182,7 @@ a{
 -----------------------------first-section-------------------------------- */
 
 .first-section{
+
   width: 100%;
   min-height: 600px;
   background-color: var(--primary-color);
@@ -203,7 +214,6 @@ a{
 .experience-para{
    line-height: .6;
    font-weight: 400;
-   color: var(--fourth-color);
    margin-bottom: 32px;
 
 }
@@ -224,6 +234,7 @@ a{
  
 /*------------------------------------ clients-section------------------------ */
 .clients-section{
+
   padding-top:40px;
   background-color: var(--main-color);
 }
@@ -241,13 +252,11 @@ text-align: center;
 }
 
 
-.logo-showcase-wrapper{
+.logocase-section{
 
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 100px;
+  justify-content: space-between;
 
   
 
@@ -270,7 +279,7 @@ text-align: center;
 
 }
 .communtiy-primary-heading{
-  padding-inline: 220px;
+
   width: 100%;
   margin-bottom: 10px;
   
@@ -284,13 +293,14 @@ text-align: center;
   
 }
 .box-model-heading{
-  height: 88px;
+  min-height: 65px;
+  margin-bottom: 15px;
 }
 
 .community-box{
   display: flex;
-  gap:35px;
-  padding-inline: 60px;
+  justify-content: space-between;
+
   
 }
 .box-model{
@@ -300,8 +310,8 @@ text-align: center;
   align-items: center;
   padding-inline: 32px;
   padding-block: 24px;
-  width: 300px;
-  height: 260px;
+  max-width: 300px;
+  min-height: 260px;
   border: 1px solid white;
   box-shadow: 1px 1px 4px 0px rgb(207, 204, 204);
   text-align: center;
@@ -310,9 +320,6 @@ text-align: center;
   width: 65px;
   height: 56px;
 }
-.communtiy-para{
-  color:var(--fourth-color);
-}
 
 .box-model-para{
   font-weight: 400;
@@ -320,6 +327,82 @@ text-align: center;
   line-height: 1.4;
   color: var(--third-color);
 }
+
+/* ----------------------data-section------------- */
+.data-section{
+  margin-top: 42px;
+  height: 434px;
+ 
+}
+.data-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 50px;
+
+}
+.data-right-img{
+  width: 442px;
+  height: 433px;
+}
+.data-left-side{
+  padding-block: 82px;
+  max-width: 662px;
+   min-height: 268px;
+}
+.data-para{
+   margin-top: 16px;
+}
+
+.data-link{
+  margin-top: 32px;
+  padding: 14px 32px;
+  max-width: 156px;
+  line-height: 1.5;
+  min-height: 52px;
+}
+
+
+/* ------review-section -------------*/
+
+.review-section{
+  min-height: 288px;
+  margin-top: 48px;
+}
+
+.review-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 72px;
+}
+.revivew-left{
+  margin-block: 84px;
+  min-height: 120px;
+  max-width: 540px;
+}
+
+.review-icon{
+  width:  48px;
+  aspect-ratio: 1;
+}
+
+
+.review-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 16px;
+}
+.review-right{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:40px;
+}
+
+
+
+
 
 
 
