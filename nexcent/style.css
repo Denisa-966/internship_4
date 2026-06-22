@@ -22,6 +22,10 @@ body {
   min-height: 100vh;
   line-height: 1.2;
 }
+main{
+  padding-inline: 144px;
+  background-color: var(--primary-color);
+}
 h1{
   font-size: 64px;
   font-weight: 600;
@@ -82,7 +86,6 @@ img {
   border-radius: 4px;
 }
 a{
-  text-decoration: none;
   text-align: center;
   display: block;
 }
@@ -100,32 +103,28 @@ a{
 
 .nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap:10px;
     align-items: center;
     
 }
 
-.logo{
-  padding-block: 30px;
-   max-width: 154px;
-   min-height: 24px;
 
-}
 
-.nav-links ul{
+.nav-links{
   padding-inline: 30px;
   display: flex;
   gap: 32px;
   list-style:none;
 }
 
-.nav-links ul li a{
+.nav-links  li a{
   text-decoration: none;
   color:#18191F;
   transition: all 0.3s ease-in-out;
 
 }
-.nav-links ul li a:hover{
+.nav-links li a:hover{
   color: var(--secondary-color);
 }
 
@@ -133,6 +132,7 @@ a{
   background-color: var(--secondary-color);
   color: var(--primary-color);
   border-radius: 4px;
+  transition: all 0.3s ease-in-out;
 }
 
 .login-btn{
@@ -141,14 +141,12 @@ a{
   justify-content: center;
   margin-block:22px;
   gap: 14px;
-  width: 182px;
-  height: 40px;
+  max-width: max-content;
+ 
   text-decoration: none;
 }
 .login-link{
   text-decoration: none;
-  max-width:91px;
-  min-height: 40px;
   font-size: 14px;
   padding: 10px 20px;
   color:var(--secondary-color);
@@ -161,7 +159,7 @@ a{
 
 .sign-up{
   max-width: 91px;
-  height: 40px;
+
   padding: 10px 20px;
   font-size: 14px;
   color: var(--primary-color);
@@ -245,9 +243,9 @@ text-align: center;
 
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  gap: 100px;
+  column-gap: 100px;
 
   
 
@@ -267,6 +265,7 @@ text-align: center;
 .communtiy-section{
 
   padding-top: 40px;
+  min-height: 416px;
 
 }
 .communtiy-primary-heading{
@@ -289,7 +288,7 @@ text-align: center;
 
 .community-box{
   display: flex;
-  gap:35px;
+  gap: 128px;
   padding-inline: 60px;
   
 }
@@ -298,12 +297,12 @@ text-align: center;
   display:flex;
   flex-direction: column;
   align-items: center;
-  padding-inline: 32px;
+  padding-inline: 16px;
   padding-block: 24px;
   width: 300px;
   height: 260px;
   border: 1px solid white;
-  box-shadow: 1px 1px 4px 0px rgb(207, 204, 204);
+  box-shadow: 0px 2px 4px 0px #ABBED133;
   text-align: center;
 }
 .box-model-wrapper{
@@ -318,7 +317,8 @@ text-align: center;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.4;
-  color: var(--third-color);
+  margin-top: 8px;
+  color: var(--fourth-color);
 }
 
 
