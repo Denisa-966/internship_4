@@ -1,15 +1,15 @@
 @media only screen and (max-width: 991px) {
 
-    .first-section{
+    .hero-section{
    
       min-height: 520px;
     }
  
 
-    .experience-heading{
+    .hero-heading{
         font-size: 40px;
     }
-    .experience-para{
+    .hero-para{
    line-height: 1.3;
   }
 
@@ -42,11 +42,16 @@
     width: 400px;
    
 }
+.blog-bottom-side{
 
+  row-gap: 100px;
+
+  
+}
 }
 
 @media only screen and (max-width: 768px) {
-    .experience-contant {
+    .hero-contant {
        
         flex-direction: column-reverse;
     }
@@ -66,10 +71,10 @@
  h3{
   font-size: 20px;
  }
-.data-wrapper{
+.cta-wrapper{
   flex-direction: column;
 }
-.data-left-side{
+.cta-left-side{
     padding-block: 50px;
 }
  .review-wrapper{
@@ -93,9 +98,15 @@
     margin-top: 20px;
    
 }
+.blog-bottom-side{
+
+  column-gap: 20px;
+
+  
+}
 }
 @media only screen and (max-width: 479px) {
-  .experience-heading{
+  .hero-heading{
         font-size: 25px;
     }
 
@@ -116,7 +127,7 @@
   
  
 }
-.data-heading{
+.cta-heading{
   font-size: 26px;
 }
  .collection-icon {
@@ -136,6 +147,9 @@
 }
 .collection-right{
   margin-block: 0;
+}
+.h1{
+  font-size: 40px;
 }
 }
 
