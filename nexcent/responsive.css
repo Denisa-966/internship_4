@@ -18,7 +18,7 @@
   column-gap:100px;
 }       
     
-  .review-wrapper{
+.review-wrapper{
   gap: 100px;
   }
 .collection-wrapper{
@@ -48,6 +48,8 @@
 
   
 }
+
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -61,6 +63,7 @@
 }
  .community-box {
     column-gap: 10px;
+    justify-content: center;
   
 }
 .box-model{
@@ -104,6 +107,8 @@
 
   
 }
+
+
 }
 @media only screen and (max-width: 479px) {
   .hero-heading{

@@ -112,7 +112,7 @@ span{
 }
 /* --------------------------------header-------------------------------- */
 
-.header {
+header {
   
   top: 0;
   min-height:84px;
@@ -307,6 +307,7 @@ text-align: center;
   display: flex;
   align-items: center;
   gap:10px;
+  flex-wrap: wrap;
   justify-content: space-between;
 
   
@@ -595,7 +596,7 @@ row-gap: 32px;
 .footer-contant{
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  column-gap: 40px;
   align-items: flex-start;
 }
 
@@ -603,17 +604,24 @@ row-gap: 32px;
   display: flex;
   justify-content: space-between;
   align-items: start;
-  column-gap: 60px;
-
+  gap:10px;
+  flex-wrap: wrap;
   width: 88%;
   max-width: 612px;
   
 }
 .icon-logo{
-  width: 30px;
+  width: 32px;
+  height: 32px;
+  border-radius: 15px;
+  padding: 7px;
+
+  background-color:grey;
   
+}
+.logo-img{
+    width: 18px;
   aspect-ratio: 1;
-  
 }
 .icon-logo:hover{
 color: #0389cd;
