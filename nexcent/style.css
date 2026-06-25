@@ -79,8 +79,12 @@ img {
   background-color: var(--secondary-color);
   color: var(--primary-color);
   border-radius: 4px;
+   transition: all 0.3s ease-in-out;
+  max-width: max-content;
+  border: 1px solid transparent;
   padding: 14px 32px;
 }
+
 .btn:hover {
   background-color: var(--primary-color);
   color: var(--secondary-color);
@@ -112,7 +116,7 @@ header {
   position: sticky;
   z-index: 999;
   background-color: var(--primary-color);
-  position: relative;
+  
 }
 
 .nav {
@@ -120,6 +124,7 @@ header {
   justify-content: space-between;
   align-items: center;
   gap:20px;
+  position: relative;
   
 }
 
@@ -132,7 +137,7 @@ header {
 }
 
 .nav-links {
-  padding-inline: 30px;
+ 
   display: flex;
   gap: 50px;
   list-style: none;
@@ -147,21 +152,13 @@ header {
   transition: all 0.3s ease-in-out;
 }
 
-.btn {
-  color: var(--primary-color);
 
-  border: 1px solid transparent;
-  transition: all 0.3s ease-in-out;
-  max-width: max-content;
-}
 
 .login-btn {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 14px;
-
-  text-decoration: none;
 }
 .log-in {
   color: var(--secondary-color);
@@ -180,8 +177,8 @@ header {
 }
 
 .nav-btn-wrapper{
-   display: block;
   width: 40px;
+  display: block;
   
 }
 
@@ -205,21 +202,14 @@ header {
 
 .hero-contant-left {
   max-width: 658px;
-  margin-bottom: 16px;
+  
 }
 
-.hero-heading {
-  font-weight: 600;
 
-  margin-bottom: 16px;
-}
 
 .hero-para {
+  margin-top: 16px;
   margin-bottom: 32px;
-}
-.hero-btn {
-  padding: 14px 32px;
-  width: 128px;
 }
 
 .hero-contant-right {
@@ -270,7 +260,7 @@ header {
 .community-box {
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  gap: 128px;
+  gap: 40px;
   
  
 }
@@ -301,11 +291,7 @@ header {
   width: 442px;
   aspect-ratio: 1;
 }
-.cta-left-side {
-  padding-block: 82px;
-  max-width: 662px;
-  min-height: 268px;
-}
+
 .cta-para {
   margin-top: 16px;
 }
@@ -315,8 +301,8 @@ header {
 
 .cta-link {
   margin-top: 32px;
-  padding: 14px 32px;
-  max-width: 156px;
+ 
+
 }
 
 /* ------review-section -------------*/
@@ -444,6 +430,9 @@ header {
   
   height: 286px;
   border-radius: 8px;
+  position: relative;
+    z-index: -1;
+
 }
 .blog-top-side {
   margin-bottom: 16px;
@@ -455,18 +444,17 @@ header {
   column-gap: 24px;
  
 }
+
+
+
 .blog-contant {
   padding: 16px;
   border-radius: 8px;
   text-align: center;
-  width: 100%;
-  max-width: 318px;
-  min-height: 176px;
-  position: absolute;
-  top: 168px;
-  left: 50%;
-  transform: translateX(-50%);
+  max-width: 316px;
 
+  margin-top: -22%;
+  margin-inline:auto;
   background-color: #f5f7fa;
   box-shadow: 0 2px 16px 0 #abbed166;
 }
@@ -474,9 +462,7 @@ header {
   color: var(--fourth-color);
   margin-bottom: 24px;
 }
-.blog-contant-wrapper {
-  position: relative;
-}
+
 
 /*  -------------------cta-section-3--------------- */
 

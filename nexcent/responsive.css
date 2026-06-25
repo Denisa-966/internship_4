@@ -88,7 +88,7 @@
  
 }
 .community-box {
-  grid-template-columns: repeat(1,1fr);
+  grid-template-columns: repeat(2,1fr);
 }
  h3{
   font-size: 20px;
@@ -121,7 +121,7 @@
 }
 .blog-bottom-side{
 
-  column-gap: 20px;
+  grid-template-columns: repeat(2,1fr);
 
   
 }
@@ -143,11 +143,11 @@
     max-width: 120px;
   }
   .log-in, .sign-up{
-    font-size: 10px;
+    font-size: 14px;
     padding: 5px 5px;
   }
   .hero-heading{
-        font-size: 25px;
+        font-size: 30px;
     }
   .login-btn{
     gap:4px;
@@ -179,11 +179,15 @@
   row-gap: 10px;
 
 }
+.blog-bottom-side{
+  grid-template-columns: repeat(1,1fr);
+  justify-items: center;
+}
 .review-icon{
   width: 30px;
 }
 .community-box {
-  grid-template-columns: repeat(1,3fr);
+  grid-template-columns: repeat(1,1fr);
   justify-items: center;
     
    
