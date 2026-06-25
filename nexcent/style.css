@@ -107,6 +107,14 @@ p {
 span {
   color: var(--secondary-color);
 }
+.heading-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap:8px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
 /* --------------------------------header-------------------------------- */
 
 header {
@@ -224,12 +232,11 @@ header {
 .clients-section-container {
   text-align: center;
 }
-.clients {
-  margin-bottom: 8px;
+.communtiy-primary-heading{
+  max-width: 542px;
+  text-align: center;
 }
-.clients-para {
-  margin-bottom: 16px;
-}
+
 
 .logocase-section {
   display: flex;
@@ -244,10 +251,6 @@ header {
 
 /* ----------------community-section--------------------- */
 
-.communtiy-primary-heading {
-  width: 100%;
-  margin-bottom: 10px;
-}
 
 .communtiy-heading {
   text-align: center;
@@ -269,9 +272,6 @@ header {
   flex-direction: column;
   align-items: center;
   padding: 24px 32px;
-
-  max-width: 300px;
-
   box-shadow: 1px 1px 4px 0px rgb(207, 204, 204);
   text-align: center;
 }
@@ -280,7 +280,9 @@ header {
 }
 
 /* ----------------------data-section------------- */
-
+.cta-section{
+  margin-block: 42px 48px;
+}
 .cta-wrapper {
   display: flex;
   align-items: center;
@@ -293,17 +295,13 @@ header {
 }
 
 .cta-para {
-  margin-top: 16px;
+  margin-block: 16px 32px;
 }
 .cta-right-side {
   flex-shrink: 0;
 }
 
-.cta-link {
-  margin-top: 32px;
- 
 
-}
 
 /* ------review-section -------------*/
 
@@ -315,7 +313,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  -gap: 20px;
+  gap: 20px;
 }
 
 .review-icon {
@@ -342,9 +340,7 @@ header {
 }
 
 /* -----------cta-section-2 ----------*/
-.cta-section-2 {
-  padding-block: 48px;
-}
+
 /* ----collection-section--------------- */
 
 .collection-section {
@@ -367,23 +363,19 @@ header {
   justify-content: center;
   column-gap: 78px;
 }
-.collection-right {
-  max-width: 748px;
 
-  margin-block: 33px;
-}
 .collection-icon {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   column-gap: 32px;
 }
 .rigth-side-icon {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   column-gap: 42px;
 }
 .para-icon {
@@ -445,7 +437,10 @@ header {
  
 }
 
-
+.blog-para{
+  max-width: 628px;
+  text-align: center;
+}
 
 .blog-contant {
   padding: 16px;
