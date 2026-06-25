@@ -260,7 +260,7 @@ header {
 .community-box {
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  gap: 40px;
+  gap: 127px;
   
  
 }
@@ -456,7 +456,7 @@ header {
   margin-top: -22%;
   margin-inline:auto;
   background-color: #f5f7fa;
-  box-shadow: 0 2px 16px 0 #abbed166;
+  box-shadow: 0 8px 16px 0 #ABBED166;
 }
 .blog-contant-heading {
   color: var(--fourth-color);
