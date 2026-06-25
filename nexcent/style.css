@@ -101,8 +101,11 @@ a {
 p {
   color: var(--fourth-color);
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.4;
+}
+.para-s{
+  font-size: 14px;
 }
 span {
   color: var(--secondary-color);
@@ -124,6 +127,7 @@ header {
   position: sticky;
   z-index: 999;
   background-color: var(--primary-color);
+  padding-block: 22px;
   
 }
 
@@ -136,10 +140,8 @@ header {
   
 }
 
-.logo {
-  padding-block: 30px;
-}
-.img-logo{
+
+.img-logo1{
   max-width: 154px;
   max-height: 24px;
 }
@@ -182,6 +184,7 @@ header {
 .sign-up {
   padding: 10px 20px;
   font-size: 14px;
+  border-radius: 6px;
 }
 
 .nav-btn-wrapper{
@@ -213,9 +216,13 @@ header {
   
 }
 
-
+.hero-img{
+    width: 392px;
+    height: 408px;
+}
 
 .hero-para {
+
   margin-top: 16px;
   margin-bottom: 32px;
 }
@@ -300,7 +307,9 @@ header {
 .cta-right-side {
   flex-shrink: 0;
 }
-
+.cta-left-side{
+  max-width: 602px;
+}
 
 
 /* ------review-section -------------*/
@@ -325,7 +334,7 @@ header {
   display: flex;
 
   align-items: center;
-  column-gap: 20px;
+  column-gap: 16px;
 }
 .review-right {
 
@@ -366,7 +375,9 @@ header {
   justify-content: center;
   column-gap: 78px;
 }
-
+.collection-right-para{
+  font-weight: 500;
+}
 .collection-icon {
   display: flex;
   align-items: center;
@@ -392,12 +403,13 @@ header {
 .right-1 {
   margin-bottom: 32px;
 }
-.para-1 {
-  margin-block: 16px;
+.collection-bottom-para{
+  font-weight: 400;
 }
 
 .head1 {
-  margin-bottom: 8px;
+  margin-block: 8px 16px;
+  color: var(--secondary-color);
 }
 .logo-showcase-icon-single {
   width: 20px;
@@ -408,7 +420,7 @@ header {
   transform: translateX(5px);
 }
 
-.right-heading {
+.head2 {
   color: var(--secondary-color);
   transition: all 0.3s ease-in-out;
 }
@@ -452,7 +464,7 @@ header {
   text-align: center;
   max-width: 310px;
 
-  margin-top: -22%;
+  margin-top: -24%;
   margin-inline:auto;
   background-color: #f5f7fa;
   box-shadow: 0 8px 16px 0 #ABBED166;
@@ -492,6 +504,10 @@ header {
   background-color: #263238;
   color: white;
   
+}
+.img-logo2{
+  max-width: 192px;
+  max-height: 30px;
 }
 
 .para {
