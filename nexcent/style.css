@@ -575,14 +575,14 @@ header {
 }
 
 
-.footer-list li {
+.footer-list  {
   list-style: none;
   font-size: 14px;
 
   font-weight: 400;
 
 }
-.footer-list li a{
+.footer-list  a{
 color: #F5F7FA;
 transition: all 0.3s ease-in-out;
 }
