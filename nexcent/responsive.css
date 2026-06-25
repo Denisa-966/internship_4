@@ -40,7 +40,7 @@
    
 }
 .blog-bottom-side{
-
+  
   row-gap: 100px;
 
   
@@ -69,7 +69,11 @@
   display: block;
 }
 
-
+.blog-bottom-side{
+  grid-template-columns: repeat(2,1fr);
+  justify-items: center;
+  gap:40px;
+}
 }
 
 @media only screen and (max-width: 768px) {
@@ -122,6 +126,7 @@
 .blog-bottom-side{
 
   grid-template-columns: repeat(2,1fr);
+  row-gap: 20px;
 
   
 }
@@ -182,6 +187,7 @@
 .blog-bottom-side{
   grid-template-columns: repeat(1,1fr);
   justify-items: center;
+  gap:26px;
 }
 .review-icon{
   width: 30px;
@@ -207,6 +213,9 @@
 }
 .contant-para{
   font-size: 12px;
+}
+.blog-section {
+    padding-block: 24px 25px;
 }
 }
 
