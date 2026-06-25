@@ -598,7 +598,6 @@ header {
   border: 1px transparent;
   border-radius: 8px;
   background-color:  #d9dbe133;
-  color: #D9DBE1;
  padding: 12px;
   padding-inline: 10px 34px;
 }
@@ -616,4 +615,7 @@ header {
   height: 18px;
   background-color: transparent;
   border: none;
+}
+.footer-link:hover{
+  color: #4caf4f;
 }
