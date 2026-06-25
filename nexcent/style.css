@@ -351,6 +351,9 @@ header {
 .collection-left {
   flex-shrink: 0;
 }
+.collection-right{
+  max-width: 778px;
+}
 .collection-img {
   width: 350px;
 
