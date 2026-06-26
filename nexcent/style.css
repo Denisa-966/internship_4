@@ -57,9 +57,7 @@ h4 {
 
 
 
-.footer-container {
-  max-width: 1150px;
-}
+ 
 
 img {
   max-width: 100%;
@@ -81,8 +79,7 @@ img {
 .btn {
   background-color: var(--secondary-color);
   color: var(--primary-color);
-  border-radius: 4px;
-   transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   max-width: max-content;
   border: 1px solid transparent;
   padding: 14px 32px;
