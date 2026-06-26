@@ -258,7 +258,7 @@ header {
 }
 
 .logocase-item {
-  max-height: 48px;
+  min-height: 48px;
 }
 
 /* ----------------community-section--------------------- */
