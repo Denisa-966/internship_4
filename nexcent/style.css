@@ -265,6 +265,7 @@ header {
 
 .logo-showcase-icon {
   width: 48px;
+  aspect-ratio: 1;
 }
 
 /* ----------------community-section--------------------- */
@@ -303,6 +304,7 @@ header {
 }
 .box-model-wrapper {
   width: 65px;
+  aspect-ratio: 1;
 }
 
 /* ----------------------data-section------------- */
@@ -317,7 +319,7 @@ header {
 }
 .cta-right-img {
   max-width: 442px;
-  aspect-ratio: 1;
+  min-height: 432px;
 }
 
 .cta-para {
@@ -383,9 +385,8 @@ header {
   max-width: 778px;
 }
 .collection-img {
-  width: 350px;
-
-  aspect-ratio: 1;
+  max-width: 426px;
+  min-height: 426px;
   border-radius: 8px;
 }
 .collection-wrapper {
@@ -416,9 +417,11 @@ header {
   justify-content: space-between;
   align-items: center;
   column-gap: 5px;
+  
+}
+.blog-icon{
   flex-shrink: 0;
 }
-
 .right-1 {
   margin-bottom: 32px;
 }
@@ -454,8 +457,8 @@ header {
   padding-block: 48px 94px;
 }
 .blog-contant-img {
-  
-  height: 286px;
+  max-width: 368px;
+  min-height: 286px;
   border-radius: 8px;
   overflow: hidden;
   position: relative;
