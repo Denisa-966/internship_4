@@ -15,7 +15,7 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  font-weight: 500;
+  font-weight: 400;
   display: flex;
   background-color: var(--main-color);
   flex-direction: column;
@@ -99,8 +99,7 @@ a {
 
 p {
   color: var(--fourth-color);
-  font-weight: 400;
-  font-size: 16px;
+
   line-height: 1.4;
 }
 .para-s{
@@ -166,7 +165,7 @@ header {
 .login-btn {
   display: flex;
   align-items: center;
-  justify-content: center;
+
   gap: 14px;
 }
 .log-in {
@@ -207,13 +206,14 @@ header {
 
 .hero-section {
   background-color: var(--primary-color);
+  padding-block: 60px;
 }
 .hero-contant {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 30px;
-  padding-block: 60px;
+  
 }
 
 .hero-contant-left {
@@ -224,6 +224,9 @@ header {
 .hero-img{
     width: 392px;
     height: 408px;
+}
+.hero-heading{
+  color: #4D4D4D;
 }
 
 .hero-para {
@@ -385,7 +388,7 @@ header {
 .collection-wrapper {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   column-gap: 78px;
 }
 .collection-right-para{
@@ -407,7 +410,7 @@ header {
 }
 .para-icon {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   column-gap: 5px;
   flex-shrink: 0;
@@ -498,7 +501,7 @@ header {
 .cta-wrapper-data {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+ 
   align-items: center;
   row-gap: 32px;
 }
@@ -565,7 +568,7 @@ header {
   border-radius: 100%;
   padding: 7px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 
   background-color: #ffffff1a;
