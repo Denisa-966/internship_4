@@ -414,7 +414,7 @@ header {
 }
 .para-icon {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   column-gap: 5px;
   
@@ -526,6 +526,7 @@ header {
 .footer-section {
   background-color: var(--third-color);
   color: white;
+  padding-block: 64px 74px;
   
 }
 .img-logo2{
@@ -549,7 +550,7 @@ header {
 .footer-left-side {
   width: 100%;
   max-width: 300px;
-  padding-block: 64px 74px;
+  
 }
 
 .footer-contant {
@@ -567,7 +568,7 @@ header {
   flex-wrap: wrap;
   width: 100%;
   max-width: 612px;
-  padding-block: 64px;
+  
 }
 .icon-logo {
   width: 32px;
