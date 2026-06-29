@@ -49,12 +49,142 @@ header {
    
 }
 /* ----------footer-section--------------- */
+footer{
+   margin-top: auto;
+}
 
-
-.footer-section{
-    margin-top: 100px;
+.footer-content{
+  
     background-color: var(--unnamed-color-000000);
     color: var(--unnamed-color-ffffff);
     padding-block: 106px 92px;
   
+}
+.footer-wrapper{
+    display: flex;
+    align-items:start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.details{
+    display: flex;
+    align-items: start;
+    justify-content:start;
+   
+    column-gap: 24px;
+}
+.footer-infor1-title{
+  
+    font-size: 50px;
+   font-weight: 400;
+}
+.details-title{
+    font-weight: 300;
+  
+}
+.span-title{
+  font-size: 90px;
+  line-height: 0.6;
+  font-weight: 700;
+
+}
+.span-details-title{
+    margin-top: 15px;
+}
+.footer-infor1-description{
+    margin-block: 23px 13px;
+    font-size: 21px;
+    max-width: 334px;
+    font-weight: 700;
+}
+form{
+    position: relative;
+}
+.email{
+    padding-block: 23px 21px;
+    padding-left: 25px;
+    width: 423px;
+    border: 1px solid transparent;
+    background-color: #f6f4f41f;
+    position: relative;
+ 
+}
+
+.footer-icon{
+    background-color: var(--unnamed-color-64d281);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    left: 396px;
+    top: 5px;
+}
+ .details-title{
+   font-family: "Poppins"; 
+} 
+    
+.footer-infor2-title{
+    margin-bottom: 25px;
+}
+.details2{
+    margin-block: 45px 54px;
+}
+.details3{
+    max-width: 340px;
+}
+.infor3-icons{
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+    
+}
+.infor3-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: var(--unnamed-color-64d281);
+}
+.links{
+    
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 28px;
+    margin-bottom: 85px;
+}
+.infor3-link{
+    color: #ffffff85;
+}
+.footer-logoshowcase{
+    background-color: var(--unnamed-color-64d281);
+    padding-block: 50px 38px;
+    padding-left: 110px;
+}
+.footer-logocase-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-titile-2{
+    font-size: 30px;
+    font-weight: 400;
+}
+.footer-section2-logoitem{
+     display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+}
+.footer-section2-logoitems{
+    width: 130px;
 }

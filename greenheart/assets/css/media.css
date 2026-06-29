@@ -1,0 +1,30 @@
+@media only screen and (max-width: 991px) {
+}
+
+@media only screen and (max-width: 768px) {
+  .email {
+    width: 318px;
+  }
+  .footer-icon {
+    left: 260px;
+  }
+  .footer-infor1-title{
+    font-size: 40px;
+  
+}
+.span-title{
+  font-size: 60px;
+  
+
+}
+.footer-infor1-description{
+    font-size: 16px;
+}
+.links{
+    flex-direction: row;
+    column-gap: 28px;
+}
+}
+
+@media only screen and (max-width: 429px) {
+}

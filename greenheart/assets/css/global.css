@@ -32,6 +32,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family:  "Raleway", "Poppins" ,sans-serif;
 }
 .container {
   width: 100%;
@@ -41,6 +42,9 @@ body {
 }
 .footer-container {
   max-width: 1311px;
+  width: 100%;
+  padding-inline: 20px;
+  margin-inline: auto;
 }
 
 a {
@@ -90,4 +94,6 @@ li{
  
 }
 
-
+h6{
+  font-weight: 700;
+}
