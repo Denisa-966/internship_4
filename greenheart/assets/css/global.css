@@ -50,10 +50,10 @@ body {
 
 a {
   text-decoration: none;
-  text-align: center;
+  
   display: block;
-  color: var(--unnamed-color-ffffff);
-  font-weight: 800;
+
+  
 }
 img {
   max-width: 100%;
@@ -88,9 +88,10 @@ li {
 }
 .btnblack {
   color: var(--unnamed-color-141414);
+ 
 }
 .btn:hover {
-  background-color: transparent;
+  background-color: var(--unnamed-color-89afd8);
 
   border: 1px solid transparent;
 }

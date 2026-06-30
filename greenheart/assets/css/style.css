@@ -12,13 +12,19 @@ header.active{
   background-color: var(--unnamed-color-ffffff);
  
 }
+.nav-link-a{
+
+  text-align: center;
+ 
+  color: var(--unnamed-color-ffffff);
+  font-weight: 800;
+}
 .img-logo1 {
   max-width: 256px;
   min-height: 50px;
+  color: var(--unnamed-color-ffffff);
 }
-.header-btton{
-  position: sticky;
-}
+
 .header-wrapper {
   display: flex;
   justify-content: space-between;
@@ -84,9 +90,9 @@ header.active{
   grid-template-columns: repeat(2,1fr);
   gap:92px;
 }
-.img-content{
+.two-column-img-content{
   max-width: 787px;
-  min-height: 610px;
+  min-height: 610px;  
   position: absolute;
   left:400px;
 }
@@ -95,12 +101,14 @@ header.active{
 }
 .title-primary{
   color: #14141478;
+  width: 488px;
   
 }
 .title-secondary{
   font-size: 60px;
   font-weight: 700;
   width: 488px;
+  line-height: 1;
  
  
 }
@@ -120,7 +128,7 @@ header.active{
   min-height: 610px;
   position: absolute;
   right:400px;
-  top:1000px;  
+  top:200px;  
 }
 
 
