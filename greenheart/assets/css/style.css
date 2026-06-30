@@ -1,16 +1,22 @@
 header {
   width: 100%;
- 
+
   padding-top: 58px;
   position: fixed;
   top: 0;
   z-index: 999;
-  color: var(--unnamed-color-ffffff);
+   transition: all 0.3s ease-in-out;
+
+}
+header.active{
+  background-color: var(--unnamed-color-ffffff);
+ 
 }
 .img-logo1 {
   max-width: 256px;
   min-height: 50px;
 }
+
 .header-wrapper {
   display: flex;
   justify-content: space-between;
@@ -29,29 +35,37 @@ header {
   align-items: center;
   gap: 20px;
 }
+.nav-btn-wrapper {
+  width: 36px;
+}
+/* .menu-btn,
+.close-btn {
+  display: none;
+} */
+
 /* --------------------hero-section----------------*/
 .hero-section {
- 
-  background:linear-gradient(180deg,rgba(0, 0, 0, 0.47) 0%, rgba(0, 0, 0, 0.47) 50%)
-  ,url(../imges/hero-section-img.png);
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.47) 0%, rgba(0, 0, 0, 0.47) 50%),
+    url(../imges/hero-section-img.png);
 
   background-repeat: no-repeat;
 
   background-position: center;
   background-size: cover;
-  
 }
 .hero-wrapper {
-    padding-top: 224px;
-    padding-bottom: 124px;
+  padding-top: 224px;
+  padding-bottom: 124px;
+  max-width: 511px;
 }
-.hero-section-title{
+.hero-section-title {
   font-size: 110px;
   color: var(--unnamed-color-ffffff);
   font-weight: 700;
   line-height: 1;
   margin-bottom: 15px;
-} 
+}
 /* ----------footer-section--------------- */
 footer {
   margin-top: auto;
@@ -165,7 +179,7 @@ form {
   margin-bottom: 85px;
 }
 .infor3-link {
-  color: #ffffff85;
+  color: current-colorfff85;
 }
 .footer-logoshowcase {
   background-color: var(--unnamed-color-64d281);
