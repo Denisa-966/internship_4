@@ -4,25 +4,26 @@
   box-sizing: border-box;
 }
 :root {
-  --unnamed-color-89afd8: #89afd8;
-  --unnamed-color-f2bc80: #f2bc80;
-  --unnamed-color-8a8fc4: #8a8fc4;
-  --unnamed-color-65c09a: #65c09a;
-  --unnamed-color-f4e193: #f4e193;
-  --unnamed-color-afafaf: #afafaf;
-  --unnamed-color-707070: #707070;
-  --unnamed-color-f2f2f2: #f2f2f2;
-  --unnamed-color-fbf9f6: #fbf9f6;
-  --unnamed-color-ffffff: #ffffff;
-  --unnamed-color-00ac8d: #00ac8d;
-  --unnamed-color-fe0000: #fe0000;
-  --unnamed-color-19a76d: #19a76d;
-  --unnamed-color-f8f8f8: #f8f8f8;
-  --unnamed-color-64d281: #64d281;
-  --unnamed-color-000000: #000000;
-  --unnamed-color-060e2c: #060e2c;
-  --unnamed-color-141414: #141414;
-  --unnamed-color-ebebeb: #ebebeb;
+  --white-100: #ffffff;
+  --white-200: #fbf9f6;
+  --white-300: #f2f2f2;
+  --white-400: #f8f8f8;
+  --white-500: #ebebeb;
+  --black-100: #000000;
+  --black-200: #060e2c;
+  --black-300: #141414;
+  --red-100: #fe0000;
+  --green-100: #00ac8d;
+  --green-200: #19a76d;
+  --green-300: #65c09a;
+  --yellow-100: #f2bc80;
+  --yellow-200: #f4e193;
+  --light-gray: #afafaf;
+  --dark-gray: #707070;
+  --blue-100: #89afd8;
+  --purple-100: #8a8fc4;
+  
+  
 }
 
 body {
@@ -31,8 +32,8 @@ body {
   font-weight: 400;
   min-height: 100vh;
   display: flex;
-  background-color: var(--unnamed-color-ffffff);
-  color: var(--unnamed-color-141414);
+  background-color: var(--white-100);
+  color: var(--black-300);
   flex-direction: column;
   font-family: "Raleway", "Poppins", sans-serif;
 }
@@ -72,7 +73,7 @@ li {
   list-style: none;
 }
 .btn {
-  background-color: var(--unnamed-color-64d281);
+  background-color: var(--green-100);
   transition: all 0.3s ease-in-out;
   max-width: max-content;
   border: 1px solid transparent;
@@ -80,14 +81,14 @@ li {
   font-weight: 700;
 }
 .btnwhite {
-  color: var(--unnamed-color-ffffff);
+  color: var(--white-100);
 }
 .btnblack {
-  color: var(--unnamed-color-141414);
+  color: var(--black-300);
  
 }
 .btn:hover {
-  background-color: var(--unnamed-color-89afd8);
+  background-color: var(--blue-100);
 
   border: 1px solid transparent;
 }

@@ -8,18 +8,30 @@
   transition: all 0.3s ease-in-out;
 }
 header.active {
-  background-color: var(--unnamed-color-ffffff);
+  background-color: var(--white-100);
 }
 .nav-link-a {
   text-align: center;
 
-  color: var(--unnamed-color-ffffff);
+  color: var(--white-100);
   font-weight: 800;
+}
+.sub-menu{
+  display: none;
+}
+.sub-nav:hover .sub-menu {
+  display: block;
+}
+.sub-menu-link {
+  display: block;
+  padding: 10px;
+  color: var(--black-300);
+  font-size: 29px;
 }
 .img-logo {
   max-width: 256px;
   min-height: 50px;
-  color: var(--unnamed-color-ffffff);
+  color: var(--white-100);
 }
 
 .header-wrapper {
@@ -66,14 +78,14 @@ header.active {
 }
 .hero-section-title {
   font-size: 110px;
-  color: var(--unnamed-color-ffffff);
+  color: var(--white-100);
   font-weight: 700;
   line-height: 1;
   margin-bottom: 16px;
 }
 .hero-overlay {
   min-height: 50px;
-  background-color: var(--unnamed-color-ffffff);
+  background-color: var(--white-100);
   clip-path: polygon(100% 0, -10% 100%, 100% 100%);
 }
 
@@ -145,7 +157,7 @@ header.active {
   justify-content: center;
   gap: 10px;
   align-items: center;
-  color: var(--unnamed-color-ffffff);
+  color: var(--white-100);
 }
 .banner-title {
   font-size: 40px;
@@ -162,8 +174,8 @@ footer {
 }
 
 .footer-content {
-  background-color: var(--unnamed-color-000000);
-  color: var(--unnamed-color-ffffff);
+  background-color: var(--black-100);
+  color: var(--white-100);
   padding-block: 106px 92px;
 }
 .footer-wrapper {
@@ -214,7 +226,7 @@ form {
 }
 
 .footer-icon {
-  background-color: var(--unnamed-color-64d281);
+  background-color: var(--green-100);
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -259,7 +271,7 @@ form {
   border-radius: 50%;
   width: 50px;
   aspect-ratio: 1;
-  background-color: var(--unnamed-color-64d281);
+  background-color: var(--green-100);
 }
 .links {
   font-size: 10px;
@@ -273,7 +285,7 @@ form {
   color: current-colorfff85;
 }
 .footer-logoshowcase {
-  background-color: var(--unnamed-color-64d281);
+  background-color: var(--green-100);
   padding-block: 50px 38px;
 }
 .footer-logocase-wrapper {
