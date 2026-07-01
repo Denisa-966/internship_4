@@ -57,6 +57,10 @@
     visibility: visible;
     height: auto;
   }
+  .header-nav-icon.active {
+    transition: all 0.3s ease-in-out;
+    transform: rotate(45deg);
+  }
 }
 
 @media only screen and (max-width: 768px) {

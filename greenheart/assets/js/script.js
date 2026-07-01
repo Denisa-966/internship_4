@@ -21,7 +21,8 @@ closeBtn.addEventListener("click", () => {
   closeBtn.style.display = "none";
   menuBtn.style.display = "block";
 });
+
 headerNavIcon.addEventListener("click", () => {
   subMenu.classList.toggle("active");
-  sub;
+  headerNavIcon.classList.toggle("active");
 });

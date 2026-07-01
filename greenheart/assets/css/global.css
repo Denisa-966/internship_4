@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 :root {
+  --primary-color: #64d281;
   --white-100: #ffffff;
   --white-200: #fbf9f6;
   --white-300: #f2f2f2;
@@ -22,8 +23,6 @@
   --dark-gray: #707070;
   --blue-100: #89afd8;
   --purple-100: #8a8fc4;
-  
-  
 }
 
 body {
@@ -44,13 +43,10 @@ body {
   margin-inline: auto;
 }
 
-
 a {
   text-decoration: none;
-  
-  display: block;
 
-  
+  display: block;
 }
 img {
   max-width: 100%;
@@ -73,7 +69,7 @@ li {
   list-style: none;
 }
 .btn {
-  background-color: var(--green-100);
+  background-color: var(--primary-color);
   transition: all 0.3s ease-in-out;
   max-width: max-content;
   border: 1px solid transparent;
@@ -85,10 +81,9 @@ li {
 }
 .btnblack {
   color: var(--black-300);
- 
 }
-.btnblack:hover{
- color: var(--white-100);
+.btnblack:hover {
+  color: var(--white-100);
 }
 .btn:hover {
   background-color: var(--black-300);
