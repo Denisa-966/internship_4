@@ -77,7 +77,7 @@ li {
   transition: all 0.3s ease-in-out;
   max-width: max-content;
   border: 1px solid transparent;
-  padding: 23px 29px;
+  padding: 24px 30px;
   font-weight: 700;
 }
 .btnwhite {
@@ -87,8 +87,11 @@ li {
   color: var(--black-300);
  
 }
+.btnblack:hover{
+ color: var(--white-100);
+}
 .btn:hover {
-  background-color: var(--blue-100);
+  background-color: var(--black-300);
 
   border: 1px solid transparent;
 }
