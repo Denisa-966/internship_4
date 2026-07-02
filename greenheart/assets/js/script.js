@@ -22,7 +22,12 @@ closeBtn.addEventListener("click", () => {
   menuBtn.style.display = "block";
 });
 
-headerNavIcon.addEventListener("click", () => {
-  subMenu.classList.toggle("active");
-  headerNavIcon.classList.toggle("active");
+document.querySelectorAll(".sub-nav").forEach((item) => {
+  const headerNavIcon = item.querySelector(".header-nav-icon");
+  const subMenu = item.querySelector(".sub-menu");
+
+  headerNavIcon.addEventListener("click", () => {
+    subMenu.classList.toggle("active");
+    headerNavIcon.classList.toggle("active");
+  });
 });
