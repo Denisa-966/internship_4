@@ -136,7 +136,29 @@ header.active {
   background-color: var(--primary-color);
   clip-path: polygon(100% 0, -10% 100%, 100% 100%);
 }
+/* ---------------academies-section-------- */
+.academies-hero-section {
+  background:
+    linear-gradient(10deg, rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.52) 50%),
+    url(../imges/acton-crawford-z3kZ__Ycpc8-unsplash@2x.png);
 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.academies-primary-title {
+  color: var(--white);
+  font-size: 82px;
+  font-weight: 400;
+}
+.academies-secnodary-title {
+  font-size: 142px;
+  font-weight: 700;
+}
+.academies-para {
+  color: var(--white);
+  font-weight: 700;
+}
 /* -----------------two-column-section--------------- */
 
 .two-column-section {
@@ -170,7 +192,7 @@ header.active {
 }
 .title-primary {
   color: #14141478;
-  margin-bottom: 3px;
+  margin-bottom: 4px;
 }
 
 .title-secondary-1 {
@@ -337,7 +359,7 @@ footer {
 .footer-infor1-title {
   font-size: 50px;
   font-weight: 400;
-  line-height: 1.65;
+  line-height: 1.66;
 }
 .details-title {
   font-weight: 300;
@@ -352,7 +374,7 @@ footer {
 }
 .footer-infor1-description {
   margin-block: 24px 14px;
-  font-size: 21px;
+  font-size: 22px;
   max-width: 334px;
   font-weight: 700;
 }
@@ -382,6 +404,9 @@ form {
   top: 90%;
   transform: translatey(-50px);
 }
+input::placeholder {
+  color: var(--white);
+}
 .footer-btn {
   border: none;
   background: none;
@@ -391,7 +416,7 @@ form {
 }
 
 .footer-infor2-title {
-  margin-bottom: 25px;
+  margin-bottom: 26px;
 }
 
 .details3 {
