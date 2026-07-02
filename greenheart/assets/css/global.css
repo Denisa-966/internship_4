@@ -5,24 +5,24 @@
 }
 :root {
   --primary-color: #64d281;
-  --white-100: #ffffff;
-  --white-200: #fbf9f6;
-  --white-300: #f2f2f2;
-  --white-400: #f8f8f8;
-  --white-500: #ebebeb;
-  --black-100: #000000;
-  --black-200: #060e2c;
-  --black-300: #141414;
-  --red-100: #fe0000;
-  --green-100: #00ac8d;
-  --green-200: #19a76d;
-  --green-300: #65c09a;
-  --yellow-100: #f2bc80;
-  --yellow-200: #f4e193;
+  --white: #ffffff;
+  --white-100: #fbf9f6;
+  --white-200: #f2f2f2;
+  --white-300: #f8f8f8;
+  --white-400: #ebebeb;
+  --black: #000000;
+  --black-100: #060e2c;
+  --black-200: #141414;
+  --red: #fe0000;
+  --green: #00ac8d;
+  --green-100: #19a76d;
+  --green-200: #65c09a;
+  --yellow: #f2bc80;
+  --yellow-100: #f4e193;
   --light-gray: #afafaf;
   --dark-gray: #707070;
-  --blue-100: #89afd8;
-  --purple-100: #8a8fc4;
+  --blue: #89afd8;
+  --purple: #8a8fc4;
 }
 
 body {
@@ -31,7 +31,7 @@ body {
   font-weight: 400;
   min-height: 100vh;
   display: flex;
-  background-color: var(--white-100);
+  background-color: var(--white);
   color: var(--black-300);
   flex-direction: column;
   font-family: "Raleway", "Poppins", sans-serif;
@@ -77,16 +77,16 @@ li {
   font-weight: 700;
 }
 .btnwhite {
-  color: var(--white-100);
+  color: var(--white);
 }
 .btnblack {
-  color: var(--black-300);
+  color: var(--black);
 }
 .btnblack:hover {
-  color: var(--white-100);
+  color: var(--white);
 }
 .btn:hover {
-  background-color: var(--black-300);
+  background-color: var(--black);
 
   border: 1px solid transparent;
 }

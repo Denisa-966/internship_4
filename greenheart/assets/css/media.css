@@ -18,12 +18,12 @@
     transition: all 0.3s ease-in-out;
   }
   .img-logo.active {
-    color: var(--black-300);
+    color: var(--black);
   }
 
   .nav-link-a {
     padding-inline: 10px;
-    color: var(--black-300);
+    color: var(--black);
     font-size: 29px;
   }
 
@@ -37,7 +37,7 @@
     min-height: 100vh;
     width: 100%;
     padding-top: 148px;
-    background-color: var(--white-100);
+    background-color: var(--white);
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s ease-in-out;
@@ -61,7 +61,7 @@
     font-weight: 400;
   }
   .header-nav-icon {
-    color: var(--black-300);
+    color: var(--black);
     width: 18px;
     height: 18px;
   }
@@ -146,6 +146,28 @@
   .action-section {
     padding-bottom: 70px;
   }
+  .achieved-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .trust-hero-section-title {
+    font-size: 74px;
+  }
+  .trust-hero-span-title {
+    font-size: 122px;
+  }
+  .achieved-primary-title {
+    font-size: 88px;
+  }
+  .achieved-secondary-title {
+    font-size: 24px;
+  }
+  .team-section {
+    margin-left: 0;
+    padding-top: 0;
+  }
+  .team-wrapper {
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 429px) {
@@ -176,5 +198,14 @@
   }
   .infor2-details {
     gap: 42px;
+  }
+  .achieved-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .trust-hero-section-title {
+    font-size: 56px;
+  }
+  .trust-hero-span-title {
+    font-size: 90px;
   }
 }

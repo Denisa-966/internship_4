@@ -7,12 +7,12 @@
   transition: all 0.3s ease-in-out;
 }
 header.active {
-  background-color: var(--white-100);
+  background-color: var(--white);
 }
 .nav-link-a {
   text-align: center;
 
-  color: var(--white-100);
+  color: var(--white);
   font-weight: 800;
   position: relative;
 }
@@ -23,13 +23,13 @@ header.active {
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
-  background-color: var(--white-100);
+  background-color: var(--white);
   padding-inline: 16px;
   transition: all 0.3s ease-in-out;
 }
 
 .header-nav-icon {
-  color: var(--white-100);
+  color: var(--white);
   width: 10px;
   height: 10px;
 }
@@ -45,7 +45,7 @@ header.active {
 .sub-menu-link {
   width: 100%;
   padding-block: 10px;
-  color: var(--black-300);
+  color: var(--black);
   font-size: 14px;
   font-weight: 700;
 }
@@ -53,7 +53,7 @@ header.active {
 .img-logo {
   max-width: 256px;
   min-height: 50px;
-  color: var(--white-100);
+  color: var(--white);
 }
 
 .header-wrapper {
@@ -99,12 +99,41 @@ header.active {
   max-width: 512px;
 }
 .hero-section-title {
-  color: var(--white-100);
+  color: var(--white);
   margin-bottom: 16px;
 }
 .hero-overlay {
   min-height: 50px;
-  background-color: var(--white-100);
+  background-color: var(--white);
+  clip-path: polygon(100% 0, -10% 100%, 100% 100%);
+}
+/* ----------------trust-hero-section------------ */
+.trust-hero-section {
+  background:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.16) 100%, rgba(0, 0, 0, 0.52) 50%),
+    url(../imges/trust-hero-section-img.png);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.trust-hero-section-title {
+  font-size: 82px;
+  font-weight: 400;
+  color: var(--white);
+}
+.trust-hero-span-title {
+  font-size: 172px;
+  font-weight: 700;
+}
+.trust-hero-para {
+  font-size: 16px;
+  font-weight: 300;
+  color: var(--white);
+}
+.trust-hero-overlay {
+  min-height: 50px;
+  background-color: var(--primary-color);
   clip-path: polygon(100% 0, -10% 100%, 100% 100%);
 }
 
@@ -153,7 +182,14 @@ header.active {
   color: #14141480;
   margin-block: 14px 16px;
 }
-
+/* -------trust-two-column-section---------- */
+.trust-two-column-img {
+  min-height: 590px;
+  width: calc(50% + 327px);
+}
+.trust-title-secondary {
+  font-weight: 400;
+}
 /* ------------academy-section--------- */
 .academy-section {
   padding-top: 134px;
@@ -193,7 +229,7 @@ header.active {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  color: var(--white-100);
+  color: var(--white);
 }
 .banner-title {
   font-size: 40px;
@@ -208,14 +244,75 @@ header.active {
 .action-section {
   padding-block: 134px;
 }
+/* --------------------achieved-section -------------*/
+.achieved-section {
+  background-color: var(--primary-color);
+  padding-block: 120px;
+  color: var(--white);
+}
+.achieved-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 76px;
+}
+.achieved-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.achieved-primary-title {
+  font-size: 110px;
+}
+.achieved-secondary-title {
+  font-size: 28px;
+}
+/* -------------values-section----------- */
+.values-section {
+  padding-top: 20px;
+}
+/* ----------------------------values-section--------------- */
+.academies-section {
+  padding-top: 20px;
+}
+
+/* -----team-section--------------- */
+.team-section {
+  margin-block: 40px;
+  padding-block: 40px;
+  margin-left: 30px;
+  background-color: var(--black);
+}
+.team-section-img {
+  min-height: 382px;
+  width: calc(50% + 40px);
+}
+.team-primary {
+  color: var(--white);
+}
+/* ----------------WORKING-section-------------- */
+.working-section {
+  padding-bottom: 84px;
+}
+.working-content {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.vacancies {
+  color: var(--black);
+  font-weight: 700;
+  text-decoration: underline;
+}
 /* ----------footer-section--------------- */
 footer {
   margin-top: auto;
 }
 
 .footer-content {
-  background-color: var(--black-100);
-  color: var(--white-100);
+  background-color: var(--black);
+  color: var(--white);
   padding-block: 106px 92px;
 }
 .footer-wrapper {
