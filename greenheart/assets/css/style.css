@@ -11,10 +11,12 @@ header.active {
 }
 .nav-link-a {
   text-align: center;
-
   color: var(--white);
   font-weight: 800;
   position: relative;
+}
+.nav-link-black {
+  color: var(--black);
 }
 .sub-menu {
   opacity: 0;
@@ -56,7 +58,9 @@ header.active {
   color: var(--white);
   display: block;
 }
-
+.img-logo-black {
+  color: var(--black);
+}
 .header-wrapper {
   display: flex;
   justify-content: space-between;
@@ -134,6 +138,16 @@ header.active {
   min-height: 50px;
   background-color: var(--primary-color);
   clip-path: polygon(100% 0, -10% 100%, 100% 100%);
+}
+/* ----silder-hero-section------ */
+.silder-hero-section {
+  padding-block: 262px 85px;
+}
+.silder-title {
+  font-size: 82px;
+}
+.silder-para {
+  max-width: 698px;
 }
 /* ---------------academies-section-------- */
 .academies-hero-section {
@@ -424,7 +438,34 @@ header.active {
   text-decoration: underline;
   flex-shrink: 0;
 }
+/* ----------member-section--------- */
+.member-primary-title {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.member-secondary-title {
+  font-weight: 300;
+}
+.member-icon {
+  background-color: var(--primary-color);
+}
 
+.member-content-primary-para {
+  color: #14141438;
+  font-weight: 700;
+  font-size: 10px;
+}
+.member-content-title {
+  font-size: 28px;
+}
+.member-content-secondary-para {
+  font-weight: 300;
+}
+.black-line {
+  margin-block: 20px;
+  background-color: var(--black-200);
+}
 /* ----------footer-section--------------- */
 footer {
   margin-top: auto;

@@ -31,3 +31,12 @@ document.querySelectorAll(".sub-nav").forEach((item) => {
     headerNavIcon.classList.toggle("active");
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  var splide = new Splide(".members-silder.splide", {
+    perPage: 4,
+    gap: 10,
+  });
+
+  splide.mount();
+});
