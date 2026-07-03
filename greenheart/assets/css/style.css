@@ -54,6 +54,7 @@ header.active {
   max-width: 256px;
   min-height: 50px;
   color: var(--white);
+  display: block;
 }
 
 .header-wrapper {
@@ -64,13 +65,11 @@ header.active {
 }
 .header-nav-links {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   gap: 42px;
 }
 .right-side {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
@@ -146,18 +145,87 @@ header.active {
   background-position: center;
   background-size: cover;
 }
-.academies-primary-title {
+.academies-hero-primary-title {
   color: var(--white);
   font-size: 82px;
   font-weight: 400;
 }
-.academies-secnodary-title {
+.academies-hero-secnodary-title {
   font-size: 142px;
   font-weight: 700;
 }
-.academies-para {
+.academies-hero-para {
   color: var(--white);
   font-weight: 700;
+}
+/* ------academies-school-section---- */
+.academies-school-section {
+  padding-top: 34px;
+  padding-bottom: 154px;
+}
+.academies-school-wrapper-title {
+  color: var(--primary-color);
+  max-width: 1046px;
+  font-size: 92px;
+}
+.academies-school-span-title {
+  color: var(--black);
+  font-weight: 400;
+}
+.school-details-icon {
+  background-color: var(--black);
+  width: 36px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+}
+.academies-school-content {
+  position: relative;
+}
+.academies-school-contents {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  gap: 96px 16px;
+}
+.school-img {
+  width: 412px;
+  height: 252px;
+}
+.school-icon {
+  width: 82px;
+  aspect-ratio: 1;
+  position: absolute;
+  top: 50%;
+  right: -8%;
+  transform: translatex(-50%);
+}
+.academies-school-img {
+  margin-bottom: 22px;
+}
+.academies-school-details {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 7px;
+}
+.school-details-title {
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 700;
+}
+.span-school-details-title {
+  font-weight: 400;
+}
+.school-details-para {
+  max-width: 288px;
+}
+.school-details-icon {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.school-icon-img {
+  width: 24px;
 }
 /* -----------------two-column-section--------------- */
 
@@ -169,7 +237,6 @@ header.active {
 }
 .two-column-wrapper {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 20px;
@@ -313,6 +380,16 @@ header.active {
 .team-primary {
   color: var(--white);
 }
+/*----------- academies-school-section----------- */
+.academies-school-team-section {
+  margin-block: 40px;
+  padding-block: 40px;
+  background-color: var(--black);
+}
+.school-team-section-img {
+  min-height: 382px;
+  width: calc(50% + 40px);
+}
 /* ----------------WORKING-section-------------- */
 .working-section {
   padding-bottom: 84px;
@@ -326,7 +403,9 @@ header.active {
   color: var(--black);
   font-weight: 700;
   text-decoration: underline;
+  flex-shrink: 0;
 }
+
 /* ----------footer-section--------------- */
 footer {
   margin-top: auto;
@@ -352,7 +431,6 @@ footer {
 }
 .details {
   display: flex;
-
   align-items: start;
   column-gap: 24px;
   max-width: 340px;
@@ -364,6 +442,7 @@ footer {
 }
 .details-title {
   font-weight: 300;
+  color: var(--white);
 }
 .span-title {
   font-size: 90px;
@@ -371,7 +450,10 @@ footer {
   font-weight: 700;
 }
 .span-details-title {
+  font-weight: 700;
+  font-size: 10px;
   margin-top: 16px;
+  color: var(--white);
 }
 .footer-infor1-description {
   margin-block: 24px 14px;
@@ -396,14 +478,14 @@ form {
   background-color: var(--primary-color);
   border-radius: 50%;
   width: 50px;
-  height: 50px;
+  aspect-ratio: 1;
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: start;
   right: -7%;
-  top: 90%;
-  transform: translatey(-50px);
+  top: 50%;
+  transform: translatey(-50%);
 }
 input::placeholder {
   color: var(--white);
@@ -411,6 +493,7 @@ input::placeholder {
 .footer-btn {
   border: none;
   background: none;
+  cursor: pointer;
 }
 .details-title {
   font-family: "Poppins";
@@ -418,6 +501,7 @@ input::placeholder {
 
 .footer-infor2-title {
   margin-bottom: 26px;
+  color: var(--white);
 }
 
 #Path_1144 {
@@ -428,6 +512,12 @@ input::placeholder {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
+}
+.icon-color {
+  color: var(--black);
+}
+.icon-color:hover {
+  color: var(--white);
 }
 .infor3-icon {
   display: flex;

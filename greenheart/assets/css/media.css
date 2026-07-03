@@ -2,6 +2,9 @@
   .nav-link-a {
     font-size: 12px;
   }
+  .btn-primary {
+    padding: 18px 20px;
+  }
 }
 @media only screen and (max-width: 991px) {
   h1 {
@@ -87,6 +90,21 @@
   .footer-titile-2 {
     margin-left: 20px;
   }
+  .achieved-primary-title {
+    font-size: 100px;
+  }
+  .working-content {
+    gap: 12px;
+  }
+  .vacancies {
+    font-size: 12px;
+  }
+  .academies-hero-primary-title {
+    font-size: 75px;
+  }
+  .academies-hero-secnodary-title {
+    font-size: 116px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -158,6 +176,7 @@
   .achieved-primary-title {
     font-size: 88px;
   }
+
   .achieved-secondary-title {
     font-size: 24px;
   }
@@ -165,8 +184,26 @@
     margin-left: 0;
     padding-top: 0;
   }
+  .working-content {
+    gap: 30px;
+  }
+  .vacancies {
+    font-size: 14px;
+  }
   .team-wrapper {
     flex-direction: column;
+  }
+  .academies-hero-primary-title {
+    font-size: 66px;
+  }
+  .academies-hero-secnodary-title {
+    font-size: 78px;
+  }
+  .academies-school-contents {
+    grid-template-columns: repeat(2, 2fr);
+  }
+  .academies-school-contents {
+    row-gap: 20px;
   }
 }
 
@@ -207,5 +244,27 @@
   }
   .trust-hero-span-title {
     font-size: 90px;
+  }
+  .working-content {
+    gap: 10px;
+  }
+  .vacancies {
+    font-size: 12px;
+  }
+  .academies-hero-primary-title {
+    font-size: 38px;
+  }
+  .academies-hero-secnodary-title {
+    font-size: 52px;
+  }
+  .academies-school-contents {
+    row-gap: 20px;
+  }
+  .academies-school-contents {
+    grid-template-columns: repeat(1, 1fr);
+    overflow-y: auto;
+  }
+  .academies-school-wrapper-title {
+    font-size: 52px;
   }
 }
