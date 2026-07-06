@@ -180,6 +180,12 @@ header.active {
   color: var(--white);
   font-weight: 700;
 }
+/* leader-card-section- */
+.leadership-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  gap: 78px 16px;
+}
 /* ------academies-school-section---- */
 .academies-school-section {
   padding-top: 34px;

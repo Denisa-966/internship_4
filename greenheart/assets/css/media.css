@@ -236,6 +236,9 @@
   .silder-members-section {
     margin-top: 84px;
   }
+  .leadership-wrapper {
+    grid-template-columns: repeat(2, 2fr);
+  }
 }
 
 @media only screen and (max-width: 429px) {
@@ -320,5 +323,8 @@
   }
   .silder-members-section {
     margin-top: 84px;
+  }
+  .leadership-wrapper {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
