@@ -224,6 +224,18 @@
   .silder-title {
     font-size: 58px;
   }
+  .blog-card-wrapper {
+    flex-direction: column;
+  }
+  .blog-card-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .blog-title {
+    font-size: 24px;
+  }
+  .silder-members-section {
+    margin-top: 84px;
+  }
 }
 
 @media only screen and (max-width: 429px) {
@@ -293,5 +305,20 @@
   }
   .silder-title {
     font-size: 38px;
+  }
+  .members-section {
+    padding-top: 20px;
+  }
+  .member-primary-title {
+    font-size: 24px;
+  }
+  .blog-card-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .blog-content-img {
+    margin-inline: -20px;
+  }
+  .silder-members-section {
+    margin-top: 84px;
   }
 }
