@@ -33,19 +33,20 @@ document.querySelectorAll(".sub-nav").forEach((item) => {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  var splide = new Splide(".members-silder.splide", {
-    perPage: 4,
-    gap: 24,
-    pagination: false,
-    breakpoints: {
-      768: {
-        perPage: 3,
+  document.querySelectorAll(".members-silder.splide, .members-silder-2.splide");
+  forEach(function (slider) {
+    new Splide(slider, {
+      perPage: 4,
+      gap: 24,
+      pagination: false,
+      breakpoints: {
+        768: {
+          perPage: 3,
+        },
+        429: {
+          perPage: 1,
+        },
       },
-      429: {
-        perPage: 1,
-      },
-    },
+    }).mount();
   });
-
-  splide.mount();
 });
