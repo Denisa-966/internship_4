@@ -29,7 +29,7 @@ header.active {
   padding-inline: 16px;
   transition: all 0.3s ease-in-out;
 }
-.sub-menu {
+.sub-menu-black {
   background-color: var(--black);
 }
 
@@ -564,7 +564,7 @@ form {
   position: relative;
 }
 
-.footer-icon {
+.footer-btn {
   background-color: var(--primary-color);
   border-radius: 50%;
   width: 50px;
@@ -576,15 +576,15 @@ form {
   right: -7%;
   top: 50%;
   transform: translatey(-50%);
+  cursor: pointer;
+}
+.footer-btn-icon {
+  color: var(--white);
 }
 input::placeholder {
   color: var(--white);
 }
-.footer-btn {
-  border: none;
-  background: none;
-  cursor: pointer;
-}
+
 .details-title {
   font-family: "Poppins";
 }
