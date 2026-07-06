@@ -470,6 +470,13 @@ header.active {
 }
 .member-icon {
   background-color: var(--primary-color);
+  transition: all 0.3s ease-in-out;
+}
+.member-icon:hover {
+  background-color: var(--black);
+}
+.school-icon-img {
+  color: var(--white);
 }
 
 .member-content-primary-para {
@@ -513,6 +520,16 @@ footer {
   flex-wrap: wrap;
   gap: 30px;
 }
+.footer-wrapper-infor1 {
+  max-width: 448px;
+}
+.footer-wrapper-infor2 {
+  max-width: 382px;
+}
+.footer-wrapper-infor3 {
+  max-width: 168px;
+}
+
 .infor2-details {
   display: flex;
   flex-direction: column;
@@ -521,9 +538,12 @@ footer {
 }
 .details {
   display: flex;
-  align-items: start;
+  align-items: center;
   column-gap: 24px;
   max-width: 340px;
+}
+.details-location {
+  display: flex;
 }
 .footer-infor1-title {
   font-size: 50px;
@@ -540,9 +560,9 @@ footer {
   font-weight: 700;
 }
 .span-details-title {
+  max-width: max-content;
   font-weight: 700;
   font-size: 10px;
-  margin-top: 16px;
   color: var(--white);
 }
 .footer-infor1-description {
@@ -566,27 +586,46 @@ form {
 
 .footer-btn {
   background-color: var(--primary-color);
-  border-radius: 50%;
+  border-radius: 100%;
+  border: none;
   width: 50px;
   aspect-ratio: 1;
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: start;
-  right: -7%;
+  right: 0;
   top: 50%;
   transform: translatey(-50%);
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 .footer-btn-icon {
   color: var(--white);
+  transition: all 0.3s ease-in-out;
+}
+.footer-btn:hover {
+  background-color: var(--white-200);
+}
+.footer-btn:hover .footer-btn-icon {
+  color: var(--primary-color);
 }
 input::placeholder {
   color: var(--white);
 }
+.details-location {
+  align-items: start;
+}
+.details-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 14px;
+}
 
 .details-title {
   font-family: "Poppins";
+  font-size: 20px;
 }
 
 .footer-infor2-title {
@@ -605,9 +644,10 @@ input::placeholder {
 }
 .icon-color {
   color: var(--black);
+  transition: all 0.3s ease-in-out;
 }
-.icon-color:hover {
-  color: var(--white);
+.infor3-icon:hover .icon-color {
+  color: var(--primary-color);
 }
 .infor3-icon {
   display: flex;
@@ -617,6 +657,10 @@ input::placeholder {
   width: 50px;
   aspect-ratio: 1;
   background-color: var(--primary-color);
+  transition: all 0.3s ease-in-out;
+}
+.infor3-icon:hover {
+  background-color: var(--white-200);
 }
 .links {
   font-size: 10px;
