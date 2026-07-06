@@ -29,11 +29,17 @@ header.active {
   padding-inline: 16px;
   transition: all 0.3s ease-in-out;
 }
+.sub-menu {
+  background-color: var(--black);
+}
 
 .header-nav-icon {
   color: var(--white);
   width: 10px;
   height: 10px;
+}
+.header-nav-icon-black {
+  color: var(--black);
 }
 .sub-nav {
   position: relative;
@@ -51,7 +57,9 @@ header.active {
   font-size: 14px;
   font-weight: 700;
 }
-
+.sub-menu-link-white {
+  color: var(--white);
+}
 .img-logo {
   max-width: 256px;
   min-height: 50px;
@@ -205,6 +213,10 @@ header.active {
   width: 36px;
   aspect-ratio: 1;
   border-radius: 100%;
+  transition: all 0.3s ease-in-out;
+}
+.school-details-icon:hover {
+  background-color: var(--primary-color);
 }
 .academies-school-content {
   position: relative;
@@ -439,16 +451,22 @@ header.active {
   flex-shrink: 0;
 }
 /* ----------member-section--------- */
+.members-section {
+  overflow: hidden;
+}
 .member-primary-title {
   font-size: 35px;
   font-weight: 600;
   margin-bottom: 40px;
 }
-.member-wrapper-img {
-  width: 322px;
+.member-img {
+  height: 272px;
 }
 .member-secondary-title {
   font-weight: 300;
+}
+.members__track {
+  overflow: visible;
 }
 .member-icon {
   background-color: var(--primary-color);

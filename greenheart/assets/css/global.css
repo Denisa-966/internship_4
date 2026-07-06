@@ -93,8 +93,6 @@ li {
 }
 .btn:hover {
   background-color: var(--black);
-
-  border: 1px solid transparent;
 }
 h1 {
   font-size: 110px;

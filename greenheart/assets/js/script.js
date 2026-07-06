@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var splide = new Splide(".members-silder.splide", {
     perPage: 4,
     gap: 24,
-
+    pagination: false,
     breakpoints: {
       768: {
         perPage: 3,
