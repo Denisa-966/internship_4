@@ -105,6 +105,9 @@
   .academies-hero-secnodary-title {
     font-size: 116px;
   }
+  .member-content-title {
+    font-size: 22px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -218,6 +221,9 @@
   .academies-school-team-section {
     padding-bottom: 20px;
   }
+  .silder-title {
+    font-size: 58px;
+  }
 }
 
 @media only screen and (max-width: 429px) {
@@ -284,5 +290,8 @@
   }
   .academies-school-section {
     padding-bottom: 16px;
+  }
+  .silder-title {
+    font-size: 38px;
   }
 }

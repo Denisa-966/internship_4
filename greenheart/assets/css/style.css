@@ -444,6 +444,9 @@ header.active {
   font-weight: 600;
   margin-bottom: 40px;
 }
+.member-wrapper-img {
+  width: 322px;
+}
 .member-secondary-title {
   font-weight: 300;
 }
@@ -462,8 +465,17 @@ header.active {
 .member-content-secondary-para {
   font-weight: 300;
 }
+.member-content {
+  margin-top: 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 12px;
+}
 .black-line {
-  margin-block: 20px;
+  margin-block: 100px;
+  height: 10px;
   background-color: var(--black-200);
 }
 /* ----------footer-section--------------- */

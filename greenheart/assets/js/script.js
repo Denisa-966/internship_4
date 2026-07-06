@@ -35,7 +35,16 @@ document.querySelectorAll(".sub-nav").forEach((item) => {
 document.addEventListener("DOMContentLoaded", function () {
   var splide = new Splide(".members-silder.splide", {
     perPage: 4,
-    gap: 10,
+    gap: 24,
+
+    breakpoints: {
+      768: {
+        perPage: 3,
+      },
+      429: {
+        perPage: 1,
+      },
+    },
   });
 
   splide.mount();
