@@ -498,6 +498,40 @@ header.active {
   align-items: start;
   gap: 12px;
 }
+.members-silder-icon {
+  width: 35px;
+  height: auto;
+  aspect-ratio: 1;
+  background: var(--black);
+  top: -50px;
+  opacity: 1;
+  transition: all 0.4s ease-in-out;
+}
+.members-silder-icon:hover {
+  background: var(--white);
+}
+.members-silder-icon:hover .school-icon-img {
+  color: var(--black);
+}
+.members-silder-icon:disabled {
+  opacity: 1;
+}
+.members-silder-icon svg {
+  color: var(--white);
+  width: 69%;
+  height: auto;
+  aspect-ratio: 1;
+  transition: all 0.4s ease-in-out;
+}
+.splide__arrow--prev {
+  left: auto;
+  right: 45px;
+  justify-content: end;
+}
+.splide__arrow--next {
+  justify-content: start;
+  right: 0;
+}
 .black-line {
   margin-block: 100px;
   height: 10px;
