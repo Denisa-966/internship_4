@@ -537,6 +537,44 @@ header.active {
   height: 10px;
   background-color: var(--black-200);
 }
+.blog-card-section {
+  padding-block: 18px 24px;
+}
+.blog-card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+.blog-content {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 452px;
+  height: 414px;
+}
+.blog-about-card {
+  background: url(../imges/Rectangle\ 242.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.blog-trust-card {
+  background: url(../imges/Rectangle\ 845.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.blog-vacancies-card {
+  background: url(../imges/Rectangle\ 846.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.blog-title {
+  color: var(--white);
+  font-size: 40px;
+  font-weight: 700;
+}
 /* ----------footer-section--------------- */
 footer {
   margin-top: auto;

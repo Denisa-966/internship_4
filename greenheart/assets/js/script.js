@@ -32,9 +32,16 @@ document.querySelectorAll(".sub-nav").forEach((item) => {
   });
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-  document.querySelectorAll(".members-silder.splide, .members-silder-2.splide");
-  forEach(function (slider) {
+document.addEventListener("DOMContentLoaded", () => {
+  const sliders = document.querySelectorAll(
+    ".members-silder.splide, .members-silder-2.splide, .members-silder-3.splide",
+  );
+
+  if (!sliders.length) {
+    return;
+  }
+
+  sliders.forEach((slider) => {
     new Splide(slider, {
       perPage: 4,
       gap: 24,
