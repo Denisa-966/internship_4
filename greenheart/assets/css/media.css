@@ -237,7 +237,7 @@
     margin-top: 84px;
   }
   .leadership-wrapper {
-    grid-template-columns: repeat(2, 2 fr);
+    grid-template-columns: repeat(2, 2fr);
   }
 }
 

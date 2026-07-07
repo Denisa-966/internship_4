@@ -104,6 +104,16 @@ header.active {
   background-position: center;
   background-size: cover;
 }
+
+.care-support-section {
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.47) 0%, rgba(0, 0, 0, 0.47) 50%),
+    url(../imges/Rectangle\ 142.png);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .hero-wrapper {
   padding-top: 224px;
   padding-bottom: 124px;
@@ -118,6 +128,48 @@ header.active {
   background-color: var(--white);
   clip-path: polygon(100% 0, -10% 100%, 100% 100%);
 }
+.care-support-overlay {
+  background-color: var(--white-300);
+}
+
+/* -----benefits-hero-------- */
+.care-support-wrapper {
+  text-align: center;
+  max-width: 750px;
+  margin-inline: auto;
+}
+.care-support-title {
+  font-size: 80px;
+}
+.care-support-para {
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 200;
+}
+/* ------two-column-content-section------ */
+.two-column-content-section {
+  background-color: var(--white-300);
+}
+.two-column-content-wrapper {
+  padding-block: 40px 152px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 54px;
+}
+.two-column-content-title {
+  font-size: 92px;
+}
+.two-column-content-span-title {
+  font-weight: 400;
+}
+.two-column-content-para {
+  font-size: 16px;
+}
+.para-content p:first-child {
+  margin-bottom: 20px;
+}
+
 /* ----------------trust-hero-section------------ */
 .trust-hero-section {
   background:
@@ -274,6 +326,47 @@ header.active {
 .school-icon-img {
   width: 24px;
 }
+/* ----------benefits-support-section----- */
+.benefits-support-section {
+  padding-block: 90px 204px;
+  background-color: var(--white);
+}
+.benefits-support-wrapper {
+  position: relative;
+}
+.benefits-support-title {
+  font-size: 132px;
+  text-align: center;
+}
+.benefits-support-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 84px;
+  position: absolute;
+  top: 75px;
+}
+.support-icon {
+  width: 156px;
+  aspect-ratio: 1;
+}
+.benefit-support-icon {
+  width: 286px;
+  aspect-ratio: 1;
+  border: 1px solid #ffffff78;
+  box-shadow: 0px 2px 20px 7px #ffffff78;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+.benefit-support-title {
+  margin-top: 28px;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
 /* -----------------two-column-section--------------- */
 
 .two-column-section {
