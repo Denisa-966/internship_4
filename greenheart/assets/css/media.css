@@ -251,6 +251,19 @@
   .benefits-support-content {
     grid-template-columns: repeat(2, 1fr);
   }
+  .two-column-content-title {
+    font-size: 66px;
+  }
+  .benefits-support-title {
+    font-size: 90px;
+  }
+  .benefits-support-outline {
+    width: 192px;
+  }
+
+  .support-icon {
+    width: 114px;
+  }
 }
 
 @media only screen and (max-width: 429px) {
@@ -339,7 +352,26 @@
   .leadership-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
+  .care-support-title {
+    font-size: 54px;
+  }
   .benefits-support-content {
     grid-template-columns: repeat(1, 1fr);
+    font-size: 80px;
+    gap: 16px;
+  }
+  .two-column-content-title {
+    font-size: 46px;
+  }
+
+  .benefits-support-outline {
+    width: 264px;
+  }
+  .benefits-support-title {
+    font-size: 60px;
+  }
+
+  .support-icon {
+    width: 136px;
   }
 }

@@ -383,6 +383,21 @@ header.active {
   text-align: center;
   max-width: 226px;
 }
+.benefits-silder-icon {
+  width: 35px;
+  height: auto;
+  aspect-ratio: 1;
+  background: var(--black);
+  top: 90%;
+  opacity: 1;
+  transition: all 0.4s ease-in-out;
+}
+/* benefits-silder-section */
+
+.benefits-img {
+  max-height: 742px;
+  width: 100%;
+}
 
 /* -----------------two-column-section--------------- */
 

@@ -57,3 +57,11 @@ document.addEventListener("DOMContentLoaded", () => {
     }).mount();
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  var splide = new Splide(".benefits-silder.splide", {
+    perpage: 1,
+    pagination: false,
+  });
+  splide.mount();
+});
