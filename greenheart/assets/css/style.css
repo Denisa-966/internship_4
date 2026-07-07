@@ -328,7 +328,7 @@ header.active {
 }
 /* ----------benefits-support-section----- */
 .benefits-support-section {
-  padding-block: 90px 204px;
+  padding-block: 90px 404px;
   background-color: var(--white);
 }
 .benefits-support-wrapper {
@@ -349,11 +349,21 @@ header.active {
   width: 156px;
   aspect-ratio: 1;
 }
+.benefits-support-icons {
+  /* border: 1px solid white; */
+  border: 1px solid rgb(16, 16, 16);
+  padding: 10px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .benefit-support-icon {
   width: 286px;
   aspect-ratio: 1;
-  border: 1px solid #ffffff78;
-  box-shadow: 0px 2px 20px 7px #ffffff78;
+  box-shadow: 0 12px 50px rgba(0, 0, 0, 0.08);
+  background-color: white;
   border-radius: 100%;
   display: flex;
   align-items: center;
@@ -363,7 +373,7 @@ header.active {
 .benefit-support-title {
   margin-top: 28px;
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 500;
   text-align: center;
 }
 
