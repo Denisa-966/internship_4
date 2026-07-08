@@ -120,6 +120,9 @@
   .campaings-wrapper-title {
     font-size: 118px;
   }
+  .feedback-left-img {
+    top: 0;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -274,6 +277,9 @@
     font-size: 76px;
     margin-bottom: -14px;
   }
+  .feedback-left-img {
+    top: 60px;
+  }
 }
 @media only screen and (max-width: 429px) {
   h1 {
@@ -392,6 +398,15 @@
   }
   .campaings-cards-title {
     font-size: 28px;
+  }
+  .feedback-left-img {
+    display: none;
+  }
+  .feedback-section {
+    padding-block: 54px;
+  }
+  .feedback-left-para {
+    font-size: 26px;
   }
   .our-aims-bottom-title {
     font-size: 18px;
