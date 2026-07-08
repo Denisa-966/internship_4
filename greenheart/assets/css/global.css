@@ -50,8 +50,6 @@ a {
 img {
   max-width: 100%;
   display: block;
-  height: auto;
-  width: auto;
 }
 
 .img-contain {
@@ -92,6 +90,22 @@ li {
 .btn:hover {
   background-color: var(--black);
 }
+.btn1 {
+  background-color: var(--yellow-100);
+}
+.btn2 {
+  background-color: var(--green-200);
+}
+.btn3 {
+  background-color: var(--purple);
+}
+.btn4 {
+  background-color: var(--yellow);
+}
+.btn5 {
+  background-color: var(--blue);
+}
+
 h1 {
   font-size: 110px;
   font-weight: 700;

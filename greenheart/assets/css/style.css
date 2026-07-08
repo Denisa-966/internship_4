@@ -795,6 +795,9 @@ header.active {
 .careers-title-primary {
   color: var(--black);
 }
+.careers-title {
+  color: var(--black);
+}
 /* ------------our-athos-section--hero-section--- */
 .our-athos-hero-section {
   background:
@@ -804,6 +807,70 @@ header.active {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+.our-aims-section {
+  padding-block: 60px 176px;
+}
+.our-aims-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.our-aims-bottom-title {
+  color: var(--primary-color);
+  font-size: 24px;
+}
+.our-aims-bottom-para {
+  font-size: 15px;
+  text-align: center;
+}
+/* matters-section */
+.matters-section {
+  background-color: var(--white-300);
+  padding-block: 110px 126px;
+}
+.matters-section-title {
+  font-size: 50px;
+  font-weight: 700;
+}
+.matters-section-sapn-title {
+  font-weight: 400;
+}
+.matters-section-para {
+  max-width: 708px;
+  font-size: 16px;
+}
+.campaigns-section {
+  padding-block: 170px 130px;
+}
+.campaings-wrapper-title {
+  font-size: 132px;
+  text-align: center;
+  margin-bottom: -34px;
+}
+
+.campaings-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 16px;
+}
+
+.campaings-cards {
+  max-width: 520px;
+  margin-top: 32px;
+}
+.campaings-cards-title {
+  font-size: 32px;
+  font-weight: 700;
+}
+.campaings-cards-para {
+  font-size: 16px;
+  margin-block: 10px 22px;
+}
+.campaings-action-section {
+  margin: 0;
 }
 /* ----------footer-section--------------- */
 footer {
