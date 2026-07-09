@@ -1113,6 +1113,23 @@ header.active {
 .para-gap {
   margin-top: 5px;
 }
+.policies-details-content-title {
+  font-size: 50px;
+}
+.policies-details-content-sapn-title {
+  font-weight: 500;
+}
+.policies-details-content-detils {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 18px;
+}
+.policies-details-content-detils-para {
+  background-color: var(--primary-color);
+  padding-block: 26px;
+  padding-left: 34px;
+  font-size: 18px;
+}
 /* ----------footer-section--------------- */
 footer {
   margin-top: auto;
