@@ -1088,6 +1088,31 @@ header.active {
 .information-hero-overlay {
   background-color: var(--primary-color);
 }
+.policies-overlay {
+  background-color: var(--white);
+}
+
+.policies-section {
+  background-color: var(--primary-color);
+  padding-top: 72px;
+  color: var(--white);
+}
+.policies-section-content {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 42px;
+  padding-bottom: 45px;
+}
+.policies-section-para {
+  font-size: 16px;
+}
+.policies-title {
+  font-size: 50px;
+}
+.para-gap {
+  margin-top: 5px;
+}
 /* ----------footer-section--------------- */
 footer {
   margin-top: auto;
