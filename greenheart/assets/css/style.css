@@ -1088,6 +1088,9 @@ header.active {
 .information-hero-overlay {
   background-color: var(--primary-color);
 }
+.policies-details-section {
+  padding-block: 90px 146px;
+}
 .policies-overlay {
   background-color: var(--white);
 }
