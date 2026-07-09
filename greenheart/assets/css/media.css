@@ -129,6 +129,12 @@
   .inaction-title {
     font-size: 70px;
   }
+  .blog-details-hero-wrapper-left {
+    flex-direction: row;
+    align-items: center;
+    min-height: 0;
+    width: 800px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -292,6 +298,9 @@
   .our-activitie-content {
     grid-template-columns: repeat(1, 1fr);
   }
+  .our-activitie-img {
+    max-width: 100%;
+  }
 }
 @media only screen and (max-width: 429px) {
   h1 {
@@ -428,5 +437,21 @@
   }
   .our-activities {
     padding-block: 44px 58px;
+  }
+  .blog-details-icon {
+    display: none;
+  }
+  .blog-details-hero-wrapper {
+    gap: 38px;
+  }
+  .blog-details-hero-wrapper-right-content-img {
+    margin-inline: -20px;
+  }
+  .blog-details-hero-wrapper-right-list-type {
+    gap: 4px;
+  }
+
+  .blog-details-hero-wrapper-right-list-title {
+    margin-block: 16px 32px;
   }
 }

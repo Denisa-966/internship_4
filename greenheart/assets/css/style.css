@@ -395,6 +395,9 @@ header.active {
   transition: all 0.4s ease-in-out;
   background-color: var(--primary-color);
 }
+.blog-silder-icon {
+  top: 7%;
+}
 .benefits-silder-icon:disabled {
   opacity: 1;
 }
@@ -413,7 +416,9 @@ header.active {
   justify-content: start;
   right: 14%;
 }
-
+.blog-detils-silder .benefits-splide__arrow--prev {
+  right: 19%;
+}
 .benefits-img {
   max-height: 742px;
   width: 100%;
@@ -937,6 +942,76 @@ header.active {
   grid-template-columns: repeat(2, 2fr);
   gap: 20px;
 }
+/* blog-detials-section----- */
+.blog-details-hero-section {
+  margin-block: 182px 76px;
+}
+.blog-details-hero-wrapper-right-list {
+  list-style: disc;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+.blog-details-hero-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 88px;
+  align-items: start;
+}
+.blog-details-hero-wrapper-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 480px;
+  position: sticky;
+}
+.blog-details-hero-wrapper-right {
+  max-width: 800px;
+}
+
+.blog-details-hero-wrapper-left-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--black);
+}
+.blog-details-hero-wrapper-right-para-1 {
+  font-size: 12px;
+  font-weight: 700;
+  color: #00000066;
+}
+.blog-details-hero-wrapper-right-title1 {
+  font-size: 50px;
+}
+.blog-details-hero-wrapper-right-title2 {
+  font-size: 26px;
+  margin-bottom: 22px;
+}
+.blog-details-hero-wrapper-right-title1 {
+  margin-block: 25px 12px;
+}
+.blog-details-hero-wrapper-right-img {
+  max-width: 832px;
+  margin-block: 26px 44px;
+}
+.blog-details-hero-wrapper-right-list-title {
+  margin-block: 56px 60px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.blog-details-hero-wrapper-right-list-type {
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.blog-details-silder-section {
+  padding-block: 100px;
+}
+.blog-details-silder-title {
+  text-align: left;
+}
 /* ----------footer-section--------------- */
 footer {
   margin-top: auto;
@@ -1076,6 +1151,9 @@ input::placeholder {
   justify-content: space-between;
   gap: 20px;
 }
+.blog-details-icon {
+  gap: 6px;
+}
 .icon-color {
   color: var(--black);
   transition: all 0.3s ease-in-out;
@@ -1096,6 +1174,20 @@ input::placeholder {
 .infor3-icon:hover {
   background-color: var(--white-200);
 }
+
+.blog-icon {
+  background-color: #89e4a121;
+}
+.blog-icon-color {
+  color: var(--primary-color);
+}
+.blog-icon:hover {
+  background-color: var(--primary-color);
+}
+.blog-icon:hover .blog-icon-color {
+  color: var(--black);
+}
+
 .links {
   font-size: 10px;
   display: flex;
