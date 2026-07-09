@@ -1012,6 +1012,82 @@ header.active {
 .blog-details-silder-title {
   text-align: left;
 }
+/* contact-section-- */
+.contact-hero-section {
+  margin-block: 188px 60px;
+}
+.contact-hero-title {
+  font-size: 70px;
+  margin-bottom: 42px;
+}
+.contact-hero-span-title {
+  font-weight: 400;
+}
+.contact-hero-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+}
+.contact-form {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 6px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.contact-hero-wrapper-right {
+  width: 796px;
+}
+.contact-form-details {
+  padding-block: 16px;
+  padding-left: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid transparent;
+}
+.contact-form-details::placeholder {
+  color: var(--black);
+  font-size: 16px;
+  font-weight: 500;
+}
+.contact-name {
+  height: 56px;
+}
+.contact-height {
+  height: 152px;
+  padding-block: 14px 112px;
+}
+.submit {
+  text-align: center;
+  border: 1px solid transparent;
+  margin-inline: auto;
+}
+/* information-hero-section--- */
+.information-hero-section {
+  background:
+    linear-gradient(10deg, rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.52) 50%),
+    url(../imges/Subtraction\ 5.png);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.information-hero-content {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+.information-hero-content {
+  padding: 8px 18px;
+}
+.information-hero-overlay {
+  background-color: var(--primary-color);
+}
 /* ----------footer-section--------------- */
 footer {
   margin-top: auto;
@@ -1223,4 +1299,42 @@ input::placeholder {
 }
 .footer-section2-logoitems {
   max-width: 130px;
+}
+.contant-hero-wrapper-title {
+  color: var(--black);
+}
+.icon-size {
+  width: 23px;
+  aspect-ratio: 1;
+}
+.size1 {
+  flex-shrink: 0;
+}
+.infor3-icon:hover .icon-size {
+  color: var(--primary-color);
+}
+.contact-hero-section .infor3-icon:hover {
+  background-color: var(--black);
+}
+.icon-size {
+  color: var(--white);
+  transition: all 0.3s ease-in-out;
+}
+.contact-hero-left {
+  gap: 12px;
+}
+.contact-hero-left-icon {
+  width: 64px;
+  aspect-ratio: 1;
+}
+.contact-btn {
+  transform: rotate(88deg);
+  width: 25px;
+  aspect-ratio: 1;
+  right: 1%;
+  top: 35%;
+}
+.contact-btn-icon {
+  width: 16px;
+  aspect-ratio: 1;
 }
