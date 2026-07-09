@@ -5,6 +5,9 @@
   .btn-primary {
     padding: 18px 20px;
   }
+  .inaction-title {
+    font-size: 70px;
+  }
 }
 @media only screen and (max-width: 991px) {
   h1 {
@@ -122,6 +125,9 @@
   }
   .feedback-left-img {
     top: 0;
+  }
+  .inaction-title {
+    font-size: 70px;
   }
 }
 
@@ -280,6 +286,12 @@
   .feedback-left-img {
     top: 60px;
   }
+  .inaction-title {
+    font-size: 30px;
+  }
+  .our-activitie-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 @media only screen and (max-width: 429px) {
   h1 {
@@ -410,5 +422,11 @@
   }
   .our-aims-bottom-title {
     font-size: 18px;
+  }
+  .inaction-title {
+    font-size: 24px;
+  }
+  .our-activities {
+    padding-block: 44px 58px;
   }
 }

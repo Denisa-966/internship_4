@@ -895,6 +895,12 @@ header.active {
 .inaction-span-title {
   font-weight: 700;
 }
+.our-activitie-title {
+  text-align: center;
+}
+.our-activitie-span-title {
+  font-weight: 400;
+}
 .our-activities {
   padding-block: 130px 80px;
 }
@@ -904,7 +910,7 @@ header.active {
 .our-activitie-content {
   display: grid;
   grid-template-columns: repeat(2, 2fr);
-  gap: 72px;
+  gap: 10px;
 }
 .our-activitie {
   display: flex;
@@ -916,6 +922,20 @@ header.active {
 .our-activitie-content-title {
   font-size: 24px;
   font-weight: 700;
+}
+.our-activitie-img {
+  max-width: 500px;
+  min-height: 300px;
+}
+.our-btn {
+  color: var(--black);
+}
+.our-btn:hover {
+  color: var(--white);
+}
+.our-card-wrapper {
+  grid-template-columns: repeat(2, 2fr);
+  gap: 20px;
 }
 /* ----------footer-section--------------- */
 footer {
