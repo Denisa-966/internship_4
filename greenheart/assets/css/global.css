@@ -24,6 +24,9 @@
   --blue: #89afd8;
   --purple: #8a8fc4;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-size: 14px;

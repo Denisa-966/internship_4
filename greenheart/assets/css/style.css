@@ -1076,20 +1076,20 @@ header.active {
   background-size: cover;
 }
 .information-hero-content {
+  padding: 8px 18px;
   display: flex;
+  flex-wrap: wrap;
   gap: 25px;
   align-items: center;
   justify-content: center;
   font-size: 12px;
 }
-.information-hero-content {
-  padding: 8px 18px;
-}
+
 .information-hero-overlay {
   background-color: var(--primary-color);
 }
 .policies-details-section {
-  padding-block: 90px 146px;
+  padding-bottom: 146px;
 }
 .policies-overlay {
   background-color: var(--white);
@@ -1116,11 +1116,14 @@ header.active {
 .para-gap {
   margin-top: 5px;
 }
+.policies-details-content {
+  margin-block: 90px 14px;
+}
 .policies-details-content-title {
   font-size: 50px;
 }
 .policies-details-content-sapn-title {
-  font-weight: 500;
+  font-weight: 400;
 }
 .policies-details-content-detils {
   display: grid;
@@ -1128,10 +1131,18 @@ header.active {
   gap: 18px;
 }
 .policies-details-content-detils-para {
+  width: 100%;
   background-color: var(--primary-color);
   padding-block: 26px;
-  padding-left: 34px;
+  padding-inline: 34px 24px;
   font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.policies-details-para {
+  margin-bottom: 25px;
+  width: 638px;
 }
 /* ----------footer-section--------------- */
 footer {
@@ -1382,4 +1393,19 @@ input::placeholder {
 .contact-btn-icon {
   width: 16px;
   aspect-ratio: 1;
+}
+.policies-details-content-detils-icon {
+  background-color: var(--black);
+  width: 42px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  transform: rotate(90deg);
+}
+.policies-btn-icon {
+  width: 28px;
+  aspect-ratio: 1;
+  color: var(--primary-color);
 }
