@@ -126,7 +126,7 @@ header.active {
 .hero-overlay {
   min-height: 50px;
   background-color: var(--white);
-  clip-path: polygon(100% 0, -10% 100%, 100% 100%);
+  clip-path: polygon(100% 100%, -10% 100%, 100% 0);
 }
 .care-support-overlay {
   background-color: var(--white-300);
@@ -197,7 +197,6 @@ header.active {
 .trust-hero-overlay {
   min-height: 50px;
   background-color: var(--primary-color);
-  clip-path: polygon(100% 0, -10% 100%, 100% 100%);
 }
 /* ----silder-hero-section------ */
 .silder-hero-section {
@@ -1219,6 +1218,30 @@ header.active {
   font-size: 50px;
   font-weight: 700;
   width: 716px;
+}
+/* partners-hero-section */
+.partners-hero-section {
+  background-color: var(--black);
+}
+.partners-hero-section-overlay {
+  clip-path: polygon(0 0, 0 100%, 100% 100%);
+  border: none;
+}
+.working-for-us-title {
+  font-weight: 400;
+}
+.partners-logo-section {
+  padding-block: 100px 160px;
+  margin-inline: auto;
+}
+.partners-logo-section-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  gap: 134px 110px;
+}
+.partners-section-logo-case {
+  width: 200px;
+  aspect-ratio: 1;
 }
 /* ----------footer-section--------------- */
 footer {
