@@ -146,6 +146,9 @@ header.active {
   font-size: 16px;
   font-weight: 200;
 }
+.benefits-careers-img {
+  padding-right: 34px;
+}
 /* ------two-column-content-section------ */
 .two-column-content-section {
   background-color: var(--white-300);
@@ -294,11 +297,11 @@ header.active {
   height: 252px;
 }
 .school-icon {
-  width: 82px;
+  width: 170px;
   aspect-ratio: 1;
   position: absolute;
-  top: 50%;
-  right: -8%;
+  top: 40%;
+  right: -24%;
   transform: translatex(-50%);
 }
 .academies-school-img {
@@ -538,6 +541,9 @@ header.active {
   min-height: 590px;
   width: calc(50% + 327px);
 }
+.trust-team-two-column-img {
+  padding-right: 34px;
+}
 .trust-title-secondary {
   font-weight: 400;
 }
@@ -632,7 +638,7 @@ header.active {
 .team-section {
   margin-block: 40px;
   padding-block: 40px;
-  margin-left: 30px;
+  margin-inline: 30px;
   background-color: var(--black);
 }
 .team-section-img {
@@ -645,6 +651,12 @@ header.active {
 }
 .school-btn:hover {
   background-color: var(--green);
+}
+.team-two-column-content {
+  width: 100%;
+}
+.team-img {
+  max-width: 600px;
 }
 /*----------- academies-school-section----------- */
 .academies-school-team-section {
