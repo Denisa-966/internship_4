@@ -1144,6 +1144,82 @@ header.active {
   margin-bottom: 25px;
   width: 638px;
 }
+/* working-for-us-section---- */
+.working-for-us-section {
+  background:
+    linear-gradient(10deg, rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.52) 50%),
+    url(../imges/brooke-cagle--uHVRvDr7pg-unsplash.png);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.current-vacancies-section {
+  z-index: 1;
+}
+.working-for-us-section-overlay {
+  background-color: var(--white);
+}
+.working-for-us-wrapper {
+  padding-block: 218px 217px;
+}
+.current-vacanies-btn {
+  padding: 22px 42px;
+}
+.current-vacancies-wrppper {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: -10%;
+  margin-bottom: -5%;
+}
+.current-vacancies-content {
+  padding-block: 56px;
+  padding-inline: 64px 110px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: space-between;
+  gap: 10px;
+  box-shadow: 0 3px 36px 0 #00000014;
+}
+.current-vacancies-content-title {
+  font-size: 30px;
+  width: 250px;
+}
+.current-vacancies-content-title-small {
+  font-size: 20px;
+  font-weight: 300;
+  margin-block: 12px 16px;
+}
+.current-vacancies-content-left-para {
+  margin-bottom: 26px;
+  font-size: 16px;
+  width: 740px;
+}
+.current-vacancies-content-right .vacancies {
+  font-size: 10px;
+}
+.career-opportunities-btn {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 20px 40px;
+}
+.career-opportunities-section {
+  background-color: var(--primary-color);
+  padding-block: 226px 154px;
+  z-index: 0;
+}
+.career-opportunities-btn:hover {
+  background-color: var(--white);
+  color: var(--black);
+}
+.career-opportunities-title {
+  font-size: 50px;
+  font-weight: 700;
+  width: 716px;
+}
 /* ----------footer-section--------------- */
 footer {
   margin-top: auto;

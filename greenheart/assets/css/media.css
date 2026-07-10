@@ -1,6 +1,11 @@
+@media only screen and (max-width: 1109px) {
+  .header-nav-links {
+    gap: 24px;
+  }
+}
 @media only screen and (max-width: 1043px) {
   .nav-link-a {
-    font-size: 12px;
+    font-size: 10px;
   }
   .btn-primary {
     padding: 18px 20px;
@@ -13,6 +18,9 @@
   }
   .contact-hero-left {
     margin-bottom: 10px;
+  }
+  .current-vacancies-content-left-para {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 991px) {
@@ -307,16 +315,24 @@
   .our-activitie-img {
     max-width: 100%;
   }
+
+  .policies-details-content-detils {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .policies-section-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .policies-details-section {
+    padding-bottom: 72px;
+  }
+  .career-opportunities-title {
+    width: 100%;
+  }
+  .current-vacancies-content {
+    padding: 34px;
+  }
 }
-.policies-details-content-detils {
-  grid-template-columns: repeat(1, 1fr);
-}
-.policies-section-content {
-  grid-template-columns: repeat(1, 1fr);
-}
-.policies-details-section {
-  padding-bottom: 72px;
-}
+
 @media only screen and (max-width: 429px) {
   h1 {
     font-size: 60px;
@@ -492,5 +508,11 @@
 
   .policies-details-content-title {
     font-size: 38px;
+  }
+  .career-opportunities-title {
+    font-size: 44px;
+  }
+  .career-opportunities-section {
+    padding-block: 86px 88px;
   }
 }
