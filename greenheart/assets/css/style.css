@@ -180,6 +180,9 @@ header.active {
   background-position: center;
   background-size: cover;
 }
+.trust-hero-wrapper {
+  max-width: 600px;
+}
 .trust-hero-section-title {
   font-size: 82px;
   font-weight: 400;
@@ -218,7 +221,9 @@ header.active {
   background-position: center;
   background-size: cover;
 }
-
+.academies-hero-wrapper {
+  max-width: 800px;
+}
 .academies-hero-primary-title {
   color: var(--white);
   font-size: 82px;
