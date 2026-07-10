@@ -1321,6 +1321,7 @@ form {
   width: 100%;
   border: 1px solid transparent;
   background-color: #f6f4f41f;
+  color: var(--white);
   position: relative;
 }
 
@@ -1353,6 +1354,7 @@ form {
 input::placeholder {
   color: var(--white);
 }
+
 .details-location {
   align-items: start;
 }
