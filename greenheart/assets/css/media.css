@@ -1,6 +1,14 @@
+@media only screen and (max-width: 1398px) {
+  .team-two-column-content {
+    width: 50%;
+  }
+}
 @media only screen and (max-width: 1109px) {
   .header-nav-links {
     gap: 24px;
+  }
+  .school-icon {
+    right: -30%;
   }
 }
 @media only screen and (max-width: 1043px) {
@@ -21,6 +29,9 @@
   }
   .current-vacancies-content-left-para {
     width: 100%;
+  }
+  .school-icon {
+    right: -34%;
   }
 }
 @media only screen and (max-width: 991px) {
@@ -119,6 +130,9 @@
   .vacancies {
     font-size: 12px;
   }
+  .school-icon {
+    right: -43%;
+  }
   .academies-hero-primary-title {
     font-size: 75px;
   }
@@ -191,6 +205,9 @@
   }
   .banner-section {
     padding-top: 70px;
+  }
+  .school-icon {
+    right: -30%;
   }
 
   .footer-infor1-title {
@@ -352,6 +369,11 @@
     gap: 100px;
   }
 }
+@media only screen and (max-width: 636px) {
+  .school-icon {
+    right: -30%;
+  }
+}
 
 @media only screen and (max-width: 429px) {
   h1 {
@@ -399,6 +421,9 @@
   }
   .vacancies {
     font-size: 12px;
+  }
+  .school-icon {
+    right: -26%;
   }
   .academies-hero-primary-title {
     font-size: 38px;

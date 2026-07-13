@@ -55,7 +55,7 @@ header.active {
   padding-block: 10px;
   color: var(--black);
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 800;
 }
 .sub-menu-link-white {
   color: var(--white);
@@ -193,7 +193,7 @@ header.active {
 }
 .trust-hero-span-title {
   font-size: 172px;
-  font-weight: 700;
+  font-weight: 800;
 }
 .trust-hero-para {
   font-size: 16px;
@@ -234,11 +234,11 @@ header.active {
 }
 .academies-hero-secnodary-title {
   font-size: 142px;
-  font-weight: 700;
+  font-weight: 800;
 }
 .academies-hero-para {
   color: var(--white);
-  font-weight: 700;
+  font-weight: 800;
 }
 /* leader-card-section- */
 .leadership-wrapper {
@@ -261,13 +261,14 @@ header.active {
 }
 .academies-para {
   font-size: 10px;
-  font-weight: 700;
+  font-weight: 800;
   color: var(--white);
 }
 
 .academies-school-wrapper-title {
   color: var(--primary-color);
   max-width: 1046px;
+  margin-bottom: 36px;
   font-size: 92px;
 }
 .academies-school-span-title {
@@ -317,7 +318,7 @@ header.active {
   max-width: 226px;
   font-size: 24px;
   line-height: 1;
-  font-weight: 700;
+  font-weight: 800;
 }
 .span-school-details-title {
   font-weight: 400;
@@ -457,7 +458,7 @@ header.active {
 }
 .feedback-right-title {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 800;
   color: var(--white);
   transform: rotate(180deg);
   writing-mode: vertical-lr;
@@ -467,12 +468,12 @@ header.active {
 }
 .feedback-left-title {
   font-size: 10px;
-  font-weight: 700;
+  font-weight: 800;
   color: var(--white);
 }
 .feedback-left-para {
   font-size: 44px;
-  font-weight: 700;
+  font-weight: 800;
   color: var(--white);
   line-height: 1.2;
   margin-block: 10px 50px;
@@ -625,6 +626,10 @@ header.active {
 .achieved-secondary-title {
   font-size: 28px;
 }
+.achieved-para {
+  font-size: 16px;
+  text-align: center;
+}
 /* -------------values-section----------- */
 .values-section {
   padding-top: 20px;
@@ -646,6 +651,7 @@ header.active {
   width: calc(50% + 40px);
 }
 .team-primary {
+  margin-bottom: 10px;
   color: var(--white);
   font-size: 82px;
 }
@@ -679,7 +685,7 @@ header.active {
 }
 .vacancies {
   color: var(--black);
-  font-weight: 700;
+  font-weight: 800;
   text-decoration: underline;
   flex-shrink: 0;
 }
@@ -716,7 +722,7 @@ header.active {
 }
 .member-content-primary-para {
   color: #14141438;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 10px;
 }
 .member-content-title {
@@ -800,7 +806,7 @@ header.active {
 .blog-title {
   color: var(--white);
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 800;
 }
 .blog-btn {
   background-color: var(--black);
@@ -856,7 +862,7 @@ header.active {
 }
 .matters-section-title {
   font-size: 50px;
-  font-weight: 700;
+  font-weight: 800;
 }
 .matters-section-sapn-title {
   font-weight: 400;
@@ -886,7 +892,7 @@ header.active {
 }
 .campaings-cards-title {
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 800;
 }
 .campaings-cards-para {
   font-size: 16px;
@@ -914,7 +920,7 @@ header.active {
   font-weight: 200;
 }
 .inaction-span-title {
-  font-weight: 700;
+  font-weight: 800;
 }
 .our-activitie-title {
   text-align: center;
@@ -942,7 +948,7 @@ header.active {
 }
 .our-activitie-content-title {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 800;
 }
 .our-activitie-img {
   max-width: 500px;
@@ -988,12 +994,12 @@ header.active {
 
 .blog-details-hero-wrapper-left-title {
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 800;
   color: var(--black);
 }
 .blog-details-hero-wrapper-right-para-1 {
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 800;
   color: #00000066;
 }
 .blog-details-hero-wrapper-right-title1 {
@@ -1013,7 +1019,7 @@ header.active {
 .blog-details-hero-wrapper-right-list-title {
   margin-block: 56px 60px;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .blog-details-hero-wrapper-right-list-type {
@@ -1233,7 +1239,7 @@ header.active {
 }
 .career-opportunities-title {
   font-size: 50px;
-  font-weight: 700;
+  font-weight: 800;
   width: 716px;
 }
 /* partners-hero-section */
@@ -1312,13 +1318,12 @@ footer {
   color: var(--white);
 }
 .span-title {
-  font-size: 90px;
+  font-size: 98px;
   line-height: 0.6;
-  font-weight: 700;
+  font-weight: 800;
 }
 .span-details-title {
-  max-width: max-content;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 10px;
   color: var(--white);
 }
@@ -1326,7 +1331,7 @@ footer {
   margin-block: 24px 14px;
   font-size: 22px;
   max-width: 334px;
-  font-weight: 700;
+  font-weight: 800;
 }
 form {
   position: relative;
