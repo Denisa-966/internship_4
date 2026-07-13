@@ -397,11 +397,11 @@ header.active {
   width: 48px;
   height: auto;
   aspect-ratio: 1;
-  background: var(--black);
-  top: 95%;
-  opacity: 1;
+  color: var(--white);
   transition: all 0.4s ease-in-out;
   background-color: var(--primary-color);
+  border-radius: 100%;
+  border: 1px solid transparent;
 }
 .blog-silder-icon {
   top: 7%;
@@ -409,23 +409,18 @@ header.active {
 .benefits-silder-icon:disabled {
   opacity: 1;
 }
-.benefits-silder-icon svg {
+.benefits-icon-img {
   width: 30px;
   height: auto;
   aspect-ratio: 1;
 }
 
-.benefits-silder .benefits-splide__arrow--prev {
-  left: auto;
-  right: 17%;
+.benefits-splide__arrow--prev svg {
+  transform: rotateY(180deg);
   justify-content: end;
 }
-.benefits-silder .benefits-splide__arrow--next {
+.benefits-splide__arrow--next svg {
   justify-content: start;
-  right: 14%;
-}
-.blog-detils-silder .benefits-splide__arrow--prev {
-  right: 19%;
 }
 .benefits-img {
   max-height: 742px;
