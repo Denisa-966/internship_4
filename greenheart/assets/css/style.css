@@ -392,7 +392,13 @@ header.active {
   text-align: center;
   max-width: 226px;
 }
-
+.benefits-arrow {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
 .benefits-silder-icon {
   width: 48px;
   height: auto;
@@ -402,6 +408,9 @@ header.active {
   background-color: var(--primary-color);
   border-radius: 100%;
   border: 1px solid transparent;
+  display: flex;
+  position: absolute;
+  bottom: 100px;
 }
 .blog-silder-icon {
   top: 7%;
@@ -415,13 +424,12 @@ header.active {
   aspect-ratio: 1;
 }
 
-.benefits-splide__arrow--prev svg {
-  transform: rotateY(180deg);
-  justify-content: end;
-}
-.benefits-splide__arrow--next svg {
+.benefits-splide__arrow--prev {
+  transform: scaleX(-1);
   justify-content: start;
+  right: 62px;
 }
+
 .benefits-img {
   max-height: 742px;
   width: 100%;

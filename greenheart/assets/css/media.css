@@ -358,9 +358,7 @@
   .our-activitie-img {
     max-width: 100%;
   }
-  .benefits-silder-icon {
-    top: 90%;
-  }
+
   .policies-details-content-detils {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -513,16 +511,7 @@
   .campaings-cards-title {
     font-size: 28px;
   }
-  .benefits-silder-icon {
-    width: 34px;
-  }
 
-  .benefits-silder-icon svg {
-    width: 20px;
-  }
-  .benefits-silder-icon {
-    top: 84%;
-  }
   .benefits-silder .splide__arrow--prev {
     right: 180px;
   }
