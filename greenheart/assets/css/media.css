@@ -454,7 +454,18 @@
   .silder-title {
     font-size: 38px;
   }
-
+  .benefits-silder-icon {
+    bottom: 20px;
+  }
+  .benefits-splide__arrow--prev {
+    right: 195px;
+  }
+  .benefits-splide__arrow--next {
+    right: 150px;
+  }
+  .benefits-img {
+    min-height: 400px;
+  }
   .silder-hero-section {
     padding-block: 116px 46px;
   }
@@ -510,6 +521,13 @@
   }
   .campaings-cards-title {
     font-size: 28px;
+  }
+  .benefits-silder-icon {
+    width: 34px;
+  }
+
+  .benefits-silder-icon svg {
+    width: 20px;
   }
 
   .benefits-silder .splide__arrow--prev {
