@@ -77,9 +77,9 @@ header.active {
 }
 .header-nav-links {
   display: flex;
-  align-items: center;
   gap: 42px;
 }
+
 .right-side {
   display: flex;
   align-items: center;
