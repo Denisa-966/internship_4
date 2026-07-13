@@ -729,6 +729,7 @@ header.active {
   font-size: 28px;
 }
 .member-content-secondary-para {
+  max-width: 314px;
   font-weight: 300;
 }
 .member-content {
@@ -900,6 +901,9 @@ header.active {
 }
 .campaings-action-section {
   margin: 0;
+}
+.campaing-img {
+  margin-right: 80px;
 }
 /* --inaction-section-- */
 .inaction-section {

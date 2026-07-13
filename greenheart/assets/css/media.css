@@ -146,7 +146,7 @@
     flex-direction: column;
   }
   .benefits-support-content {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 2fr);
   }
   .two-column-content-wrapper {
     text-align: center;
@@ -320,7 +320,7 @@
     font-size: 84px;
   }
   .benefits-support-outline {
-    width: 178px;
+    width: 170px;
   }
   .benefits-careers-img {
     padding-right: 0;
@@ -333,8 +333,15 @@
     grid-template-columns: repeat(1, 1fr);
   }
   .campaings-wrapper-title {
-    font-size: 76px;
+    font-size: 70px;
     margin-bottom: -14px;
+  }
+  .campaings-action-section {
+    padding: 0px;
+    padding-top: 30px;
+  }
+  .campaings-title {
+    font-size: 40px;
   }
   .feedback-left-img {
     top: 60px;
@@ -344,6 +351,9 @@
   }
   .our-activitie-content {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .our-activitie-content-img {
+    margin-inline: -20px;
   }
   .our-activitie-img {
     max-width: 100%;
@@ -367,11 +377,6 @@
   .partners-logo-section-wrapper {
     grid-template-columns: repeat(2, 2fr);
     gap: 100px;
-  }
-}
-@media only screen and (max-width: 636px) {
-  .school-icon {
-    right: -30%;
   }
 }
 
@@ -403,6 +408,9 @@
   }
   .infor2-details {
     gap: 42px;
+  }
+  .footer-wrapper-infor3 {
+    max-width: 100%;
   }
   .team-primary {
     font-size: 55px;
@@ -446,11 +454,18 @@
   .silder-title {
     font-size: 38px;
   }
+
+  .silder-hero-section {
+    padding-block: 116px 46px;
+  }
   .members-section {
     padding-top: 20px;
   }
   .member-primary-title {
     font-size: 24px;
+  }
+  .member-content-secondary-para {
+    max-width: 100%;
   }
   .blog-card-wrapper {
     grid-template-columns: repeat(1, 1fr);
@@ -477,7 +492,7 @@
   }
 
   .benefits-support-outline {
-    width: 264px;
+    width: 250px;
   }
   .benefits-support-title {
     font-size: 60px;
@@ -496,6 +511,7 @@
   .campaings-cards-title {
     font-size: 28px;
   }
+
   .feedback-left-img {
     display: none;
   }
