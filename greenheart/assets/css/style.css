@@ -399,6 +399,7 @@ header.active {
   gap: 10px;
   position: relative;
 }
+
 .benefits-silder-icon {
   width: 48px;
   height: auto;
@@ -412,9 +413,7 @@ header.active {
   position: absolute;
   bottom: 100px;
 }
-.blog-silder-icon {
-  top: 7%;
-}
+
 .benefits-silder-icon:disabled {
   opacity: 1;
 }
@@ -428,6 +427,12 @@ header.active {
   transform: scaleX(-1);
   justify-content: start;
   right: 62px;
+}
+.our-activitie-silder-icon {
+  top: 0;
+}
+.our-activitie-splide__arrow--prev {
+  right: 5%;
 }
 
 .benefits-img {
@@ -447,8 +452,6 @@ header.active {
   justify-content: center;
   align-items: start;
   gap: 50px;
-
-  position: relative;
 }
 .feedback-right-img {
   max-width: 220px;
@@ -468,6 +471,7 @@ header.active {
 }
 .feedback-left-side {
   max-width: 702px;
+  position: relative;
 }
 .feedback-left-title {
   font-size: 10px;
@@ -490,10 +494,10 @@ header.active {
   color: var(--white);
 }
 .feedback-left-img {
-  max-width: 24%;
+  max-width: 312px;
   position: absolute;
-  right: 0;
-  top: -132%;
+  right: -25%;
+  top: 0;
 }
 
 /* -----------------two-column-section--------------- */
@@ -732,7 +736,6 @@ header.active {
   font-size: 28px;
 }
 .member-content-secondary-para {
-  max-width: 314px;
   font-weight: 300;
 }
 .member-content {
@@ -973,7 +976,8 @@ header.active {
 }
 /* blog-detials-section----- */
 .blog-details-hero-section {
-  margin-block: 182px 76px;
+  padding-block: 182px 76px;
+  position: relative;
 }
 .blog-details-hero-wrapper-right-list {
   list-style: disc;
@@ -994,6 +998,7 @@ header.active {
   justify-content: space-between;
   min-height: 480px;
   position: sticky;
+  top: 0;
 }
 .blog-details-hero-wrapper-right {
   max-width: 800px;
@@ -1037,6 +1042,18 @@ header.active {
 }
 .blog-details-silder-section {
   padding-block: 100px;
+  position: relative;
+}
+.blog-details-silder-icon {
+  top: 5%;
+}
+.blog-details-silder-icon svg {
+  width: 30px;
+  height: auto;
+  aspect-ratio: 1;
+}
+.blog-splide__arrow--prev {
+  right: 6%;
 }
 .blog-details-silder-title {
   text-align: left;
@@ -1044,6 +1061,11 @@ header.active {
 /* contact-section-- */
 .contact-hero-section {
   margin-block: 188px 60px;
+}
+.contact-hero-section svg {
+  width: 30px;
+  height: auto;
+  aspect-ratio: 1;
 }
 .contact-hero-title {
   font-size: 70px;
@@ -1055,7 +1077,6 @@ header.active {
 .contact-hero-wrapper {
   display: flex;
   flex-wrap: wrap;
-
   justify-content: space-between;
 }
 .contact-form {
