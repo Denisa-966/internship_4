@@ -758,7 +758,7 @@ header.active {
   transition: all 0.4s ease-in-out;
 }
 .members-silder-icon:hover {
-  background: var(--white);
+  background: var(--primary-color);
 }
 .members-silder-icon:hover .school-icon-img {
   color: var(--black);
@@ -1468,7 +1468,7 @@ input::placeholder {
   transition: all 0.3s ease-in-out;
 }
 .infor3-icon:hover {
-  background-color: var(--white-200);
+  background-color: var(--white);
 }
 
 .blog-icon {
