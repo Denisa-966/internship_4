@@ -98,7 +98,7 @@ header.active {
 .hero-section {
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0.47) 0%, rgba(0, 0, 0, 0.47) 50%),
-    url(../imges/hero-section-img.png);
+    url(../imges/home-hero-section-img.png);
 
   background-repeat: no-repeat;
   background-position: center;
@@ -108,7 +108,7 @@ header.active {
 .care-support-section {
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0.47) 0%, rgba(0, 0, 0, 0.47) 50%),
-    url(../imges/Rectangle\ 142.png);
+    url(../imges/benefits-hero-img.png);
 
   background-repeat: no-repeat;
   background-position: center;
@@ -218,7 +218,7 @@ header.active {
 .academies-hero-section {
   background:
     linear-gradient(10deg, rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.52) 50%),
-    url(../imges/acton-crawford-z3kZ__Ycpc8-unsplash@2x.png);
+    url(../imges/academies-hero-img.png);
 
   background-repeat: no-repeat;
   background-position: center;
@@ -838,7 +838,7 @@ header.active {
 .our-athos-hero-section {
   background:
     linear-gradient(10deg, rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.52) 50%),
-    url(../imges/anna-samoylova-w55SpMmoPgE-unsplash.png);
+    url(../imges/our-ethos-hero-img.png);
 
   background-repeat: no-repeat;
   background-position: center;
@@ -915,7 +915,7 @@ header.active {
 .inaction-section {
   background:
     linear-gradient(10deg, rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.52) 50%),
-    url(../imges/inaction-hero.png);
+    url(../imges/academies-hero-img.png);
 
   background-repeat: no-repeat;
   background-position: center;
@@ -1119,7 +1119,7 @@ header.active {
 .information-hero-section {
   background:
     linear-gradient(10deg, rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.52) 50%),
-    url(../imges/Subtraction\ 5.png);
+    url(../imges/policies-hero-img.png);
 
   background-repeat: no-repeat;
   background-position: center;
@@ -1198,7 +1198,7 @@ header.active {
 .working-for-us-section {
   background:
     linear-gradient(10deg, rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.52) 50%),
-    url(../imges/brooke-cagle--uHVRvDr7pg-unsplash.png);
+    url(../imges/work-for-us-hero-img.png);
 
   background-repeat: no-repeat;
   background-position: center;
