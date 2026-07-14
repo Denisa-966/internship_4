@@ -29,21 +29,21 @@ html {
 }
 
 body {
+  min-height: 100vh;
+  font-family: "Raleway", "Poppins", sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
-  font-weight: 400;
-  min-height: 100vh;
   display: flex;
   background-color: var(--white);
   color: var(--black-300);
   flex-direction: column;
-  font-family: "Raleway", "Poppins", sans-serif;
 }
 .container {
-  width: 100%;
-  max-width: 1308px;
   padding-inline: 20px;
   margin-inline: auto;
+  width: 100%;
+  max-width: 1308px;
 }
 
 a {
@@ -69,10 +69,10 @@ li {
   list-style: none;
 }
 .btn {
-  background-color: var(--primary-color);
-  transition: all 0.3s ease-in-out;
   max-width: max-content;
   font-weight: 800;
+  background-color: var(--primary-color);
+  transition: all 0.3s ease-in-out;
 }
 
 .btn-primary {
