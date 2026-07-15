@@ -10,7 +10,7 @@
   .header-nav-links {
     gap: 34px;
   }
-  .btn {
+  .header-btn {
     padding: 20px 22px;
   }
   .img-logo {
@@ -38,7 +38,7 @@
   .nav-link-menu {
     font-size: 12px;
   }
-  .btn {
+  .header-btn {
     padding: 18px 20px;
   }
   .img-logo {
@@ -108,6 +108,7 @@
   }
   .two-column-img-content {
     min-height: 500px;
+    width: calc(50% + 0px);
   }
   .header-btn {
     margin-left: 20px;
@@ -117,9 +118,7 @@
     opacity: 1;
     visibility: visible;
   }
-  .header-btton {
-    margin-left: 10px;
-  }
+
   .sub-menu-link {
     font-weight: 400;
   }
