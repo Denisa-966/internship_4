@@ -230,9 +230,7 @@ header.active {
   color: var(--white);
 }
 .trust-hero-overlay {
-  min-height: 50px;
   background-color: var(--primary-color);
-  clip-path: polygon(100% 100%, -10% 100%, 100% 0);
 }
 /* ----silder-hero-section------ */
 .silder-hero-section {
@@ -287,8 +285,10 @@ header.active {
   max-width: 210px;
   background-color: var(--green);
   position: absolute;
-  top: 4%;
-  left: -15px;
+  top: 0;
+  left: -3%;
+  transform: translateY(50%);
+  z-index: 1;
 }
 .academies-para {
   font-size: 10px;
@@ -329,15 +329,15 @@ header.active {
   height: 252px;
 }
 .school-icon {
-  width: 170px;
-  aspect-ratio: 1;
+  width: 41.3%;
   position: absolute;
-  top: 40%;
-  right: -24%;
-  transform: translatex(-50%);
+  bottom: 0;
+  right: 0;
+  transform: translatey(50%);
 }
 .academies-school-img {
   margin-bottom: 22px;
+  position: relative;
 }
 .academies-school-details {
   display: flex;
@@ -684,8 +684,7 @@ header.active {
   background-color: var(--black);
 }
 .team-section-img {
-  width: calc(50% + 40px);
-  min-height: 382px;
+  width: 63%;
 }
 .team-primary {
   margin-bottom: 10px;
@@ -696,7 +695,7 @@ header.active {
   background-color: var(--green);
 }
 .team-two-column-content {
-  width: 100%;
+  width: 436px;
 }
 .team-img {
   max-width: 600px;
@@ -854,15 +853,7 @@ header.active {
   font-size: 40px;
   font-weight: 800;
 }
-.blog-btn {
-  background-color: var(--black);
-  color: var(--white);
-  transition: all 0.3s ease-in-out;
-}
-.blog-btn:hover {
-  color: var(--black);
-  background-color: var(--white);
-}
+
 /* careers-section--- */
 .careers-section {
   background-color: var(--primary-color);
@@ -954,7 +945,7 @@ header.active {
 .inaction-section {
   background:
     linear-gradient(10deg, rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.52) 50%),
-    url(../imges/academies-hero-img.png);
+    url(../imges/want\ we\ learn.png);
 
   background-repeat: no-repeat;
   background-position: center;
@@ -1003,12 +994,7 @@ header.active {
   max-width: 500px;
   min-height: 300px;
 }
-.our-btn {
-  color: var(--black);
-}
-.our-btn:hover {
-  color: var(--white);
-}
+
 .our-card-wrapper {
   grid-template-columns: repeat(2, 2fr);
   gap: 20px;
