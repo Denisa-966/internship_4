@@ -250,6 +250,7 @@ header.active {
   grid-template-columns: repeat(3, 3fr);
   gap: 78px 16px;
 }
+
 /* ------academies-school-section---- */
 .academies-school-section {
   padding-block: 34px 154px;
@@ -1126,6 +1127,9 @@ header.active {
   margin-inline: auto;
   border: 1px solid transparent;
   text-align: center;
+}
+.leadership-black-background-section {
+  margin-inline: 30px;
 }
 /* information-hero-section--- */
 .information-hero-section {
