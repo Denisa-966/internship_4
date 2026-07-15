@@ -835,9 +835,7 @@ header.active {
   position: relative;
 }
 .blog-content {
-  padding: 20px;
   width: 100%;
-  text-align: center;
   height: 100%;
   display: flex;
   flex-direction: column;

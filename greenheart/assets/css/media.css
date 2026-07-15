@@ -286,6 +286,9 @@
     padding-top: 0;
     margin-inline: 0;
   }
+  .team-section-img {
+    width: 100%;
+  }
   .working-content {
     gap: 30px;
   }
