@@ -52,6 +52,8 @@ a {
 }
 img {
   max-width: 100%;
+  width: auto;
+  height: auto;
   display: block;
 }
 
@@ -73,25 +75,18 @@ li {
   font-weight: 800;
   background-color: var(--primary-color);
   transition: all 0.3s ease-in-out;
-}
-
-.btn-primary {
   padding: 24px 28px;
+  color: var(--black);
+}
+.btn:hover {
+  background-color: var(--black);
+  color: var(--white);
 }
 .btn-secondary {
   padding: 24px 30px;
 }
 .btnwhite {
   color: var(--white);
-}
-.btnblack {
-  color: var(--black);
-}
-.btnblack:hover {
-  color: var(--white);
-}
-.btn:hover {
-  background-color: var(--black);
 }
 .btn1 {
   background-color: var(--yellow-100);

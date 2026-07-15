@@ -6,9 +6,20 @@
     right: 0;
   }
 }
+@media only screen and (max-width: 1126px) {
+  .header-nav-links {
+    gap: 34px;
+  }
+  .btn {
+    padding: 20px 22px;
+  }
+  .img-logo {
+    max-width: 244px;
+  }
+}
 @media only screen and (max-width: 1109px) {
   .header-nav-links {
-    gap: 24px;
+    gap: 20px;
   }
   .school-icon {
     right: -30%;
@@ -24,12 +35,16 @@
   }
 }
 @media only screen and (max-width: 1043px) {
-  .nav-link-a {
-    font-size: 10px;
+  .nav-link-menu {
+    font-size: 12px;
   }
-  .btn-primary {
+  .btn {
     padding: 18px 20px;
   }
+  .img-logo {
+    max-width: 240px;
+  }
+
   .inaction-title {
     font-size: 70px;
   }
@@ -56,7 +71,6 @@
   .menu-btn {
     display: block;
   }
-
   .img-logo {
     transition: all 0.3s ease-in-out;
   }
@@ -64,14 +78,14 @@
     color: var(--black);
   }
 
-  .nav-link-a {
+  .nav-link-menu {
     padding-inline: 10px;
     color: var(--black);
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .right-side {
-    padding-top: 148px;
+    padding-top: 60px;
     width: 100%;
     min-height: 100vh;
     background-color: var(--white);
@@ -281,9 +295,7 @@
   .working-content {
     gap: 30px;
   }
-  .vacancies {
-    font-size: 14px;
-  }
+
   .team-wrapper {
     flex-direction: column;
   }

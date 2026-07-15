@@ -4,17 +4,24 @@
   position: fixed;
   top: 0;
   z-index: 999;
-  transition: all 0.3s ease-in-out;
 }
 header.active {
   background-color: var(--white);
 }
-.nav-link-a {
+.nav-link-menu {
   color: var(--white);
   text-align: center;
   font-weight: 800;
   position: relative;
+  transition: all 0.3s ease-in-out;
 }
+.nav-link-menu:hover {
+  color: var(--primary-color);
+}
+.nav-link-menu:hover .header-nav-icon {
+  color: var(--primary-color);
+}
+
 .nav-link-black {
   color: var(--black);
 }
@@ -29,6 +36,11 @@ header.active {
   opacity: 0;
   visibility: hidden;
 }
+.sub-nav-data {
+  display: flex;
+  align-items:;
+  gap: 10px;
+}
 .sub-menu-black {
   background-color: var(--black);
 }
@@ -37,6 +49,7 @@ header.active {
   width: 10px;
   aspect-ratio: 1;
   color: var(--white);
+  transition: all 0.3s ease-in-out;
 }
 .header-nav-icon-black {
   color: var(--black);
@@ -49,16 +62,19 @@ header.active {
     opacity: 1;
     visibility: visible;
   }
-  .menu-btn {
-    display: none;
+  .nav-link-menu:hover .header-nav-icon {
+    transform: rotate(45deg);
   }
 }
 .sub-menu-link {
   width: 100%;
   padding-block: 10px;
   color: var(--black);
-  font-size: 14px;
   font-weight: 800;
+  transition: all 0.3s ease-in-out;
+}
+.sub-menu-link:hover {
+  color: var(--primary-color);
 }
 .sub-menu-link-white {
   color: var(--white);
@@ -240,6 +256,7 @@ header.active {
   font-size: 142px;
   font-weight: 800;
 }
+
 .academies-hero-para {
   color: var(--white);
   font-weight: 800;
@@ -611,7 +628,7 @@ header.active {
 }
 /*----------------- action-section------------------------------------ */
 .action-section {
-  padding-block: 134px;
+  padding-bottom: 130px;
 }
 /* --------------------achieved-section -------------*/
 .achieved-section {
