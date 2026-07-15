@@ -8,6 +8,11 @@
 header.active {
   background-color: var(--white);
 }
+.sub-nav-primary-link {
+  display: flex;
+  align-items: baseline;
+  gap: 3px;
+}
 .nav-link-menu {
   color: var(--white);
   text-align: center;
@@ -36,10 +41,15 @@ header.active {
   opacity: 0;
   visibility: hidden;
 }
-.sub-nav-data {
-  display: flex;
-  align-items:;
-  gap: 10px;
+
+.sub-nav-primary-link:hover .header-nav-icon {
+  transform: rotate(45deg);
+}
+.sub-nav-primary-link:hover .nav-link-menu {
+  color: var(--primary-color);
+}
+.sub-nav-primary-link:hover .header-nav-icon {
+  color: var(--primary-color);
 }
 .sub-menu-black {
   background-color: var(--black);
