@@ -324,6 +324,7 @@ header.active {
   grid-template-columns: repeat(3, 3fr);
   gap: 96px 16px;
 }
+
 .school-img {
   width: 412px;
   height: 252px;
@@ -579,6 +580,9 @@ header.active {
 .trust-two-column-img {
   width: calc(50% + 327px);
   min-height: 590px;
+}
+.academies-two-column-img-content {
+  min-height: 382px;
 }
 .trust-team-two-column-img {
   padding-right: 34px;
@@ -841,6 +845,7 @@ header.active {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 10px;
   position: absolute;
   top: 0;
   left: 0;
@@ -939,6 +944,7 @@ header.active {
 .campaing-img {
   margin-right: 80px;
 }
+
 /* --inaction-section-- */
 .inaction-section {
   background:

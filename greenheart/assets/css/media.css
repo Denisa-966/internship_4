@@ -28,6 +28,9 @@
   .blog-details-hero-wrapper {
     gap: 10px;
   }
+  .blog-title {
+    font-size: 35px;
+  }
 }
 @media only screen and (max-width: 1043px) {
   .nav-link-menu {
@@ -54,6 +57,9 @@
   }
   .benefits-support-outline {
     width: 268px;
+  }
+  .team-primary {
+    font-size: 76px;
   }
 }
 @media only screen and (max-width: 991px) {
@@ -104,6 +110,9 @@
   .two-column-img-content {
     min-height: 500px;
     width: calc(50% + 0px);
+  }
+  .academies-two-column-img-content {
+    min-height: 300px;
   }
   .header-btn {
     margin-left: 20px;
@@ -197,15 +206,14 @@
   .blog-splide__arrow--prev {
     right: 7%;
   }
-}
-@media only screen and (max-width: 666px) {
-  .blog-details-silder-title {
-    width: 80%;
+  .blog-title {
+    font-size: 28px;
   }
-  .blog-details-silder-icon {
-    top: 10%;
+  .team-primary {
+    font-size: 50px;
   }
 }
+
 @media only screen and (max-width: 768px) {
   .two-column-content {
     padding-left: 0;
@@ -289,6 +297,7 @@
   .team-section-img {
     width: 100%;
   }
+
   .working-content {
     gap: 30px;
   }
@@ -333,7 +342,12 @@
   .blog-card-wrapper {
     grid-template-columns: repeat(2, 2fr);
   }
-
+  .blog-title {
+    font-size: 30px;
+  }
+  .team-primary {
+    font-size: 82px;
+  }
   .blog-splide__arrow--prev {
     right: 10%;
   }
@@ -342,6 +356,9 @@
   }
   .leadership-wrapper {
     grid-template-columns: repeat(2, 2fr);
+  }
+  .leadership-black-background-section {
+    margin-inline: 0;
   }
 
   .two-column-content-title {
@@ -371,10 +388,13 @@
     padding: 0px;
     padding-top: 30px;
   }
-  .campaings-title {
-    font-size: 40px;
-  }
 
+  .campaings-title {
+    text-align: center;
+  }
+  .matters-section-title {
+    line-height: 1;
+  }
   .inaction-title {
     font-size: 30px;
   }
@@ -408,7 +428,23 @@
     gap: 100px;
   }
 }
-
+@media only screen and (max-width: 666px) {
+  .blog-details-silder-title {
+    width: 80%;
+  }
+  .blog-details-silder-icon {
+    top: 10%;
+  }
+  .blog-img {
+    height: 300px;
+  }
+  .two-column-content-title {
+    font-size: 62px;
+  }
+  .team-primary {
+    font-size: 74px;
+  }
+}
 @media only screen and (max-width: 429px) {
   h1 {
     font-size: 60px;
@@ -520,14 +556,17 @@
     max-width: 100%;
   }
 
-  .blog-content-img {
-    margin-inline: -20px;
-  }
   .blog-details-silder-icon {
     top: 8%;
   }
   .blog-splide__arrow--prev {
     right: 14%;
+  }
+  .blog-img {
+    height: 414pxpx;
+  }
+  .blog-title {
+    font-size: 40px;
   }
   .silder-members-section {
     margin-top: 84px;
