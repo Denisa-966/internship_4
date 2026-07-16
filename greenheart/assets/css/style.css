@@ -1470,8 +1470,11 @@ input::placeholder {
   gap: 6px;
 }
 .icon-color {
-  color: var(--black);
+  color: var(--white);
   transition: all 0.3s ease-in-out;
+}
+.icon-color-black{
+  color: var(--black);
 }
 .infor3-icon:hover .icon-color {
   color: var(--primary-color);
