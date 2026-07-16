@@ -11,16 +11,11 @@
   --white-300: #f8f8f8;
   --white-400: #ebebeb;
   --black: #000000;
-  --black-100: #060e2c;
   --black-200: #141414;
-  --red: #fe0000;
   --green: #00ac8d;
-  --green-100: #19a76d;
   --green-200: #65c09a;
   --yellow: #f2bc80;
   --yellow-100: #f4e193;
-  --light-gray: #afafaf;
-  --dark-gray: #707070;
   --blue: #89afd8;
   --purple: #8a8fc4;
 }
@@ -35,7 +30,7 @@ body {
   font-size: 14px;
   line-height: 1.5;
   background-color: var(--white);
-  color: var(--black-300);
+  color: var(--black);
   display: flex;
   flex-direction: column;
 }

@@ -306,14 +306,14 @@ header.active {
   color: var(--black);
   font-weight: 400;
 }
-.school-details-icon {
+.school-description-icon {
   width: 36px;
   aspect-ratio: 1;
   background-color: var(--black);
   border-radius: 100%;
   transition: all 0.3s ease-in-out;
 }
-.school-details-icon:hover {
+.school-description-icon:hover {
   background-color: var(--primary-color);
 }
 .academies-school-content {
@@ -330,7 +330,7 @@ header.active {
   height: 252px;
 }
 .school-icon {
-  width: 41.3%;
+  width: 32.3%;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -340,25 +340,25 @@ header.active {
   margin-bottom: 22px;
   position: relative;
 }
-.academies-school-details {
+.academies-school-description {
   display: flex;
   flex-direction: column;
   align-items: start;
   gap: 7px;
 }
-.school-details-title {
+.school-description-title {
   max-width: 226px;
   line-height: 1;
   font-size: 24px;
   font-weight: 800;
 }
-.span-school-details-title {
+.span-school-description-title {
   font-weight: 400;
 }
-.school-details-para {
+.school-description-para {
   max-width: 288px;
 }
-.school-details-icon {
+.school-description-icon {
   display: flex;
   align-items: center;
   justify-content: start;
@@ -701,9 +701,7 @@ header.active {
 .team-two-column-content {
   width: 436px;
 }
-.team-img {
-  max-width: 600px;
-}
+
 /*----------- academies-school-section----------- */
 .academies-school-team-section {
   padding-right: 60px;
@@ -820,7 +818,7 @@ header.active {
 }
 .blog-card-section {
   padding-inline: 26px;
-  padding-block: 18px 24px;
+  padding-block: 24px;
 }
 .blog-card-wrapper {
   display: grid;
@@ -1004,24 +1002,24 @@ header.active {
   gap: 20px;
 }
 /* blog-detials-section----- */
-.blog-details-hero-section {
+.blog-description-hero-section {
   padding-block: 182px 76px;
   position: relative;
 }
-.blog-details-hero-wrapper-right-list {
+.blog-description-hero-wrapper-right-list {
   margin-left: 20px;
   list-style: disc;
   font-size: 16px;
   font-weight: 400;
 }
-.blog-details-hero-wrapper {
+.blog-description-hero-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 88px;
   align-items: start;
 }
-.blog-details-hero-wrapper-left {
+.blog-description-hero-wrapper-left {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1029,54 +1027,54 @@ header.active {
   position: sticky;
   top: 0;
 }
-.blog-details-hero-wrapper-right {
+.blog-description-hero-wrapper-right {
   max-width: 800px;
 }
 
-.blog-details-hero-wrapper-left-title {
+.blog-description-hero-wrapper-left-title {
   font-size: 12px;
   font-weight: 800;
   color: var(--black);
 }
-.blog-details-hero-wrapper-right-para-1 {
+.blog-description-hero-wrapper-right-para-1 {
   font-size: 12px;
   font-weight: 800;
   color: #00000066;
 }
-.blog-details-hero-wrapper-right-title1 {
+.blog-description-hero-wrapper-right-title1 {
   font-size: 50px;
 }
-.blog-details-hero-wrapper-right-title2 {
+.blog-description-hero-wrapper-right-title2 {
   margin-bottom: 22px;
   font-size: 26px;
 }
-.blog-details-hero-wrapper-right-title1 {
+.blog-description-hero-wrapper-right-title1 {
   margin-block: 25px 12px;
 }
-.blog-details-hero-wrapper-right-img {
+.blog-description-hero-wrapper-right-img {
   margin-block: 26px 44px;
   max-width: 832px;
 }
-.blog-details-hero-wrapper-right-list-title {
+.blog-description-hero-wrapper-right-list-title {
   margin-block: 56px 60px;
   font-size: 24px;
   font-weight: 800;
 }
 
-.blog-details-hero-wrapper-right-list-type {
+.blog-description-hero-wrapper-right-list-type {
   margin-top: 22px;
   display: flex;
   flex-direction: column;
   gap: 26px;
 }
-.blog-details-silder-section {
+.blog-description-silder-section {
   padding-block: 100px;
   position: relative;
 }
-.blog-details-silder-icon {
+.blog-description-silder-icon {
   top: 5%;
 }
-.blog-details-silder-icon svg {
+.blog-description-silder-icon svg {
   width: 30px;
   height: auto;
   aspect-ratio: 1;
@@ -1084,7 +1082,7 @@ header.active {
 .blog-splide__arrow--prev {
   right: 6%;
 }
-.blog-details-silder-title {
+.blog-description-silder-title {
   text-align: left;
 }
 /* contact-section-- */
@@ -1122,13 +1120,13 @@ header.active {
 .contact-hero-wrapper-right {
   width: 796px;
 }
-.contact-form-details {
+.contact-form-description {
   padding-block: 16px;
   padding-left: 20px;
   background-color: #f4f4f4;
   border: 1px solid transparent;
 }
-.contact-form-details::placeholder {
+.contact-form-description::placeholder {
   color: var(--black);
   font-size: 16px;
   font-weight: 500;
@@ -1172,7 +1170,7 @@ header.active {
 .information-hero-overlay {
   background-color: var(--primary-color);
 }
-.policies-details-section {
+.policies-description-section {
   padding-bottom: 146px;
 }
 .policies-overlay {
@@ -1200,21 +1198,21 @@ header.active {
 .para-gap {
   margin-top: 5px;
 }
-.policies-details-content {
+.policies-description-content {
   margin-block: 90px 14px;
 }
-.policies-details-content-title {
+.policies-description-content-title {
   font-size: 50px;
 }
-.policies-details-content-sapn-title {
+.policies-description-content-sapn-title {
   font-weight: 400;
 }
-.policies-details-content-detils {
+.policies-description-content-detils {
   display: grid;
   grid-template-columns: repeat(2, 2fr);
   gap: 18px;
 }
-.policies-details-content-detils-para {
+.policies-description-content-detils-para {
   padding-inline: 34px 24px;
   padding-block: 26px;
   width: 100%;
@@ -1224,7 +1222,7 @@ header.active {
   justify-content: space-between;
   align-items: center;
 }
-.policies-details-para {
+.policies-description-para {
   margin-bottom: 25px;
   width: 638px;
 }
@@ -1355,19 +1353,19 @@ footer {
   max-width: 168px;
 }
 
-.infor2-details {
+.infor2-description {
   display: flex;
   flex-direction: column;
   align-items: start;
   gap: 54px;
 }
-.details {
+.description {
   max-width: 340px;
   display: flex;
   align-items: center;
   column-gap: 24px;
 }
-.details-location {
+.description-location {
   display: flex;
 }
 .footer-infor1-title {
@@ -1375,7 +1373,7 @@ footer {
   font-weight: 400;
   line-height: 1.66;
 }
-.details-title {
+.description-title {
   font-weight: 300;
   color: var(--white);
 }
@@ -1384,7 +1382,7 @@ footer {
   line-height: 0.6;
   font-weight: 800;
 }
-.span-details-title {
+.span-description-title {
   font-weight: 800;
   font-size: 10px;
   color: var(--white);
@@ -1439,17 +1437,17 @@ input::placeholder {
   color: var(--white);
 }
 
-.details-location {
+.description-location {
   align-items: start;
 }
-.details-content {
+.description-content {
   display: flex;
   flex-direction: column;
   align-items: start;
   gap: 14px;
 }
 
-.details-title {
+.description-title {
   font-family: "Poppins";
   font-size: 20px;
 }
@@ -1468,7 +1466,7 @@ input::placeholder {
   justify-content: space-between;
   gap: 20px;
 }
-.blog-details-icon {
+.blog-description-icon {
   gap: 6px;
 }
 .icon-color {
@@ -1579,7 +1577,7 @@ input::placeholder {
   width: 16px;
   aspect-ratio: 1;
 }
-.policies-details-content-detils-icon {
+.policies-description-content-detils-icon {
   width: 42px;
   aspect-ratio: 1;
   background-color: var(--black);
@@ -1590,10 +1588,10 @@ input::placeholder {
   transition: all 0.3s ease-in-out;
   transform: rotate(90deg);
 }
-.policies-details-content-detils-icon:hover {
+.policies-description-content-detils-icon:hover {
   background-color: var(--white-200);
 }
-.policies-details-content-detils-icon:hover .policies-btn-icon {
+.policies-description-content-detils-icon:hover .policies-btn-icon {
   color: var(--black);
 }
 .policies-btn-icon {

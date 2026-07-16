@@ -19,13 +19,13 @@
     gap: 20px;
   }
 
-  .blog-details-hero-wrapper-left {
+  .blog-description-hero-wrapper-left {
     width: 800px;
     min-height: 0;
     flex-direction: row;
     align-items: center;
   }
-  .blog-details-hero-wrapper {
+  .blog-description-hero-wrapper {
     gap: 10px;
   }
   .blog-title {
@@ -146,7 +146,7 @@
     visibility: visible;
   }
   .school-icon {
-    width: 50%;
+    width: 41.3%;
   }
   .header-nav-icon.active {
     transition: all 0.3s ease-in-out;
@@ -194,13 +194,10 @@
   .inaction-title {
     font-size: 70px;
   }
-  .blog-details-hero-wrapper-left {
+  .blog-description-hero-wrapper-left {
     width: 800px;
-    min-height: 0;
-    flex-direction: row;
-    align-items: center;
   }
-  .blog-details-hero-wrapper {
+  .blog-description-hero-wrapper {
     gap: 10px;
   }
   .blog-splide__arrow--prev {
@@ -221,11 +218,9 @@
   }
   .academy-content {
     margin-right: 0;
-  }
-
-  .academy-content {
     width: 100%;
   }
+
   .banner-title {
     font-size: 30px;
   }
@@ -322,20 +317,18 @@
   }
   .academies-school-contents {
     grid-template-columns: repeat(2, 2fr);
-  }
-  .academies-school-contents {
     row-gap: 20px;
   }
+
   .school-team-section-img {
     width: 100%;
   }
   .academies-school-team-section {
     padding-right: 0;
     padding-block: 0;
-  }
-  .academies-school-team-section {
     padding-bottom: 20px;
   }
+
   .silder-title {
     font-size: 58px;
   }
@@ -351,9 +344,7 @@
   .blog-splide__arrow--prev {
     right: 10%;
   }
-  .silder-members-section {
-    margin-top: 84px;
-  }
+
   .leadership-wrapper {
     grid-template-columns: repeat(2, 2fr);
   }
@@ -408,13 +399,13 @@
     max-width: 100%;
   }
 
-  .policies-details-content-detils {
+  .policies-description-content-detils {
     grid-template-columns: repeat(1, 1fr);
   }
   .policies-section-content {
     grid-template-columns: repeat(1, 1fr);
   }
-  .policies-details-section {
+  .policies-description-section {
     padding-bottom: 72px;
   }
   .career-opportunities-title {
@@ -429,10 +420,10 @@
   }
 }
 @media only screen and (max-width: 666px) {
-  .blog-details-silder-title {
+  .blog-description-silder-title {
     width: 80%;
   }
-  .blog-details-silder-icon {
+  .blog-description-silder-icon {
     top: 10%;
   }
   .blog-img {
@@ -471,7 +462,7 @@
   .footer-icon {
     right: 3%;
   }
-  .infor2-details {
+  .infor2-description {
     gap: 42px;
   }
   .footer-wrapper-infor3 {
@@ -496,7 +487,7 @@
     font-size: 12px;
   }
   .school-icon {
-    width: 41.3%;
+    width: 32.3%;
   }
   .blog-card-wrapper {
     grid-template-columns: repeat(1, 1fr);
@@ -556,7 +547,7 @@
     max-width: 100%;
   }
 
-  .blog-details-silder-icon {
+  .blog-description-silder-icon {
     top: 8%;
   }
   .blog-splide__arrow--prev {
@@ -638,20 +629,20 @@
   .our-activities {
     padding-block: 44px 58px;
   }
-  .blog-details-icon {
+  .blog-description-icon {
     display: none;
   }
-  .blog-details-hero-wrapper {
+  .blog-description-hero-wrapper {
     gap: 38px;
   }
-  .blog-details-hero-wrapper-right-content-img {
+  .blog-description-hero-wrapper-right-content-img {
     margin-inline: -20px;
   }
-  .blog-details-hero-wrapper-right-list-type {
+  .blog-description-hero-wrapper-right-list-type {
     gap: 4px;
   }
 
-  .blog-details-hero-wrapper-right-list-title {
+  .blog-description-hero-wrapper-right-list-title {
     margin-block: 16px 32px;
   }
 
@@ -665,7 +656,7 @@
     right: 2%;
     top: 38%;
   }
-  .policies-details-para {
+  .policies-description-para {
     width: 100%;
   }
   .information-hero-section-title {
@@ -675,7 +666,7 @@
     font-size: 40px;
   }
 
-  .policies-details-content-title {
+  .policies-description-content-title {
     font-size: 38px;
   }
   .career-opportunities-title {

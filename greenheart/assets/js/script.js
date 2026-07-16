@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-  const sliders = document.querySelectorAll(".blog-details-silder");
+  const sliders = document.querySelectorAll(".blog-description-silder");
 
   if (!sliders.length) {
     return;
