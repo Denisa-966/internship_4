@@ -201,7 +201,9 @@ header.active {
 .para-content p:first-child {
   margin-bottom: 20px;
 }
-
+.action-two-column-section {
+  margin-bottom: 130px;
+}
 /* ----------------trust-hero-section------------ */
 .trust-hero-section {
   background:
@@ -380,8 +382,9 @@ header.active {
 .benefits-support-content {
   margin-top: -50px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 3fr);
   gap: 84px;
+  align-items: start;
   position: relative;
   z-index: 10;
 }
@@ -402,9 +405,6 @@ header.active {
   aspect-ratio: 1;
   border: 1px solid white;
   border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .benefit-support-icon {
@@ -641,9 +641,7 @@ header.active {
   justify-items: center;
 }
 /*----------------- action-section------------------------------------ */
-.action-section {
-  padding-bottom: 130px;
-}
+
 /* --------------------achieved-section -------------*/
 .achieved-section {
   padding-block: 120px;
@@ -888,6 +886,7 @@ header.active {
 .our-aims-bottom-title {
   color: var(--primary-color);
   font-size: 24px;
+  text-align: center;
 }
 .our-aims-bottom-para {
   font-size: 15px;
@@ -943,8 +942,8 @@ header.active {
   margin-right: 80px;
 }
 
-/* --inaction-section-- */
-.inaction-section {
+/* --action-section-- */
+.action-section {
   background:
     linear-gradient(10deg, rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.52) 50%),
     url(../imges/want\ we\ learn.png);
@@ -953,15 +952,16 @@ header.active {
   background-position: center;
   background-size: cover;
 }
-.inaction-wrapper {
+.action-wrapper {
   max-width: 964px;
 }
-.inaction-title {
+.action-title {
   max-width: 964px;
   font-size: 82px;
   font-weight: 200;
+  color: var(--white);
 }
-.inaction-span-title {
+.action-span-title {
   font-weight: 800;
 }
 .our-activitie-title {
@@ -1473,7 +1473,7 @@ input::placeholder {
   color: var(--white);
   transition: all 0.3s ease-in-out;
 }
-.icon-color-black{
+.icon-color-black {
   color: var(--black);
 }
 .infor3-icon:hover .icon-color {
@@ -1483,7 +1483,7 @@ input::placeholder {
   width: 50px;
   aspect-ratio: 1;
   background-color: var(--primary-color);
-  border-radius: 50%;
+  border-radius: 100%;
   display: flex;
   justify-content: center;
   align-items: center;

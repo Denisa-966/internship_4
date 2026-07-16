@@ -43,8 +43,8 @@
     max-width: 240px;
   }
 
-  .inaction-title {
-    font-size: 70px;
+  .action-title {
+    font-size: 64px;
   }
   .contact-hero-wrapper {
     justify-content: center;
@@ -180,7 +180,7 @@
   }
   .benefits-support-content {
     grid-template-columns: repeat(2, 2fr);
-    gap: 10px;
+    gap: 20px;
   }
   .two-column-content-wrapper {
     text-align: center;
@@ -190,9 +190,6 @@
   }
   .feedback-left-img {
     right: 0;
-  }
-  .inaction-title {
-    font-size: 70px;
   }
   .blog-description-hero-wrapper-left {
     width: 800px;
@@ -350,7 +347,9 @@
   .leadership-black-background-section {
     margin-inline: 0;
   }
-
+  .action-blog-img {
+    height: 400px;
+  }
   .two-column-content-title {
     font-size: 66px;
   }
@@ -385,7 +384,7 @@
   .matters-section-title {
     line-height: 1;
   }
-  .inaction-title {
+  .action-title {
     font-size: 30px;
   }
   .our-activitie-content {
@@ -433,6 +432,12 @@
   }
   .team-primary {
     font-size: 74px;
+  }
+  .policies-description-para {
+    width: 100%;
+  }
+  .hero-section-title {
+    font-size: 58px;
   }
 }
 @media only screen and (max-width: 429px) {
@@ -622,7 +627,7 @@
   .our-aims-bottom-title {
     font-size: 18px;
   }
-  .inaction-title {
+  .action-title {
     font-size: 24px;
   }
   .our-activities {
