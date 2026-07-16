@@ -242,13 +242,13 @@
     padding-top: 70px;
   }
 
-  .footer-infor1-title {
+  .footer-content1-title {
     font-size: 40px;
   }
   .span-title {
     font-size: 60px;
   }
-  .footer-infor1-description {
+  .footer-content1-description {
     font-size: 16px;
   }
   .links {
@@ -460,16 +460,16 @@
     flex-direction: column;
   }
 
-  .footer-infor1-description {
+  .footer-content1-description {
     max-width: 100%;
   }
   .footer-icon {
     right: 3%;
   }
-  .infor2-description {
+  .content2-description {
     gap: 42px;
   }
-  .footer-wrapper-infor3 {
+  .footer-wrapper-content3 {
     max-width: 100%;
   }
   .team-primary {
