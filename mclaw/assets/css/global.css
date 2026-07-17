@@ -23,8 +23,7 @@ body {
   color: var(--primary-color);
   line-height: 1;
   min-height: 100vh;
-  font-family: "Maison Neue";
-  line-height: 1.5;
+  font-family: "Maison Neue", sans-serif;
   display: flex;
   flex-direction: column;
   gap: 20px;

@@ -15,7 +15,7 @@
 }
 .header-wrapper-logo-title {
   font-weight: 400;
-  font-family: "Lyons Serif";
+  font-family: "Lyons Serif", sans-serif;
   line-height: 1;
 }
 .header-wrapper-logo-secondary-title {
