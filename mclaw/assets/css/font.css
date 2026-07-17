@@ -33,7 +33,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: "Maison Neue";
   src: url("../fonts/MaisonNeue-Mono.eot");
@@ -41,6 +40,53 @@
     url("../fonts/MaisonNeue-Mono.eot?#iefix") format("embedded-opentype"),
     url("../fonts/MaisonNeue-Mono.woff2") format("woff2"),
     url("../fonts/MaisonNeue-Mono.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lyons Serif";
+  src: url("../fonts/LyonsSerifBlack.eot");
+  src:
+    url("../fonts/LyonsSerifBlack.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/LyonsSerifBlack.woff2") format("woff2"),
+    url("../fonts/LyonsSerifBlack.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lyons Serif";
+  src: url("../fonts/LyonsSerifBold.eot");
+  src:
+    url("../fonts/LyonsSerifBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/LyonsSerifBold.woff2") format("woff2"),
+    url("../fonts/LyonsSerifBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lyons Serif";
+  src: url("../fonts/LyonsSerif-Italic.eot");
+  src:
+    url("../fonts/LyonsSerif-Italic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/LyonsSerif-Italic.woff2") format("woff2"),
+    url("../fonts/LyonsSerif-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lyons Serif";
+  src: url("../fonts/LyonsSerif.eot");
+  src:
+    url("../fonts/LyonsSerif.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/LyonsSerif.woff2") format("woff2"),
+    url("../fonts/LyonsSerif.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;

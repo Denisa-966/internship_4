@@ -1,0 +1,70 @@
+/* header-section--- */
+.header {
+  padding-block: 26px;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-wrapper-logo {
+  color: var(--blue);
+}
+.header-wrapper-logo:hover {
+  color: var(--hover-color);
+}
+.header-wrapper-logo-title {
+  font-weight: 400;
+  font-family: "Lyons Serif";
+  line-height: 1;
+}
+.header-wrapper-logo-secondary-title {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.header-wrapper-logo-span-title {
+  font-weight: 200;
+  font-size: 12px;
+}
+
+.header-wrapper-navbar-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  font-weight: 800;
+}
+.menu-link {
+  color: var(--primary-color);
+}
+.menu-link:hover {
+  color: var(--hover-color);
+}
+.menu-btn,
+.close-btn {
+  display: none;
+}
+.footer-section {
+  background-color: var(--blue);
+  color: var(--white);
+}
+.footer-section-content {
+  position: relative;
+}
+.footer-wrapper {
+  padding-block: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-wrapper-left-content-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.footer-wrapper-right-side-content {
+  display: flex;
+}
+.footer-left-img {
+}

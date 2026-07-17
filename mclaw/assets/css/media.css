@@ -1,0 +1,24 @@
+@media only screen and (max-width: 991px) {
+  .menu-btn {
+    display: block;
+  }
+  .header-wrapper-navbar-link {
+    background-color: var(--primary-color);
+    height: 100vh;
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    padding-left: 20px;
+  }
+
+  .menu-link {
+    padding-block: 20px;
+    color: var(--white);
+  }
+  .headerbtn {
+    max-width: max-content;
+    margin-block: 20px;
+  }
+}

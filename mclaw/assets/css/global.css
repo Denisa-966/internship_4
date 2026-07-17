@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 :root {
-  --primary-color: 192647;
+  --primary-color: #37559e;
+  --hover-color: #648ffd;
   --white: #ffffff;
   --white-100: #f8f8f8;
   --white-200: #efefef;
@@ -13,15 +14,20 @@
   --white-500: #ebebeb;
   --black: #000000;
   --black-100: #141414;
+  --blue: #192647;
   --gray: #707070;
   --transform-uppercase: uppercase;
 }
 body {
+  background-color: var(--white);
+  color: var(--primary-color);
+  line-height: 1;
   min-height: 100vh;
   font-family: "Maison Neue";
   line-height: 1.5;
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 .container {
   padding-inline: 20px;
@@ -30,10 +36,22 @@ body {
   max-width: 1290px;
 }
 .btn {
+  padding: 18px 22px;
   background-color: var(--primary-color);
   color: var(--white);
   border: 1px solid transparent;
   border-radius: 24px;
+  font-weight: 700;
+}
+.btntransprent {
+  padding: 18px 20px;
+  background-color: var(--white-100);
+  color: var(--primary-color);
+  border: 1px solid var(--white-500);
+}
+.btntransprent:hover {
+  background-color: var(--blue);
+  color: var(--hover-color);
 }
 a {
   text-decoration: none;
@@ -90,4 +108,7 @@ p,
 }
 .p2 {
   font-size: 14px;
+}
+.transition {
+  transition: all 0.3s ease-in-out;
 }
