@@ -12,3 +12,8 @@ closeBtn.addEventListener("click", () => {
   menuBtn.style.display = "block";
   menuLink.style.display = "none";
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  var splide = new Splide(".splide");
+  splide.mount();
+});

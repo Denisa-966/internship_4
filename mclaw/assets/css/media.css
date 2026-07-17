@@ -16,6 +16,8 @@
     top: 100%;
     right: 0;
     padding-left: 20px;
+    padding-top: 60px;
+    transition: all 0.3s ease-in-out;
   }
 
   .menu-link {
@@ -51,10 +53,16 @@
   }
 
   .footer-wrapper-right-side-content {
-    gap: 10px;
     flex-direction: column;
   }
   .header-wrapper-content-link {
     gap: 15px;
+  }
+  .hero-wrapper-img {
+    position: static;
+  }
+  .hero-wrapper {
+    color: var(--blue);
+    padding-block: 50px;
   }
 }
