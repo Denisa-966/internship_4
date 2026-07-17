@@ -74,6 +74,9 @@
 /* footer-section-- */
 footer {
   margin-top: auto;
+  position: sticky;
+  bottom: 0;
+  z-index: -2;
 }
 .footer-section {
   background-color: var(--blue);
