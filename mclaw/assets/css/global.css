@@ -42,16 +42,29 @@ body {
   border: 1px solid transparent;
   border-radius: 24px;
   font-weight: 700;
+  max-width: max-content;
 }
+
 .btntransprent {
   padding: 18px 20px;
   background-color: var(--white-100);
   color: var(--primary-color);
   border: 1px solid var(--white-500);
+  max-width: max-content;
 }
 .btntransprent:hover {
   background-color: var(--blue);
   color: var(--hover-color);
+}
+.footer-btn {
+  background-color: transparent;
+  color: var(--white);
+  border: 1px solid var(--white);
+}
+.footer-btn:hover {
+  color: var(--hover-color);
+  background-color: var(--white);
+  border: 1px solid var(--hover-color);
 }
 a {
   text-decoration: none;

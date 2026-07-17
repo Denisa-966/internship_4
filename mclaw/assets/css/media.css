@@ -1,3 +1,8 @@
+@media only screen and (max-width: 1168px) {
+  .footer-wrapper-right-side-content {
+    gap: 70px;
+  }
+}
 @media only screen and (max-width: 991px) {
   .menu-btn {
     display: block;
@@ -20,5 +25,36 @@
   .headerbtn {
     max-width: max-content;
     margin-block: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .footer-wrapper {
+    padding-block: 50px;
+  }
+  .footer-wrapper-content {
+    flex-direction: column-reverse;
+    align-items: start;
+  }
+  .footer-wrapper-left-content {
+    gap: 16px;
+  }
+  .footer-wrapper-right-side-content {
+    margin-top: 20px;
+  }
+  .footer-wrapper-left-content-img {
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 429px) {
+  .footer-wrapper-left-content-icon {
+    flex-direction: row;
+  }
+
+  .footer-wrapper-right-side-content {
+    gap: 10px;
+    flex-direction: column;
+  }
+  .header-wrapper-content-link {
+    gap: 15px;
   }
 }
