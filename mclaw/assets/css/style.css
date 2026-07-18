@@ -106,6 +106,42 @@
 .splide__pagination {
   bottom: -26%;
 }
+/* about-mediation-section */
+.about-mediation {
+  padding-block: 130px;
+}
+.about-mediation-wrapper {
+  max-width: 916px;
+}
+.about-mediation-wrapper-title {
+  color: var(--gray);
+  font-weight: 800;
+}
+.about-mediation-wrapper-sub-title {
+  line-height: 1;
+  font-weight: 300;
+}
+.about-mediation-wrapper-service {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+.about-mediation-wrapper-service-title {
+  color: var(--blue);
+}
+.about-mediation-wrapper-service:hover .about-mediation-wrapper-service-title {
+  color: var(--primary-color);
+}
+.about-mediation-wrapper-service-icon {
+  transform: translateX(0);
+}
+.about-mediation-wrapper-service:hover .about-mediation-wrapper-service-icon {
+  transform: translateX(5px);
+}
+.about-mediation-wrapper-para {
+  font-weight: 300;
+}
 /* footer-section-- */
 footer {
   margin-top: auto;

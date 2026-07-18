@@ -20,7 +20,7 @@
 }
 body {
   background-color: var(--white);
-  color: var(--primary-color);
+  color: var(--blue);
   line-height: 1.2;
   min-height: 100vh;
   font-family: "Maison Neue", sans-serif;
