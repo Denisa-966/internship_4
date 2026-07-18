@@ -44,50 +44,12 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
-  font-family: "Lyons Serif";
-  src: url("../fonts/LyonsSerifBlack.eot");
+  font-family: "Lyon Text";
   src:
-    url("../fonts/LyonsSerifBlack.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/LyonsSerifBlack.woff2") format("woff2"),
-    url("../fonts/LyonsSerifBlack.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Lyons Serif";
-  src: url("../fonts/LyonsSerifBold.eot");
-  src:
-    url("../fonts/LyonsSerifBold.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/LyonsSerifBold.woff2") format("woff2"),
-    url("../fonts/LyonsSerifBold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Lyons Serif";
-  src: url("../fonts/LyonsSerif-Italic.eot");
-  src:
-    url("../fonts/LyonsSerif-Italic.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/LyonsSerif-Italic.woff2") format("woff2"),
-    url("../fonts/LyonsSerif-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Lyons Serif";
-  src: url("../fonts/LyonsSerif.eot");
-  src:
-    url("../fonts/LyonsSerif.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/LyonsSerif.woff2") format("woff2"),
-    url("../fonts/LyonsSerif.woff") format("woff");
+    url("../fonts/LyonText-Regular.woff2") format("woff2"),
+    url("../fonts/LyonText-Regular.woff") format("woff"),
+    url("../fonts/LyonText-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;

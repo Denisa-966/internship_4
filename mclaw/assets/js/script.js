@@ -14,6 +14,8 @@ closeBtn.addEventListener("click", () => {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  var splide = new Splide(".splide");
+  var splide = new Splide(".splide", {
+    arrows: false,
+  });
   splide.mount();
 });

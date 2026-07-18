@@ -1,8 +1,10 @@
 /* header-section--- */
 .header {
   padding-block: 26px;
-  position: relative;
+  position: sticky;
+  top: 0;
   z-index: 999;
+  background-color: var(--white);
 }
 .header-wrapper {
   display: flex;
@@ -12,12 +14,10 @@
 .header-wrapper-logo {
   color: var(--blue);
 }
-.header-wrapper-logo:hover {
-  color: var(--hover-color);
-}
+
 .header-wrapper-logo-title {
   font-weight: 400;
-  font-family: "Lyons Serif", sans-serif;
+  font-family: "Lyon Text", sans-serif;
   line-height: 1;
 }
 .header-wrapper-logo-secondary-title {
@@ -38,7 +38,7 @@
   font-weight: 800;
 }
 .menu-link {
-  color: var(--primary-color);
+  color: var(--blue);
 }
 .menu-link:hover {
   color: var(--hover-color);
@@ -50,11 +50,14 @@
 /* hero-section- */
 .hero-section {
   position: relative;
+  background-color: var(--white);
 }
+
 .hero-wrapper-img {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  object-position: top;
+  top: 0;
+  left: 0;
   z-index: -1;
 }
 .hero-wrapper {
@@ -70,13 +73,45 @@
   display: flex;
   gap: 15px;
 }
+/* home-slider-section */
+.home-slider-section {
+  background-color: var(--blue);
+  color: var(--white);
+  padding-block: 128px 155px;
+}
+.home-slider-section-content-quotes {
+  font-size: 100px;
+}
+.home-slider-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 47px;
+}
+.home-slider-section-content-title {
+  max-width: 662px;
+}
 
+.splide__pagination__page {
+  width: 28px;
+  border-radius: 0;
+  height: 0;
+  padding: 1px;
+  background-color: var(--gray);
+}
+.splide__pagination__page.is-active {
+  transform: none;
+  background-color: var(--white-200);
+}
+.splide__pagination {
+  bottom: -26%;
+}
 /* footer-section-- */
 footer {
   margin-top: auto;
   position: sticky;
   bottom: 0;
-  z-index: -2;
+  z-index: 0;
 }
 .footer-section {
   background-color: var(--blue);
@@ -120,14 +155,20 @@ footer {
   display: flex;
   flex-wrap: wrap;
   align-items: start;
-  gap: 150px;
+  justify-content: space-between;
+  gap: 20px;
+  width: 50%;
+  max-width: 400px;
 }
 
 .footer-wrapper-left-content {
   display: flex;
   flex-wrap: wrap;
   align-items: end;
-  gap: 100px;
+  justify-content: space-between;
+  gap: 30px;
+  width: 50%;
+  max-width: 600px;
 }
 
 .footer-wrapper-left-content-icon {
@@ -136,8 +177,9 @@ footer {
   gap: 30px;
 }
 .footer-wrapper-right-content {
-  width: 160px;
+  max-width: 160px;
 }
+
 .footer-wrapper-right-content-para {
   margin-block: 30px;
   font-weight: 100;

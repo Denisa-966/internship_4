@@ -33,13 +33,16 @@ body {
   width: 100%;
   max-width: 1290px;
 }
+section {
+  position: relative;
+  z-index: 10;
+}
 .btn {
-  padding: 18px 22px;
+  padding: 16px 22px;
   background-color: var(--blue);
   color: var(--white);
   border: 1px solid transparent;
   border-radius: 24px;
-  font-weight: 700;
   max-width: max-content;
 }
 .btn:hover {
@@ -47,9 +50,9 @@ body {
   color: var(--blue);
 }
 .btntransprent {
-  padding: 18px 20px;
+  padding: 16px 20px;
   background-color: transparent;
-  color: var(--primary-color);
+  color: var(--blue);
   border: 1px solid var(--white-500);
   max-width: max-content;
 }
