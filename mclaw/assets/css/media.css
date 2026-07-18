@@ -38,6 +38,9 @@
   .footer-wrapper-right-side-content {
     width: 100%;
   }
+  .two-column-wrapper-right-side {
+    min-height: 500px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .footer-wrapper {
@@ -85,5 +88,8 @@
   .btn2:hover {
     color: var(--white);
     background-color: var(--primary-color);
+  }
+  .about-mediation {
+    padding-block: 50px;
   }
 }

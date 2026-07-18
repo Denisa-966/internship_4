@@ -109,23 +109,26 @@
 /* about-mediation-section */
 .about-mediation {
   padding-block: 130px;
+  background-color: var(--white);
 }
 .about-mediation-wrapper {
   max-width: 916px;
 }
 .about-mediation-wrapper-title {
-  color: var(--gray);
+  color: #70707080;
   font-weight: 800;
 }
 .about-mediation-wrapper-sub-title {
   line-height: 1;
   font-weight: 300;
+  margin-top: 40px;
 }
 .about-mediation-wrapper-service {
   display: flex;
   align-items: center;
   justify-content: start;
-  gap: 10px;
+  gap: 3px;
+  max-width: max-content;
 }
 .about-mediation-wrapper-service-title {
   color: var(--blue);
@@ -141,7 +144,91 @@
 }
 .about-mediation-wrapper-para {
   font-weight: 300;
+  margin-block: 30px 40px;
 }
+
+/* two-column-section */
+.two-column-section {
+  background-color: var(--white-100);
+  padding-block: 80px;
+}
+.two-column-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.two-column-wrapper-img {
+  position: relative;
+}
+.two-column-wrapper-left-side-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+}
+.two-column-wrapper-right-side {
+  min-height: 700px;
+}
+.two-column-wrapper-left-side {
+  width: 50%;
+  padding-right: 30px;
+}
+.two-column-wrapper-left-side-title {
+  margin-block: 110px 46px;
+  font-weight: 400;
+  width: 438px;
+}
+.two-column-line {
+  background-color: #70707026;
+  height: 1px;
+}
+.faq-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 14px;
+}
+.faq-circle {
+  width: 46px;
+  border-radius: 100%;
+  border: 1px solid var(--white-500);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1;
+}
+
+.faq-para {
+  display: grid;
+  grid-template-rows: 0fr;
+}
+.faq-header {
+  cursor: pointer;
+}
+.faq-header.active .faq-para {
+  grid-template-rows: 1fr;
+  padding-block: 30px;
+}
+
+.faq-inner-para {
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  color: #192648bf;
+}
+.faq-header.active .faq-inner-para {
+  opacity: 1;
+  visibility: visible;
+}
+.circle-arrow {
+  transform: rotateZ(180deg);
+}
+.faq-header.active .circle-arrow {
+  transform: rotatez(0);
+}
+
 /* footer-section-- */
 footer {
   margin-top: auto;

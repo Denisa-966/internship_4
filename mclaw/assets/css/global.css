@@ -19,7 +19,6 @@
   --transform-uppercase: uppercase;
 }
 body {
-  background-color: var(--white);
   color: var(--blue);
   line-height: 1.2;
   min-height: 100vh;
