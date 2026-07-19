@@ -38,16 +38,23 @@
   .footer-wrapper-right-side-content {
     width: 100%;
   }
-    .two-column-wrapper{
+  .two-column-wrapper{
     flex-direction: column-reverse;
+  }
+  
+  .two-column-wrapper-left-side{
+    width: 100%;
+    padding-right: 0;
   }
   .two-column-wrapper-right-side {
     min-height: 500px;
+
   }
   .two-column-wrapper-left-side-img{
     position: static;
     width: 100%;
   }
+
 
 }
 
