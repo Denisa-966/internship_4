@@ -38,10 +38,19 @@
   .footer-wrapper-right-side-content {
     width: 100%;
   }
+    .two-column-wrapper{
+    flex-direction: column-reverse;
+  }
   .two-column-wrapper-right-side {
     min-height: 500px;
   }
+  .two-column-wrapper-left-side-img{
+    position: static;
+    width: 100%;
+  }
+
 }
+
 @media only screen and (max-width: 768px) {
   .footer-wrapper {
     padding-block: 50px;
