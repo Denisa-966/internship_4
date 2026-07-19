@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #37559e;
+  --hover-color: #648ffd;
+  --white: #ffffff;
+  --white-100: #f8f8f8;
+  --white-200: #efefef;
+  --white-300: #eceded;
+  --white-400: #e5e5e5;
+  --white-500: #ebebeb;
+  --black: #000000;
+  --black-100: #141414;
+  --blue: #192647;
+  --gray: #707070;
+  --transform-uppercase: uppercase;
+}
+body {
+  color: var(--blue);
+  line-height: 1.2;
+  min-height: 100vh;
+  font-family: "Maison Neue", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  padding-inline: 20px;
+  margin-inline: auto;
+  width: 100%;
+  max-width: 1290px;
+}
+section {
+  position: relative;
+  z-index: 10;
+}
+.btn {
+  padding: 16px 22px;
+  background-color: var(--blue);
+  color: var(--white);
+  border: 1px solid transparent;
+  border-radius: 24px;
+  max-width: max-content;
+}
+.btn:hover {
+  background-color: var(--white);
+  color: var(--blue);
+}
+.btntransprent {
+  padding: 16px 20px;
+  background-color: transparent;
+  color: var(--blue);
+  border: 1px solid var(--white-500);
+  max-width: max-content;
+}
+
+.btntransprent:hover {
+  background-color: var(--blue);
+  color: var(--hover-color);
+}
+.footer-btn {
+  color: var(--white);
+  background-color: transparent;
+  border: 1px solid var(--white);
+}
+.footer-btn:hover {
+  color: var(--hover-color);
+  background-color: var(--white);
+}
+a {
+  text-decoration: none;
+  display: block;
+}
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  display: block;
+}
+
+.img-contain {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.img-cover {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+li {
+  list-style: none;
+}
+.h1,
+h1 {
+  font-size: 55px;
+}
+.h2,
+h2 {
+  font-size: 45px;
+}
+.h3,
+h3 {
+  font-size: 35px;
+}
+.h4,
+h4 {
+  font-size: 24px;
+}
+.h5,
+h5 {
+  font-size: 22px;
+}
+.h6,
+h6 {
+  font-size: 20px;
+}
+p,
+.p {
+  font-size: 16px;
+}
+.p2 {
+  font-size: 14px;
+}
+.transition {
+  transition: all 0.3s ease-in-out;
+}

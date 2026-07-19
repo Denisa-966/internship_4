@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Maison Neue";
+  src: url("../fonts/MaisonNeue-Bold.eot");
+  src:
+    url("../fonts/MaisonNeue-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MaisonNeue-Bold.woff2") format("woff2"),
+    url("../fonts/MaisonNeue-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Maison Neue Book";
+  src: url("../fonts/MaisonNeue-Book.eot");
+  src:
+    url("../fonts/MaisonNeue-Book.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MaisonNeue-Book.woff2") format("woff2"),
+    url("../fonts/MaisonNeue-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Maison Neue";
+  src: url("../fonts/MaisonNeue-Light.eot");
+  src:
+    url("../fonts/MaisonNeue-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MaisonNeue-Light.woff2") format("woff2"),
+    url("../fonts/MaisonNeue-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Maison Neue";
+  src: url("../fonts/MaisonNeue-Mono.eot");
+  src:
+    url("../fonts/MaisonNeue-Mono.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MaisonNeue-Mono.woff2") format("woff2"),
+    url("../fonts/MaisonNeue-Mono.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lyon Text";
+  src:
+    url("../fonts/LyonText-Regular.woff2") format("woff2"),
+    url("../fonts/LyonText-Regular.woff") format("woff"),
+    url("../fonts/LyonText-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
