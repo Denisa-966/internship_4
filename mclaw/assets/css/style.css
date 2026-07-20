@@ -73,6 +73,12 @@
   display: flex;
   gap: 15px;
 }
+.about-two-column-section {
+  padding-block: 92px;
+  background-color: var(--blue);
+  color: var(--white);
+}
+
 /* home-slider-section */
 .home-slider-section {
   background-color: var(--blue);
@@ -127,7 +133,7 @@
   display: flex;
   align-items: center;
   justify-content: start;
-  gap: 3px;
+  gap: 4px;
   max-width: max-content;
 }
 .about-mediation-wrapper-service-title {
@@ -215,14 +221,13 @@
 
 .faq-inner-para {
   overflow: hidden;
-  opacity: 0;
-  visibility: hidden;
+
   color: #192648bf;
 }
-.faq-header.active .faq-inner-para {
-  opacity: 1;
-  visibility: visible;
+.faq-main-para {
+  overflow: hidden;
 }
+
 .circle-arrow {
   transform: rotateZ(180deg);
 }
@@ -242,10 +247,6 @@
   border: 1px solid var(--white-400);
 }
 
-.case-btn {
-  border: 1px solid var(--white-500);
-  color: var(--blue);
-}
 .case-studies-blog-card-content {
   padding: 30px;
 }
@@ -261,9 +262,91 @@
 .case-studies-blog-card-content-title {
   color: #192647b3;
 }
-.case-studies-circle {
+.case-studies-arrow {
   transform: rotatez(90deg);
 }
+.cta-section {
+  background-color: var(--white-300);
+  padding-block: 120px;
+}
+.case-circle:hover {
+  background-color: var(--gray);
+}
+
+.cta-para {
+  width: 576px;
+  margin-bottom: 26px;
+  font-weight: 300;
+}
+.case-studies-blog-img-content {
+  height: 336px;
+}
+
+/* about-page */
+/* about-hero-section */
+.about-hero-section {
+  padding-block: 100px;
+  background-color: var(--white);
+}
+.about-hero-wrapper {
+  max-width: 812px;
+  line-height: 1;
+}
+.about-hero-wrapper-title {
+  font-weight: 300;
+}
+.about-hero-wrapper-para {
+  margin-block: 30px 26px;
+}
+.about-two-column-img {
+  left: 0;
+}
+.two-column-wrapper-content {
+  width: 50%;
+}
+.about-two-column-title {
+  margin-block: 64px 46px;
+  font-weight: 400;
+}
+.about-two-column-para {
+  color: #f8f8f8bf;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.para2 {
+  margin-block: 30px 45px;
+}
+.about-two-column-wrapper {
+  flex-direction: row-reverse;
+}
+.about-service {
+  color: var(--white);
+}
+.about-service-icon {
+  color: var(--white);
+}
+.about-mediation-wrapper-service:hover .about-service-icon {
+  color: var(--primary-color);
+}
+.about-faq-section {
+  background-color: var(--white-100);
+  padding-block: 168px;
+}
+.about-faq-wrapper-title {
+  margin-block: 30px 120px;
+  font-weight: 300;
+}
+.about-faq-wrapper {
+  max-width: 848px;
+  margin-inline: auto;
+}
+.faq-title {
+  font-weight: 400;
+}
+.about-faq-title {
+  margin-bottom: 28px;
+}
+
 /* footer-section-- */
 footer {
   margin-top: auto;

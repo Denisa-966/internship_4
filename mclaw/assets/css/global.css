@@ -19,7 +19,7 @@
   --transform-uppercase: uppercase;
 }
 body {
-  color: var(--blue);
+  -color: var(--blue);
   line-height: 1.2;
   min-height: 100vh;
   font-family: "Maison Neue", sans-serif;
@@ -35,6 +35,10 @@ body {
 section {
   position: relative;
   z-index: 10;
+}
+.headerbtn {
+  max-width: max-content;
+  margin-block: 20px;
 }
 .btn {
   padding: 16px 22px;
@@ -59,6 +63,25 @@ section {
 .btntransprent:hover {
   background-color: var(--blue);
   color: var(--hover-color);
+}
+.btn1:hover {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+.btn2 {
+  border: 1px solid var(--blue);
+  color: var(--blue);
+}
+.btn2:hover {
+  color: var(--white);
+  background-color: var(--primary-color);
+}
+.case-btn {
+  border: 1px solid var(--white-500);
+  color: var(--blue);
+}
+.case-btn:hover {
+  background-color: var(--blue);
 }
 .footer-btn {
   color: var(--white);
