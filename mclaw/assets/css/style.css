@@ -373,6 +373,7 @@
 }
 .information-list {
   list-style: disc;
+  margin-left: 20px;
 }
 .information-line {
   margin-block: 24px 28px;
