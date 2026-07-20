@@ -359,15 +359,30 @@
   background-color: var(--white-300);
 }
 .information-wrapper-content {
-  display: grid;
-  grid-template-columns: repeat(2, 2fr);
-  gap: 80px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1064px;
+}
+.information-wrapper-para {
+  margin-block: 80px 140px;
+  max-width: 1064px;
 }
 .information-wrapper-inner-content {
   max-width: 492px;
 }
 .information-list {
   list-style: disc;
+}
+.information-line {
+  margin-block: 24px 28px;
+}
+.information-wrapper-inner-content-para {
+  margin-bottom: 44px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
 }
 /* footer-section-- */
 footer {
