@@ -297,6 +297,7 @@
 }
 .about-hero-wrapper-para {
   margin-block: 30px 26px;
+  color: #192647bf;
 }
 .about-two-column-img {
   left: 0;
@@ -346,7 +347,28 @@
 .about-faq-title {
   margin-bottom: 28px;
 }
-
+/* process-page */
+.process-warpper {
+  max-width: 668px;
+}
+.process-title {
+  line-height: 1.5;
+}
+.information-section {
+  padding-block: 160px 140px;
+  background-color: var(--white-300);
+}
+.information-wrapper-content {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 80px;
+}
+.information-wrapper-inner-content {
+  max-width: 492px;
+}
+.information-list {
+  list-style: disc;
+}
 /* footer-section-- */
 footer {
   margin-top: auto;
