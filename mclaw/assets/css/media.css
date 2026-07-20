@@ -28,6 +28,13 @@
     max-width: max-content;
     margin-block: 20px;
   }
+  .hero-wrapper-img {
+    min-height: 400px;
+    object-position: center;
+  }
+  .home-slider-section {
+    padding-top: 28px;
+  }
   .footer-wrapper-content {
     flex-direction: column-reverse;
     align-items: start;
@@ -38,6 +45,12 @@
   .footer-wrapper-right-side-content {
     width: 100%;
   }
+  .about-mediation {
+    padding-block: 100px;
+  }
+  .two-column-section {
+    padding-top: 0;
+  }
   .two-column-wrapper {
     flex-direction: column-reverse;
   }
@@ -46,12 +59,17 @@
     width: 100%;
   }
   .two-column-wrapper-right-side {
-    width: auto;
-    margin-inline: -20px;
+    width: calc(100% + 50px);
   }
   .two-column-wrapper-left-side {
     width: 100%;
     padding-right: 0;
+  }
+  .two-column-wrapper-left-side-title {
+    width: 100%;
+  }
+  .case-studies-wrapper-bottom-content {
+    grid-template-columns: repeat(2, 2fr);
   }
 }
 

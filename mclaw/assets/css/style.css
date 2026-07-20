@@ -55,10 +55,10 @@
 
 .hero-wrapper-img {
   position: absolute;
-  object-position: top;
   top: 0;
   left: 0;
   z-index: -1;
+  min-height: 700px;
 }
 .hero-wrapper {
   padding-block: 200px 300px;
@@ -86,7 +86,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 47px;
+  gap: 48px;
 }
 .home-slider-section-content-title {
   max-width: 662px;
@@ -156,7 +156,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  gap: 30px;
 }
 .two-column-wrapper-img {
   position: relative;
@@ -228,7 +228,41 @@
 .faq-header.active .circle-arrow {
   transform: rotatez(0);
 }
+.case-studies-section {
+  padding-block: 146px 128px;
+  background-color: var(--white);
+}
+.case-studies-wrapper-bottom-content {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  gap: 70px;
+}
+.case-studies-blog-card {
+  border: 1px solid var(--white-400);
+}
 
+.case-btn {
+  border: 1px solid var(--white-500);
+  color: var(--blue);
+}
+.case-studies-blog-card-content {
+  padding: 30px;
+}
+.case-studies-wrapper-top-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 32px;
+}
+.case-studies-blog-card-content-para {
+  margin-block: 8px 20px;
+}
+.case-studies-blog-card-content-title {
+  color: #192647b3;
+}
+.case-studies-circle {
+  transform: rotatez(90deg);
+}
 /* footer-section-- */
 footer {
   margin-top: auto;
