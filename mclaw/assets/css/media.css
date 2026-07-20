@@ -45,6 +45,10 @@
     position: static;
     width: 100%;
   }
+  .two-column-wrapper-right-side {
+    width: auto;
+    margin-inline: -20px;
+  }
   .two-column-wrapper-left-side {
     width: 100%;
     padding-right: 0;
