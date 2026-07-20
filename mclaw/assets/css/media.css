@@ -87,6 +87,9 @@
   .footer-wrapper-left-content-img {
     height: 100%;
   }
+  .about-faq-section {
+    padding-block: 60px;
+  }
 }
 @media only screen and (max-width: 600px) {
   .cta-para {
@@ -131,5 +134,8 @@
   }
   .case-studies-wrapper-bottom-content {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .about-faq-wrapper-title {
+    margin-bottom: 50px;
   }
 }
