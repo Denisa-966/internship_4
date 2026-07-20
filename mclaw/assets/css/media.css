@@ -38,39 +38,17 @@
   .footer-wrapper-right-side-content {
     width: 100%;
   }
-<<<<<<< Updated upstream
-  .two-column-wrapper{
-    flex-direction: column-reverse;
-  }
-  
-  .two-column-wrapper-left-side{
-=======
   .two-column-wrapper {
     flex-direction: column-reverse;
   }
-
+  .two-column-wrapper-right-side-img {
+    position: static;
+    width: 100%;
+  }
   .two-column-wrapper-left-side {
->>>>>>> Stashed changes
     width: 100%;
     padding-right: 0;
   }
-  .two-column-wrapper-right-side {
-    min-height: 500px;
-
-  }
-<<<<<<< Updated upstream
-  .two-column-wrapper-left-side-img{
-    position: static;
-    width: 100%;
-  }
-
-
-=======
-  .two-column-wrapper-left-side-img {
-    position: static;
-    width: 100%;
-  }
->>>>>>> Stashed changes
 }
 
 @media only screen and (max-width: 768px) {
