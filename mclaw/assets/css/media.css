@@ -138,4 +138,7 @@
   .about-faq-wrapper-title {
     margin-bottom: 50px;
   }
+  .information-wrapper-content{
+    flex-direction: column;
+  }
 }

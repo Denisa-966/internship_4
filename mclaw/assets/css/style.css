@@ -362,6 +362,7 @@
   display: flex;
   justify-content: space-between;
   max-width: 1064px;
+  gap: 30px;
 }
 .information-wrapper-para {
   margin-block: 80px 140px;
