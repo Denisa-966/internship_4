@@ -161,7 +161,10 @@
 .two-column-wrapper-img {
   position: relative;
 }
-.two-column-wrapper-left-side-img {
+.two-column-wrapper-right-side {
+  width: calc(50% + 300px);
+}
+.two-column-wrapper-right-side-img {
   position: absolute;
   top: 0;
   right: 0;
