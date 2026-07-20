@@ -1,0 +1,141 @@
+@media only screen and (max-width: 1037px) {
+  .header-wrapper-content-link {
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .menu-btn {
+    display: block;
+  }
+  .header-wrapper-navbar-link {
+    background-color: var(--primary-color);
+    height: 100vh;
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    padding-left: 20px;
+    padding-top: 60px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .menu-link {
+    padding-block: 20px;
+    color: var(--white);
+  }
+
+  .hero-wrapper-img {
+    min-height: 400px;
+    object-position: center;
+  }
+  .home-slider-section {
+    padding-top: 28px;
+  }
+  .footer-wrapper-content {
+    flex-direction: column-reverse;
+    align-items: start;
+  }
+  .footer-wrapper-left-content {
+    width: 100%;
+  }
+  .footer-wrapper-right-side-content {
+    width: 100%;
+  }
+  .about-mediation {
+    padding-block: 100px;
+  }
+  .two-column-section {
+    padding-top: 0;
+  }
+  .two-column-wrapper {
+    flex-direction: column-reverse;
+  }
+  .two-column-wrapper-right-side-img {
+    position: static;
+    width: 100%;
+  }
+  .two-column-wrapper-right-side {
+    width: calc(100% + 40px);
+  }
+  .two-column-wrapper-left-side {
+    width: 100%;
+    padding-right: 0;
+  }
+  .two-column-wrapper-left-side-title {
+    width: 100%;
+  }
+  .case-studies-wrapper-bottom-content {
+    grid-template-columns: repeat(2, 2fr);
+  }
+  .two-column-wrapper-content {
+    width: 100%;
+  }
+  .about-two-column-section {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-wrapper {
+    padding-block: 50px;
+  }
+
+  .footer-wrapper-right-side-content {
+    margin-top: 20px;
+  }
+  .footer-wrapper-left-content-img {
+    height: 100%;
+  }
+  .about-faq-section {
+    padding-block: 60px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .cta-para {
+    width: 100%;
+  }
+  .cta-section {
+    padding-block: 60px;
+  }
+  .case-studies-wrapper-bottom-content {
+    gap: 40px;
+  }
+  .case-studies-blog-card-content-para {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .footer-wrapper-left-content-icon {
+    flex-direction: row;
+  }
+  .header-wrapper-logo-span-title {
+    font-size: 8px;
+  }
+  .header-wrapper-logo-title {
+    font-size: 22px;
+  }
+  .footer-wrapper-right-side-content {
+    flex-direction: column;
+  }
+  .header-wrapper-content-link {
+    gap: 15px;
+  }
+  .hero-wrapper-img {
+    position: static;
+  }
+  .hero-wrapper {
+    color: var(--blue);
+    padding-block: 50px;
+  }
+
+  .about-mediation {
+    padding-block: 50px;
+  }
+  .case-studies-wrapper-bottom-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about-faq-wrapper-title {
+    margin-bottom: 50px;
+  }
+}
