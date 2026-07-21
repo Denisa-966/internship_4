@@ -154,4 +154,11 @@
   .blog-section {
     padding-block: 30px 100px;
   }
+  .search-form {
+    flex-direction: column;
+  }
+  .search-input,
+  .submit-btn {
+    max-width: 100%;
+  }
 }

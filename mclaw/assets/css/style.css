@@ -464,13 +464,28 @@
 .solution-section {
   background-color: var(--white-100);
 }
-.solution-wrapper {
-  margin-inline: auto;
-  max-width: 848px;
+.faqs-section {
+  background-color: var(--white);
+  padding-block: 142px 166px;
 }
-.solution-title {
-  margin-block: 44px;
+.faqs-wrapper {
+  max-width: 848px;
+  margin-inline: auto;
+}
+.faqs-wrapper-title {
   font-weight: 300;
+}
+.faqs-wrapper-para {
+  margin-block: 58px;
+}
+.search-form {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 96px;
+}
+.search-input {
+  width: 748px;
 }
 /* footer-section-- */
 footer {

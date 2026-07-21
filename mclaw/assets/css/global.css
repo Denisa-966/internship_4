@@ -57,7 +57,6 @@ section {
   background-color: transparent;
   color: var(--blue);
   border: 1px solid var(--white-500);
-  max-width: max-content;
   font-weight: 700;
 }
 
@@ -83,6 +82,13 @@ section {
 }
 .case-btn:hover {
   background-color: var(--blue);
+}
+
+.search-input {
+  border: 1px solid #717171;
+  border-radius: 24px;
+  padding-block: 16px;
+  padding-left: 20px;
 }
 .footer-btn {
   color: var(--white);
