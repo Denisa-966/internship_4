@@ -421,7 +421,7 @@
 /* case-study-section */
 .case-section {
   background-color: var(--white);
-  padding-block-end: 84px;
+  padding-block: 84px;
 }
 .case-wrapper-title {
   font-weight: 300;
