@@ -99,10 +99,13 @@
     padding-block: 60px;
   }
   .case-studies-wrapper-bottom-content {
-    gap: 40px;
+    gap: 20px;
   }
   .case-studies-blog-card-content-para {
     font-size: 20px;
+  }
+  .case-studies-blog-card-content {
+    padding: 26px;
   }
 }
 @media only screen and (max-width: 430px) {
@@ -138,7 +141,17 @@
   .about-faq-wrapper-title {
     margin-bottom: 50px;
   }
-  .information-wrapper-content{
+  .information-wrapper-content {
     flex-direction: column;
+  }
+  .blog-wrapper {
+    flex-direction: column;
+  }
+  .blog-wrapper-right,
+  .blog-wrapper-left {
+    width: 100%;
+  }
+  .blog-section {
+    padding-block: 30px 100px;
   }
 }

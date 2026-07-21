@@ -408,9 +408,69 @@
   display: flex;
   gap: 10px;
   margin-block: 110px 44px;
+  overflow: hidden;
 }
 .tab-content {
   grid-template-columns: repeat(2, 2fr);
+  margin-bottom: 114px;
+}
+.tab-inner-list {
+  flex-shrink: 0;
+}
+/* case-study-section */
+.case-section {
+  background-color: var(--white);
+  padding-block-end: 84px;
+}
+.case-wrapper-title {
+  font-weight: 300;
+}
+.case-slider-section {
+  background-color: var(--white);
+}
+.splide_case .splide__pagination {
+  bottom: 10%;
+  left: 4%;
+  right: auto;
+}
+.blog-section {
+  background-color: var(--white);
+  padding-block: 90px 208px;
+}
+.blog-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.blog-wrapper-left {
+  width: 756px;
+}
+.blog-wrapper-title {
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+.blog-wrapper-para {
+  color: #192647bf;
+}
+.blog-wrapper-right {
+  width: 416px;
+}
+.blog-wrapper-right-content-para {
+  margin-block: 15px 30px;
+}
+.blog-title {
+  color: var(--gray);
+}
+.solution-section {
+  background-color: var(--white-100);
+}
+.solution-wrapper {
+  margin-inline: auto;
+  max-width: 848px;
+}
+.solution-title {
+  margin-block: 44px;
+  font-weight: 300;
 }
 /* footer-section-- */
 footer {
