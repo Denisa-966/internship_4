@@ -8,7 +8,7 @@
     display: block;
   }
   .header-wrapper-navbar-link {
-    background-color: var(--primary-color);
+    background-color: var(--white-500);
     height: 100vh;
     display: none;
     width: 100%;
@@ -19,10 +19,15 @@
     padding-top: 60px;
     transition: all 0.3s ease-in-out;
   }
-
+  .header-wrapper-navbar-link li {
+    text-align: center;
+  }
+  .headerbtn {
+    margin-inline: auto;
+    border: 1px solid var(--blue);
+  }
   .menu-link {
     padding-block: 20px;
-    color: var(--white);
   }
 
   .hero-wrapper-img {
@@ -90,6 +95,13 @@
   .about-faq-section {
     padding-block: 60px;
   }
+  .user-contact-form {
+    flex-direction: column;
+  }
+  .contact-form,
+  .contact-details {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 600px) {
   .cta-para {
@@ -106,6 +118,14 @@
   }
   .case-studies-blog-card-content {
     padding: 26px;
+  }
+  .form-group {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 12px;
+  }
+  .form-icon {
+    top: 20%;
+    right: 2%;
   }
 }
 @media only screen and (max-width: 430px) {

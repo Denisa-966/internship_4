@@ -36,10 +36,7 @@ section {
   position: relative;
   z-index: 10;
 }
-.headerbtn {
-  max-width: max-content;
-  margin-block: 20px;
-}
+
 .btn {
   padding: 16px 22px;
   background-color: var(--blue);

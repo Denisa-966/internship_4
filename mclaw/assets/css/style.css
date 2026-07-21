@@ -540,6 +540,29 @@ textarea {
 .contact-details-para {
   margin-block: 28px 16px;
 }
+
+/* privacy-page */
+.privacy-section {
+  background-color: var(--white-100);
+  padding-block: 80px 178px;
+}
+.privacy-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.privacy-wrapper-right {
+  max-width: 848px;
+}
+.privacy-wrapper-right-para {
+  color: #707070bf;
+  line-height: 1.5;
+}
+.privacy-wrapper-right-title {
+  font-weight: 400;
+  margin-bottom: 26px;
+}
 /* footer-section-- */
 footer {
   margin-top: auto;
