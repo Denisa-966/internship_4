@@ -17,13 +17,10 @@ const sections = document.querySelectorAll(".privacy-wrapper-right h2");
 const leftContent = document.querySelectorAll(".privacy-wrapper-left-content");
 
 window.addEventListener("DOMContentLoaded", () => {
-  document
-    .querySelector('.privacy-wrapper-left-content[href="#Privacy Policy"] .left-content-title')
-    .classList.add("active");
+  const firstLink = document.querySelector(".privacy-wrapper-left-content");
 
-  document
-    .querySelector('.privacy-wrapper-left-content[href="#Privacy Policy"] .left-content-symbol')
-    .classList.add("active");
+  firstLink.querySelector(".left-content-title").classList.add("active");
+  firstLink.querySelector(".left-content-symbol").classList.add("active");
 });
 
 window.addEventListener("scroll", () => {

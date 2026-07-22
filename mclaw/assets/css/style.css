@@ -71,7 +71,7 @@
   color: var(--white);
 }
 .hero-wrapper-title {
-  max-width: 610px;
+  max-width: 632px;
   font-weight: 300;
   margin-block: 18px 30px;
 }
@@ -253,7 +253,7 @@
 .case-studies-wrapper-bottom-content {
   display: grid;
   grid-template-columns: repeat(3, 3fr);
-  gap: 70px;
+  gap: 80px;
 }
 .case-studies-blog-card {
   border: 1px solid var(--white-400);
@@ -274,6 +274,7 @@
 }
 .case-studies-blog-card-content-title {
   color: #192647bf;
+  font-weight: 400;
 }
 .case-studies-arrow {
   transform: rotatez(90deg);
@@ -311,6 +312,7 @@
 .about-hero-wrapper-para {
   margin-block: 30px 26px;
   color: #192647bf;
+  max-width: 524px;
 }
 .about-two-column-img {
   left: 0;
@@ -359,6 +361,7 @@
 }
 .about-faq-title {
   margin-bottom: 28px;
+  color: #70707080;
 }
 /* process-page */
 .process-title {
@@ -373,14 +376,13 @@
   display: flex;
   justify-content: space-between;
   gap: 30px;
+  max-width: 1064px;
 }
 .information-wrapper-para {
   margin-block: 80px 140px;
   max-width: 1064px;
 }
-.information-wrapper-inner-content {
-  max-width: 492px;
-}
+
 .information-list {
   list-style: disc;
   margin-left: 30px;
@@ -411,11 +413,10 @@
 .tab-title {
   max-width: 658px;
   color: var(--gray);
-  font-weight: 400;
+  font-weight: 300;
 }
 .tab-span-title {
   color: var(--blue);
-  font-weight: 800;
 }
 .tab-list {
   display: flex;
@@ -475,10 +476,18 @@
   color: var(--gray);
 }
 .solution-section {
-  background-color: var(--white-100);
+  background-color: var(--white-300);
+}
+.solution-wrapper {
+  max-width: 850px;
+  margin-inline: auto;
+}
+.solution-title {
+  font-weight: 400;
+  margin-block: 30px;
 }
 .faqs-section {
-  background-color: var(--white);
+  background-color: var(--white-100);
   padding-block: 142px 166px;
 }
 .faqs-wrapper {
@@ -502,7 +511,7 @@
 }
 /* contact page */
 .contact-section {
-  padding-block: 104px;
+  padding-top: 104px;
   background-color: var(--white-100);
 }
 .user-contact-form {
@@ -519,6 +528,9 @@
 }
 .contact-details-title {
   margin-bottom: 54px;
+}
+.contact-wrapper-title {
+  font-weight: 300;
 }
 .form-content {
   border-radius: 24px;
@@ -604,7 +616,7 @@ textarea {
   line-height: 1.5;
 }
 .privacy-wrapper-right-title {
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: 26px;
 }
 .privacy-wrapper-left {

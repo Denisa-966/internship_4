@@ -45,7 +45,9 @@
   }
   .footer-wrapper-right-side-content {
     width: 100%;
+    margin-top: 20px;
   }
+
   .about-mediation {
     padding-block: 100px;
   }
@@ -85,9 +87,6 @@
     padding-block: 50px;
   }
 
-  .footer-wrapper-right-side-content {
-    margin-top: 20px;
-  }
   .footer-wrapper-left-content-img {
     height: 100%;
   }
@@ -96,9 +95,9 @@
   }
   .user-contact-form {
     flex-direction: column;
+    margin-block: 80px;
   }
-  .contact-form,
-  .contact-details {
+  .contact-form {
     width: 100%;
   }
 }
@@ -166,6 +165,15 @@
     color: var(--blue);
     padding-block: 50px;
   }
+  .tab-title {
+    font-size: 40px;
+  }
+  .tab-list {
+    margin-top: 70px;
+  }
+  .tab-content {
+    margin-bottom: 44px;
+  }
   .home-slider-section-content-title {
     font-size: 30px;
   }
@@ -178,17 +186,40 @@
   .about-mediation {
     padding-block: 50px;
   }
+  .about-hero-section {
+    padding-block: 80px;
+  }
+  .about-hero-wrapper-title {
+    font-size: 40px;
+  }
   .case-studies-wrapper-bottom-content {
     grid-template-columns: repeat(1, 1fr);
   }
   .about-faq-wrapper-title {
     margin-bottom: 50px;
+    font-size: 40px;
   }
   .information-wrapper-content {
     flex-direction: column;
   }
+  .information-wrapper-para {
+    font-size: 35px;
+    margin-block: 70px;
+  }
+  .information-section {
+    padding-block: 42px 100px;
+  }
+  .faqs-section {
+    padding-block: 50px 106px;
+  }
+  .faqs-wrapper-title {
+    font-size: 40px;
+  }
   .blog-wrapper {
     flex-direction: column;
+  }
+  .blog-wrapper-title {
+    font-size: 35px;
   }
   .blog-wrapper-right,
   .blog-wrapper-left {
