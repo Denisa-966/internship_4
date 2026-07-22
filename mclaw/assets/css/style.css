@@ -550,6 +550,7 @@ textarea {
 .privacy-wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: start;
   gap: 20px;
 }
 
@@ -564,6 +565,11 @@ textarea {
   font-weight: 400;
   margin-bottom: 26px;
 }
+.privacy-wrapper-left {
+  position: sticky;
+  top: 120px;
+}
+
 /* footer-section-- */
 footer {
   margin-top: auto;
