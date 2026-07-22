@@ -1,7 +1,6 @@
 let menuBtn = document.querySelector(".menu-btn");
 let closeBtn = document.querySelector(".close-btn");
 let menuLink = document.querySelector(".header-wrapper-navbar-link");
-let circleArrow = document.querySelector(".two-column-wrapper-left-side-content-circle");
 
 menuBtn.addEventListener("click", () => {
   closeBtn.style.display = "block";
@@ -14,8 +13,45 @@ closeBtn.addEventListener("click", () => {
   menuLink.style.display = "none";
 });
 
-const faqs = document.querySelectorAll(".faq-header");
+const sections = document.querySelectorAll(".privacy-wrapper-right h2");
+const leftContent = document.querySelectorAll(".privacy-wrapper-left-content");
 
+window.addEventListener("DOMContentLoaded", () => {
+  document
+    .querySelector('.privacy-wrapper-left-content[href="#Privacy Policy"] .left-content-title')
+    .classList.add("active");
+
+  document
+    .querySelector('.privacy-wrapper-left-content[href="#Privacy Policy"] .left-content-symbol')
+    .classList.add("active");
+});
+
+window.addEventListener("scroll", () => {
+  let current = "";
+
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop - 150;
+
+    if (window.scrollY >= sectionTop) {
+      current = section.getAttribute("id");
+    }
+  });
+
+  leftContent.forEach((link) => {
+    const title = link.querySelector(".left-content-title");
+    const symbol = link.querySelector(".left-content-symbol");
+
+    title.classList.remove("active");
+    symbol.classList.remove("active");
+
+    if (link.getAttribute("href") === "#" + current) {
+      title.classList.add("active");
+      symbol.classList.add("active");
+    }
+  });
+});
+
+const faqs = document.querySelectorAll(".faq-header");
 faqs.forEach((faq) => {
   faq.querySelector(".faq-content").addEventListener("click", () => {
     faqs.forEach((item) => {
