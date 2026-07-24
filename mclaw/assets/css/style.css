@@ -124,6 +124,10 @@
 .splide__pagination {
   bottom: -26%;
 }
+.hero-wrapper-para{
+  font-weight: 800;
+  color: var(--white-200);
+}
 /* about-mediation-section */
 .about-mediation {
   padding-block: 130px;
@@ -196,7 +200,6 @@
 }
 .two-column-wrapper-left-side-title {
   margin-block: 110px 46px;
-  font-weight: 400;
   width: 438px;
 }
 .two-column-line {
@@ -356,9 +359,7 @@
   max-width: 848px;
   margin-inline: auto;
 }
-.faq-title {
-  font-weight: 400;
-}
+  
 .about-faq-title {
   margin-bottom: 28px;
   color: #70707080;
