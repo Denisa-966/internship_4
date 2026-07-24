@@ -26,7 +26,7 @@
 }
 .header-wrapper-logo-secondary-title {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 4px;
 }
 .header-wrapper-logo-span-title {
@@ -45,7 +45,7 @@
   color: var(--blue);
 }
 .menu-link:hover {
-  color: var(--hover-color);
+  color: var(--gray);
 }
 
 .close-btn,

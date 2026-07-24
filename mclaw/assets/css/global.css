@@ -72,7 +72,7 @@ section {
 }
 .btntransprent:hover {
   background-color: var(--blue);
-  color: var(--hover-color);
+  color: var(--gray);
 }
 .btn1:hover {
   background-color: var(--primary-color);
