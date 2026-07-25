@@ -72,9 +72,8 @@
 }
 .hero-wrapper-title {
   max-width: 632px;
-  font-weight: 300;
   margin-block: 18px 30px;
-  font-family: 'Maison Neue Book', sans-serif;
+
 }
 .hero-wrapper-btn {
   display: flex;
@@ -332,7 +331,7 @@
 }
 .about-two-column-title {
   margin-block: 64px 46px;
-  font-weight: 400;
+  font-weight: 200;
 }
 .about-two-column-para {
   color: #f8f8f8bf;
@@ -471,7 +470,7 @@
   width: 756px;
 }
 .blog-wrapper-title {
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: 35px;
 }
 .blog-wrapper-para {
@@ -494,7 +493,7 @@
   margin-inline: auto;
 }
 .solution-title {
-  font-weight: 400;
+  font-weight: 300;
   margin-block: 30px;
 }
 .faqs-section {
@@ -627,6 +626,7 @@ textarea {
   line-height: 1.5;
 }
 .privacy-wrapper-right-title {
+  font-family: 'maison Neue Book', sans-serif;
   font-weight: 400;
   margin-bottom: 26px;
 }

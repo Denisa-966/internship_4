@@ -49,7 +49,7 @@ section {
   color: var(--white);
   border: 1px solid transparent;
   border-radius: 24px;
-  font-weight: 800;
+  font-weight: 500;
   max-width: max-content;
 }
 .btn:hover {
