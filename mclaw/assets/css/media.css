@@ -122,6 +122,9 @@
     top: 20%;
     right: 2%;
   }
+  .cta-para{
+    width: 100%;
+  }
   .privacy-wrapper {
     flex-direction: column;
   }

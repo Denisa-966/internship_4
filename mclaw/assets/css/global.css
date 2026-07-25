@@ -29,7 +29,9 @@ body {
   font-family: 'Maison Neue', sans-serif;
   display: flex;
   flex-direction: column; 
+  font-weight: 300;
 }
+
 .container {
   padding-inline: 20px;
   margin-inline: auto;
