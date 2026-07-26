@@ -165,9 +165,11 @@
 }
 .about-mediation-wrapper-service-icon {
   transform: translateX(0);
+  
 }
 .about-mediation-wrapper-service:hover .about-mediation-wrapper-service-icon {
   transform: translateX(5px);
+
 }
 .about-mediation-wrapper-para {
   font-weight: 300;
@@ -489,6 +491,7 @@ line-height: 1.2;
 }
 .blog-wrapper-right-content-para {
   margin-block: 15px 30px;
+  font-weight: 500;
 }
 .blog-title {
   color: var(--gray);

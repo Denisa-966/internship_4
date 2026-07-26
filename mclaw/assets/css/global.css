@@ -20,7 +20,6 @@ html {
   --black-100: #141414;
   --blue: #192647;
   --gray: #707070;
-  --transform-uppercase: uppercase;
 }
 body {
   color: var(--blue);
