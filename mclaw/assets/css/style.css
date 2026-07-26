@@ -22,7 +22,7 @@
 .header-wrapper-logo-title {
   font-weight: 400;
   font-family: "Lyon Text", sans-serif;
-  line-height: 1;
+  line-height: 1.2;
 }
 .header-wrapper-logo-secondary-title {
   display: flex;
@@ -71,7 +71,8 @@
   color: var(--white);
 }
 .hero-wrapper-title {
-  max-width: 632px;
+  font-weight: 300;
+    max-width: 632px;
   margin-block: 18px 30px;
 
 }
@@ -125,7 +126,7 @@
   background-color: var(--white-200);
 }
 .splide__pagination {
-  bottom: -10%;
+  bottom: -28%;
 }
 .hero-wrapper-para{
   font-weight: 800;
@@ -241,7 +242,7 @@
 
 .faq-inner-para {
   overflow: hidden;
-
+line-height: 1.2;
   color: #192648bf;
 }
 .faq-main-para {
@@ -301,11 +302,16 @@
   margin-bottom: 26px;
   font-weight: 300;
 }
+.span-btn{
+  font-weight: 400;
+  color: var(--white-3  00);
+  
+}
 .case-studies-blog-img-content {
   height: 336px;
 }
 
-/* about-page */
+/* about-page *
 /* about-hero-section */
 .about-hero-section {
   padding-block: 100px;
@@ -317,8 +323,10 @@
 }
 .about-hero-wrapper-title {
   font-weight: 300;
+  line-height: 1.2; 
 }
 .about-hero-wrapper-para {
+  line-height: 1.4;
   margin-block: 30px 26px;
   color: #192647bf;
   max-width: 524px;

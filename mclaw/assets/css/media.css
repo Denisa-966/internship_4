@@ -137,7 +137,9 @@
     color: #70707040;
     font-weight: 800;
   }
-
+.btn2{
+  color: var(--blue);
+}
   .hero-wrapper-title {
     font-size: 40px;
   }

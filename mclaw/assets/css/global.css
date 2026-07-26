@@ -81,7 +81,13 @@ section {
   background-color: var(--primary-color);
   color: var(--white);
 }
-
+.btn2{
+  color: var(--white);
+}
+.btn2:hover {
+  border: 1px solid transparent;
+  color: var(--white);
+}
 .submit-btn:hover {
   background-color: var(--hover-color);
 }
@@ -104,8 +110,7 @@ section {
   border: 1px solid var(--white);
 }
 .footer-btn:hover {
-  color: var(--hover-color);
-  background-color: var(--white);
+  background-color: var(--gray);
 }
 a {
   text-decoration: none;
@@ -154,7 +159,8 @@ p,
 .p {
   font-size: 16px;
 }
-.p2 {
+.p2,
+p2 {
   font-size: 14px;
 }
 .transition {
