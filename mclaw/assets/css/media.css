@@ -26,7 +26,7 @@
   }
   .headerbtn {
     margin-inline: auto;
-    border: 1px solid var(--blue);
+    border: 1px solid var(--primary-color);
   }
   .menu-link {
     padding-block: 20px;
@@ -37,9 +37,6 @@
   }
   .home-slider-section {
     padding-top: 28px;
-  }
-  .empty-section {
-    height: 640px;
   }
   .footer-wrapper-content {
     flex-direction: column-reverse;
@@ -88,9 +85,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .empty-section {
-    height: 538px;
-  }
   .footer-wrapper {
     padding-block: 50px;
   }
@@ -146,7 +140,7 @@
     font-weight: 800;
   }
   .btn2 {
-    color: var(--blue);
+    color: var(--primary-color);
   }
   .hero-wrapper-title {
     font-size: 40px;
@@ -170,7 +164,7 @@
     position: static;
   }
   .hero-wrapper {
-    color: var(--blue);
+    color: var(--primary-color);
     padding-block: 50px;
   }
   .tab-title {

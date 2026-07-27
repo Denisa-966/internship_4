@@ -12,7 +12,7 @@ header {
   align-items: center;
 }
 .header-wrapper-logo {
-  color: var(--blue);
+  color: var(--primary-color);
 }
 .header-wrapper-content-link {
   display: flex;
@@ -54,7 +54,7 @@ header {
   bottom: -4px;
   width: 0;
   height: 2px;
-  background-color: var(--blue);
+  background-color: var(--primary-color);
   transition: all 0.6s ease;
 }
 
@@ -62,7 +62,7 @@ header {
   width: 100%;
 }
 .menu-link {
-  color: var(--blue);
+  color: var(--primary-color);
   font-family: "Maison Neue Demi", sans-serif;
 }
 
@@ -97,13 +97,13 @@ header {
 }
 .about-two-column-section {
   padding-block: 92px;
-  background-color: var(--blue);
+  background-color: var(--primary-color);
   color: var(--white);
 }
 
 /* home-slider-section */
 .home-slider-section {
-  background-color: var(--blue);
+  background-color: var(--primary-color);
   color: var(--white);
   padding-block: 128px 155px;
 }
@@ -171,7 +171,7 @@ header {
   max-width: max-content;
 }
 .about-mediation-wrapper-service-title {
-  color: var(--blue);
+  color: var(--primary-color);
   font-family: "Maison Neue Book", sans-serif;
   transition: all 0.3s ease-in-out;
 }
@@ -448,7 +448,7 @@ header {
   font-weight: 300;
 }
 .tab-span-title {
-  color: var(--blue);
+  color: var(--primary-color);
 }
 .tab-list {
   display: flex;
@@ -565,6 +565,7 @@ header {
   font-weight: 300;
 }
 .form-content {
+  outline: transparent;
   border-radius: 24px;
   border: none;
   padding-block: 14px;
@@ -592,12 +593,19 @@ textarea {
   right: 1%;
 }
 .details-number {
-  color: var(--blue);
+  color: var(--primary-color);
 }
 .contact-details-para {
   margin-block: 28px 16px;
 }
-
+.directions {
+  font-size: 10px;
+  transition: all 0.3s ease-in-out;
+  color: var(--gray);
+}
+.directions:hover {
+  color: var(--primary-color);
+}
 /* privacy-page */
 .privacy-section {
   background-color: var(--white-100);
@@ -613,7 +621,7 @@ textarea {
   display: flex;
   justify-content: start;
   align-items: center;
-  color: var(--blue);
+  color: var(--primary-color);
 }
 
 .left-content-title {
@@ -621,7 +629,7 @@ textarea {
   transition: 0.3s;
 }
 .privacy-wrapper-left-content .left-content-title.active {
-  color: var(--blue);
+  color: var(--primary-color);
   margin-left: 10px;
 }
 
@@ -660,16 +668,14 @@ textarea {
 
 /* footer-section-- */
 footer {
-  position: fixed;
+  position: sticky;
   bottom: 0;
   z-index: 0;
-  width: 100%;
-}
-.footer-section {
-  background-color: var(--blue);
+  background-color: var(--primary-color);
   color: var(--white);
   overflow: hidden;
 }
+
 .footer-section-content {
   position: relative;
   z-index: 2;
@@ -696,9 +702,7 @@ footer {
   color: var(--white);
   transition: all 0.3s ease-in-out;
 }
-.footer-link:hover {
-  color: var(--hover-color);
-}
+
 .footer-wrapper-right-side-content {
   display: flex;
   flex-wrap: wrap;
