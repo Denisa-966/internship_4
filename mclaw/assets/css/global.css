@@ -114,6 +114,10 @@ section {
   background-color: transparent;
   border: 1px solid var(--white);
 }
+.span-btn {
+  font-family: "Maison Neue", sans-serif;
+  color: var(--white-500);
+}
 a {
   text-decoration: none;
   display: block;
