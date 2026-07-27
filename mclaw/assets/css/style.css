@@ -365,13 +365,12 @@ header {
 }
 .about-service {
   color: var(--secondary-white);
+  font-weight: 300;
 }
 .about-service-icon {
   color: var(--secondary-white);
 }
-.about-mediation-wrapper-service:hover .about-service-icon {
-  color: var(--primary-color);
-}
+
 .about-faq-section {
   background-color: var(--secondary-white-100);
   padding-block: 168px;

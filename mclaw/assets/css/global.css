@@ -50,7 +50,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 .btn:hover {
-  background-color: var(--secondary-white);
+  background-color: var(--secondary-white-400);
   color: var(--primary-color);
 }
 .btntransprent {
