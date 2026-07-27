@@ -48,6 +48,7 @@
 
 .header-wrapper-navbar-link li a::after {
   content: "";
+  border-radius: 2px;
   position: absolute;
   left: 0;
   bottom: -4px;
@@ -309,7 +310,7 @@
   padding-block: 120px;
 }
 .case-circle:hover {
-  background-color: var(--gray);
+  background-color: var(--white-500);
 }
 
 .cta-para {
@@ -319,7 +320,7 @@
 }
 .span-btn {
   font-weight: 400;
-  color: var(--white-3 00);
+  color: var(--white-300);
 }
 .case-studies-blog-img-content {
   height: 336px;
