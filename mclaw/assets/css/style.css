@@ -539,9 +539,7 @@ header {
   gap: 10px;
   margin-bottom: 96px;
 }
-.search-input {
-  width: 748px;
-}
+
 /* contact page */
 .contact-section {
   padding-top: 104px;
@@ -662,10 +660,10 @@ textarea {
 
 /* footer-section-- */
 footer {
-  margin-top: auto;
-  position: sticky;
+  position: fixed;
   bottom: 0;
   z-index: 0;
+  width: 100%;
 }
 .footer-section {
   background-color: var(--blue);

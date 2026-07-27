@@ -38,7 +38,9 @@
   .home-slider-section {
     padding-top: 28px;
   }
-
+  .empty-section {
+    height: 640px;
+  }
   .footer-wrapper-content {
     flex-direction: column-reverse;
     align-items: start;
@@ -86,6 +88,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .empty-section {
+    height: 538px;
+  }
   .footer-wrapper {
     padding-block: 50px;
   }
