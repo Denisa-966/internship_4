@@ -736,9 +736,10 @@ footer {
 }
 .footer-directions {
   color: var(--gray);
+  font-size: 12px;
 }
 .footer-directions:hover {
-  color: var(--hover-color);
+  color: var(--white);
 }
 .footer-number {
   color: var(--white);
