@@ -4,7 +4,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 999;
-  background-color: var(--white);
+  background-color: var(--secondary-white);
 }
 .header-wrapper {
   display: flex;
@@ -42,23 +42,24 @@ header {
   gap: 40px;
   font-weight: 800;
 }
-.header-wrapper-navbar-link li a {
+.menu-link {
   position: relative;
 }
 
-.header-wrapper-navbar-link li a::after {
+.menu-link::after {
   content: "";
   border-radius: 2px;
   position: absolute;
-  left: 0;
+  left: 50%;
   bottom: -4px;
   width: 0;
   height: 2px;
+  transform: translateX(-50%);
   background-color: var(--primary-color);
-  transition: all 0.6s ease;
+  transition: all 0.3s ease;
 }
 
-.header-wrapper-navbar-link li a:hover::after {
+.menu-link:hover::after {
   width: 100%;
 }
 .menu-link {
@@ -72,7 +73,7 @@ header {
 }
 /* hero-section- */
 .hero-section {
-  background-color: var(--white);
+  background-color: var(--secondary-white);
 }
 
 .hero-wrapper-img {
@@ -84,7 +85,7 @@ header {
 }
 .hero-wrapper {
   padding-block: 200px 300px;
-  color: var(--white);
+  color: var(--secondary-white);
 }
 .hero-wrapper-title {
   font-weight: 300;
@@ -98,25 +99,23 @@ header {
 .about-two-column-section {
   padding-block: 92px;
   background-color: var(--primary-color);
-  color: var(--white);
+  color: var(--secondary-white);
 }
 
 /* home-slider-section */
 .home-slider-section {
   background-color: var(--primary-color);
-  color: var(--white);
+  color: var(--secondary-white);
   padding-block: 128px 155px;
 }
 .home-slider-section-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
 }
 .home-slider-section-content-quotes {
-  width: 100px;
-  aspect-ratio: 1;
-  font-size: 100px;
+  width: 46px;
 }
 .home-slider-section-content-title {
   max-width: 662px;
@@ -137,19 +136,19 @@ header {
 }
 .splide__pagination__page.is-active {
   transform: none;
-  background-color: var(--white-200);
+  background-color: var(--secondary-white-200);
 }
 .splide__pagination {
   bottom: -26%;
 }
 .hero-wrapper-para {
   font-weight: 800;
-  color: var(--white-200);
+  color: var(--secondary-white-200);
 }
 /* about-mediation-section */
 .about-mediation {
   padding-block: 130px;
-  background-color: var(--white);
+  background-color: var(--secondary-white);
 }
 .about-mediation-wrapper {
   max-width: 916px;
@@ -192,7 +191,7 @@ header {
 
 /* two-column-section */
 .two-column-section {
-  background-color: var(--white-100);
+  background-color: var(--secondary-white-100);
   padding-block: 80px;
   overflow: hidden;
 }
@@ -237,7 +236,7 @@ header {
 .faq-circle {
   width: 46px;
   border-radius: 100%;
-  border: 1px solid var(--white-500);
+  border: 1px solid var(--secondary-white-500);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -275,7 +274,7 @@ header {
 }
 .case-studies-section {
   padding-block: 146px 128px;
-  background-color: var(--white);
+  background-color: var(--secondary-white);
 }
 .case-studies-wrapper-bottom-content {
   display: grid;
@@ -283,7 +282,7 @@ header {
   gap: 70px;
 }
 .case-studies-blog-card {
-  border: 1px solid var(--white-400);
+  border: 1px solid var(--secondary-white-400);
 }
 
 .case-studies-blog-card-content {
@@ -308,11 +307,11 @@ header {
   transform: rotatez(90deg);
 }
 .cta-section {
-  background-color: var(--white-300);
+  background-color: var(--secondary-white-300);
   padding-block: 120px;
 }
 .case-circle:hover {
-  background-color: var(--white-500);
+  background-color: var(--secondary-white-500);
 }
 
 .cta-para {
@@ -329,7 +328,7 @@ header {
 /* about-hero-section */
 .about-hero-section {
   padding-block: 100px;
-  background-color: var(--white);
+  background-color: var(--secondary-white);
 }
 .about-hero-wrapper {
   max-width: 812px;
@@ -367,16 +366,16 @@ header {
   flex-direction: row-reverse;
 }
 .about-service {
-  color: var(--white);
+  color: var(--secondary-white);
 }
 .about-service-icon {
-  color: var(--white);
+  color: var(--secondary-white);
 }
 .about-mediation-wrapper-service:hover .about-service-icon {
   color: var(--primary-color);
 }
 .about-faq-section {
-  background-color: var(--white-100);
+  background-color: var(--secondary-white-100);
   padding-block: 168px;
 }
 .about-faq-wrapper-title {
@@ -401,7 +400,7 @@ header {
 }
 .information-section {
   padding-block: 160px 140px;
-  background-color: var(--white-300);
+  background-color: var(--secondary-white-300);
 }
 
 .information-wrapper-content {
@@ -439,7 +438,7 @@ header {
 /* filter-page */
 /* tab-section */
 .tab-section {
-  background-color: var(--white);
+  background-color: var(--secondary-white);
   padding-block: 82px 114px;
 }
 .tab-title {
@@ -465,14 +464,14 @@ header {
 }
 /* case-study-section */
 .case-section {
-  background-color: var(--white);
+  background-color: var(--secondary-white);
   padding-block: 84px;
 }
 .case-wrapper-title {
   font-weight: 300;
 }
 .case-slider-section {
-  background-color: var(--white);
+  background-color: var(--secondary-white);
 }
 .splide_case .splide__pagination {
   bottom: 10%;
@@ -480,7 +479,7 @@ header {
   right: auto;
 }
 .blog-section {
-  background-color: var(--white);
+  background-color: var(--secondary-white);
   padding-block: 90px 208px;
 }
 .blog-wrapper {
@@ -509,7 +508,7 @@ header {
   color: var(--gray);
 }
 .solution-section {
-  background-color: var(--white-300);
+  background-color: var(--secondary-white-300);
 }
 .solution-wrapper {
   max-width: 850px;
@@ -520,7 +519,7 @@ header {
   margin-block: 30px;
 }
 .faqs-section {
-  background-color: var(--white-100);
+  background-color: var(--secondary-white-100);
   padding-block: 142px 166px;
 }
 .faqs-wrapper {
@@ -543,7 +542,7 @@ header {
 /* contact page */
 .contact-section {
   padding-top: 104px;
-  background-color: var(--white-100);
+  background-color: var(--secondary-white-100);
 }
 .user-contact-form {
   display: flex;
@@ -608,7 +607,7 @@ textarea {
 }
 /* privacy-page */
 .privacy-section {
-  background-color: var(--white-100);
+  background-color: var(--secondary-white-100);
   padding-block: 80px 178px;
 }
 .privacy-wrapper {
@@ -672,7 +671,7 @@ footer {
   bottom: 0;
   z-index: 0;
   background-color: var(--primary-color);
-  color: var(--white);
+  color: var(--secondary-white);
   overflow: hidden;
 }
 
@@ -699,7 +698,7 @@ footer {
 }
 
 .footer-link {
-  color: var(--white);
+  color: var(--secondary-white);
   transition: all 0.3s ease-in-out;
 }
 
@@ -744,8 +743,8 @@ footer {
   font-size: 12px;
 }
 .footer-directions:hover {
-  color: var(--white);
+  color: var(--secondary-white);
 }
 .footer-number {
-  color: var(--white);
+  color: var(--secondary-white);
 }

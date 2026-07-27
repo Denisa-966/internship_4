@@ -9,12 +9,12 @@ html {
 }
 :root {
   --primary-color: #192647;
-  --white: #ffffff;
-  --white-100: #f8f8f8;
-  --white-200: #efefef;
-  --white-300: #eceded;
-  --white-400: #e5e5e5;
-  --white-500: #ebebeb;
+  --secondary-white: #ffffff;
+  --secondary-white-100: #f8f8f8;
+  --secondary-white-200: #efefef;
+  --secondary-white-300: #eceded;
+  --secondary-white-400: #e5e5e5;
+  --secondary-white-500: #ebebeb;
   --black: #000000;
   --black-100: #141414;
   --gray: #707070;
@@ -40,57 +40,46 @@ section {
 }
 .btn {
   padding: 16px 22px;
+  max-width: max-content;
   background-color: var(--primary-color);
-  color: var(--white);
+  color: var(--secondary-white);
+  font-family: "Maison Neue Demi", sans-serif;
+  font-weight: 500;
   border: 1px solid transparent;
   border-radius: 24px;
-  font-weight: 500;
-  max-width: max-content;
-  font-family: "Maison Neue Demi", sans-serif;
   transition: all 0.3s ease-in-out;
 }
 .btn:hover {
-  background-color: var(--white);
+  background-color: var(--secondary-white);
   color: var(--primary-color);
 }
 .btntransprent {
   background-color: transparent;
   color: var(--primary-color);
-  border: 1px solid var(--white-200);
+  border: 1px solid var(--secondary-white-500);
 }
 .btntransprent:hover {
   background-color: var(--primary-color);
-  color: var(--white);
-}
-.hero-btn {
-  color: var(--white);
-}
-.hero-btn:hover {
-  border: 1px solid transparent;
+  color: var(--secondary-white);
 }
 .headerbtn {
-  background-color: var(--white-100);
+  background-color: var(--secondary-white-100);
 }
 .headerbtn:hover {
-  color: var(--white);
-}
-
-.btn1:hover {
-  background-color: var(--primary-color);
-  color: var(--white);
+  color: var(--secondary-white);
 }
 .btn2 {
-  color: var(--white);
+  color: var(--secondary-white);
 }
 .btn2:hover {
   border: 1px solid transparent;
-  color: var(--white);
+  color: var(--secondary-white);
 }
 .submit-btn:hover {
   background-color: var(--primary-color);
 }
 .case-btn {
-  border: 1px solid var(--white-500);
+  border: 1px solid var(--secondary-white-500);
   color: var(--primary-color);
 }
 .case-btn:hover {
@@ -109,17 +98,17 @@ section {
 }
 
 .footer-btn {
-  color: var(--white);
-  background-color: transparent;
-  border: 1px solid var(--white);
+  border: 1px solid var(--secondary-white);
 }
+
 .span-btn {
   font-family: "Maison Neue", sans-serif;
-  color: var(--white-500);
+  color: var(--secondary-white-500);
 }
 a {
   text-decoration: none;
   display: block;
+  color: currentColor;
 }
 img {
   max-width: 100%;
@@ -164,7 +153,6 @@ p,
 .p {
   font-size: 16px;
 }
-.p2,
-p2 {
+.secondary-para {
   font-size: 14px;
 }

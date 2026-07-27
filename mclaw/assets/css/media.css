@@ -10,8 +10,14 @@
   .headerbtn {
     margin-top: 10px;
   }
+  .menu-link:hover::after {
+    width: 20%;
+  }
+  .menu-link::after {
+    bottom: 20%;
+  }
   .header-wrapper-navbar-link {
-    background-color: var(--white-500);
+    background-color: var(--secondary-white-500);
     height: 100vh;
     display: none;
     width: 100%;
@@ -138,6 +144,9 @@
   .hero-wrapper-para {
     color: #70707040;
     font-weight: 800;
+  }
+  .btn1:hover {
+    background-color: var(--secondary-white-500);
   }
   .btn2 {
     color: var(--primary-color);
