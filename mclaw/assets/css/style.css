@@ -325,7 +325,7 @@ header {
 /* about-page *
 /* about-hero-section */
 .about-hero-section {
-  padding-block: 100px;
+  padding-block: 100px 150px;
   background-color: var(--secondary-white);
 }
 .about-hero-wrapper {
@@ -351,6 +351,7 @@ header {
 .about-two-column-title {
   margin-block: 64px 46px;
   font-weight: 200;
+  color: var(--secondary-white);
 }
 .about-two-column-para {
   color: #f8f8f8bf;
