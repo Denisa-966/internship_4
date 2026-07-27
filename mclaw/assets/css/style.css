@@ -48,7 +48,6 @@ header {
 
 .menu-link::after {
   content: "";
-  border-radius: 2px;
   position: absolute;
   left: 50%;
   bottom: -4px;
@@ -94,6 +93,7 @@ header {
 }
 .hero-wrapper-btn {
   display: flex;
+  max-width: max-content;
   gap: 15px;
 }
 .about-two-column-section {
@@ -144,6 +144,7 @@ header {
 .hero-wrapper-para {
   font-weight: 800;
   color: var(--secondary-white-200);
+  max-width: max-content;
 }
 /* about-mediation-section */
 .about-mediation {
@@ -170,13 +171,10 @@ header {
   max-width: max-content;
 }
 .about-mediation-wrapper-service-title {
-  color: var(--primary-color);
   font-family: "Maison Neue Book", sans-serif;
   transition: all 0.3s ease-in-out;
 }
-.about-mediation-wrapper-service:hover .about-mediation-wrapper-service-title {
-  color: var(--primary-color);
-}
+
 .about-mediation-wrapper-service-icon {
   transform: translateX(0);
   transition: all 0.3s ease-in-out;
@@ -699,9 +697,22 @@ footer {
 
 .footer-link {
   color: var(--secondary-white);
+  position: relative;
+}
+.footer-link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 0;
+  bottom: -10%;
+  height: 2px;
+  transform: translateX(-50%);
+  background-color: var(--secondary-white);
   transition: all 0.3s ease-in-out;
 }
-
+.footer-link:hover::after {
+  width: 100%;
+}
 .footer-wrapper-right-side-content {
   display: flex;
   flex-wrap: wrap;
@@ -741,6 +752,8 @@ footer {
 .footer-directions {
   color: var(--gray);
   font-size: 12px;
+  max-width: max-content;
+  transition: all 0.3s ease-in-out;
 }
 .footer-directions:hover {
   color: var(--secondary-white);

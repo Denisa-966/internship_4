@@ -41,10 +41,10 @@ section {
 .btn {
   padding: 16px 22px;
   max-width: max-content;
+  line-height: 1;
   background-color: var(--primary-color);
   color: var(--secondary-white);
   font-family: "Maison Neue Demi", sans-serif;
-  font-weight: 500;
   border: 1px solid transparent;
   border-radius: 24px;
   transition: all 0.3s ease-in-out;
@@ -75,19 +75,14 @@ section {
   border: 1px solid transparent;
   color: var(--secondary-white);
 }
-.submit-btn:hover {
-  background-color: var(--primary-color);
-}
-.case-btn {
-  border: 1px solid var(--secondary-white-500);
-  color: var(--primary-color);
-}
-.case-btn:hover {
-  background-color: var(--primary-color);
-}
 
 .submit-btn {
   width: 15%;
+  cursor: pointer;
+}
+.submit-btn:hover {
+  background-color: var(--secondary-white-500);
+  border: 1px solid var(--primary-color);
 }
 .search-input {
   border: 1px solid #717171;
@@ -103,7 +98,6 @@ section {
 
 .span-btn {
   font-family: "Maison Neue", sans-serif;
-  color: var(--secondary-white-500);
 }
 a {
   text-decoration: none;
