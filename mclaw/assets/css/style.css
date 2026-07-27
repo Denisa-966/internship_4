@@ -664,11 +664,11 @@ textarea {
 
 /* footer-section-- */
 footer {
+  background-color: var(--primary-color);
+  color: var(--secondary-white);
   position: sticky;
   bottom: 0;
   z-index: 0;
-  background-color: var(--primary-color);
-  color: var(--secondary-white);
   overflow: hidden;
 }
 
