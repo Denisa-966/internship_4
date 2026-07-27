@@ -51,24 +51,21 @@ section {
   font-weight: 500;
   max-width: max-content;
   font-family: "Maison Neue Demi", sans-serif;
+  transition: all 0.3s ease-in-out;
 }
 .btn:hover {
   background-color: var(--white);
   color: var(--blue);
 }
 .btntransprent {
-  padding: 16px 20px;
   background-color: transparent;
   color: var(--blue);
   border: 1px solid var(--white-200);
-  font-weight: 700;
-  font-family: "Maison Neue Demi", sans-serif;
 }
 .btntransprent:hover {
   background-color: var(--blue);
   color: var(--white);
 }
-
 .hero-btn {
   color: var(--white);
 }
@@ -168,7 +165,4 @@ p,
 .p2,
 p2 {
   font-size: 14px;
-}
-.transition {
-  transition: all 0.3s ease-in-out;
 }
