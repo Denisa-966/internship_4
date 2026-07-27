@@ -26,12 +26,13 @@
 }
 .header-wrapper-logo-secondary-title {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 4px;
 }
 .header-wrapper-logo-span-title {
   font-weight: 200;
   font-size: 12px;
+  line-height: 1;
 }
 
 .header-wrapper-navbar-link {
@@ -41,11 +42,27 @@
   gap: 40px;
   font-weight: 800;
 }
+.header-wrapper-navbar-link li a {
+  position: relative;
+}
+
+.header-wrapper-navbar-link li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background-color: var(--blue);
+  transition: all 0.6s ease;
+}
+
+.header-wrapper-navbar-link li a:hover::after {
+  width: 100%;
+}
 .menu-link {
   color: var(--blue);
-}
-.menu-link:hover {
-  color: var(--gray);
+  font-family: "Maison Neue Demi", sans-serif;
 }
 
 .close-btn,
@@ -72,9 +89,8 @@
 }
 .hero-wrapper-title {
   font-weight: 300;
-    max-width: 632px;
+  max-width: 632px;
   margin-block: 18px 30px;
-
 }
 .hero-wrapper-btn {
   display: flex;
@@ -98,11 +114,10 @@
   align-items: center;
   gap: 20px;
 }
-.home-slider-section-content-quotes{
+.home-slider-section-content-quotes {
   width: 100px;
   aspect-ratio: 1;
   font-size: 100px;
-  
 }
 .home-slider-section-content-title {
   max-width: 662px;
@@ -128,7 +143,7 @@
 .splide__pagination {
   bottom: -28%;
 }
-.hero-wrapper-para{
+.hero-wrapper-para {
   font-weight: 800;
   color: var(--white-200);
 }
@@ -158,18 +173,16 @@
 }
 .about-mediation-wrapper-service-title {
   color: var(--blue);
-  font-family: 'Maison Neue Book', sans-serif;
+  font-family: "Maison Neue Book", sans-serif;
 }
 .about-mediation-wrapper-service:hover .about-mediation-wrapper-service-title {
   color: var(--primary-color);
 }
 .about-mediation-wrapper-service-icon {
   transform: translateX(0);
-  
 }
 .about-mediation-wrapper-service:hover .about-mediation-wrapper-service-icon {
   transform: translateX(5px);
-
 }
 .about-mediation-wrapper-para {
   font-weight: 300;
@@ -244,7 +257,7 @@
 
 .faq-inner-para {
   overflow: hidden;
-line-height: 1.2;
+  line-height: 1.2;
   color: #192648bf;
 }
 .faq-main-para {
@@ -282,7 +295,7 @@ line-height: 1.2;
 .case-studies-blog-card-content-para {
   margin-block: 8px 20px;
   max-width: 300px;
-  font-family: 'Maison Neue Book', sans-serif;
+  font-family: "Maison Neue Book", sans-serif;
 }
 .case-studies-blog-card-content-title {
   color: #192647bf;
@@ -304,10 +317,9 @@ line-height: 1.2;
   margin-bottom: 26px;
   font-weight: 300;
 }
-.span-btn{
+.span-btn {
   font-weight: 400;
-  color: var(--white-3  00);
-  
+  color: var(--white-3 00);
 }
 .case-studies-blog-img-content {
   height: 336px;
@@ -325,7 +337,7 @@ line-height: 1.2;
 }
 .about-hero-wrapper-title {
   font-weight: 300;
-  line-height: 1.2; 
+  line-height: 1.2;
 }
 .about-hero-wrapper-para {
   line-height: 1.4;
@@ -375,8 +387,8 @@ line-height: 1.2;
   max-width: 848px;
   margin-inline: auto;
 }
-.faq-title{
-  font-family: 'Maison Neue Book', sans-serif;
+.faq-title {
+  font-family: "Maison Neue Book", sans-serif;
   font-weight: 300;
 }
 .about-faq-title {
@@ -638,7 +650,7 @@ textarea {
   line-height: 1.5;
 }
 .privacy-wrapper-right-title {
-  font-family: 'maison Neue Book', sans-serif;
+  font-family: "maison Neue Book", sans-serif;
   font-weight: 400;
   margin-bottom: 26px;
 }
@@ -716,8 +728,8 @@ footer {
 .footer-wrapper-right-content {
   max-width: 160px;
 }
-.footer-wrapper-right-content-title{
-  font-family: 'Maison Neue Book', sans-serif;
+.footer-wrapper-right-content-title {
+  font-family: "Maison Neue Book", sans-serif;
 }
 .footer-wrapper-right-content-para {
   margin-block: 30px;

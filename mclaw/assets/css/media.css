@@ -7,6 +7,9 @@
   .menu-btn {
     display: block;
   }
+  .headerbtn {
+    margin-top: 10px;
+  }
   .header-wrapper-navbar-link {
     background-color: var(--white-500);
     height: 100vh;
@@ -122,7 +125,7 @@
     top: 20%;
     right: 2%;
   }
-  .cta-para{
+  .cta-para {
     width: 100%;
   }
   .privacy-wrapper {
@@ -137,9 +140,9 @@
     color: #70707040;
     font-weight: 800;
   }
-.btn2{
-  color: var(--blue);
-}
+  .btn2 {
+    color: var(--blue);
+  }
   .hero-wrapper-title {
     font-size: 40px;
   }
