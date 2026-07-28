@@ -7,7 +7,7 @@
   .menu-btn {
     display: block;
   }
-  .headerbtn {
+  .header-btn {
     margin-top: 10px;
   }
   .menu-link:hover::after {
@@ -31,7 +31,7 @@
   .header-wrapper-navbar-link li {
     text-align: center;
   }
-  .headerbtn {
+  .header-btn {
     margin-inline: auto;
     border: 1px solid var(--primary-color);
   }
@@ -155,7 +155,7 @@
   .btn1:hover {
     background-color: var(--secondary-white-500);
   }
-  .btn2 {
+  .btn-2 {
     color: var(--primary-color);
   }
   .hero-wrapper-title {

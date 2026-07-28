@@ -1,4 +1,8 @@
 /* header-section--- */
+.cta-btn:hover {
+  background-color: var(--secondary-white);
+}
+
 header {
   padding-block: 26px;
   position: sticky;
@@ -239,6 +243,7 @@ header {
   justify-content: center;
   align-items: center;
   aspect-ratio: 1;
+  transition: all 0.3s ease-in-out;
 }
 
 .faq-para {
@@ -420,6 +425,9 @@ header {
 .information-list {
   color: #192647bf;
   line-height: 1.5;
+}
+.information-wrapper-inner-content-title {
+  max-width: max-content;
 }
 .information-line {
   margin-block: 24px 28px;

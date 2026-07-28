@@ -15,8 +15,6 @@ html {
   --secondary-white-300: #eceded;
   --secondary-white-400: #e5e5e5;
   --secondary-white-500: #ebebeb;
-  --black: #000000;
-  --black-100: #141414;
   --gray: #707070;
 }
 body {
@@ -53,25 +51,28 @@ section {
   background-color: var(--secondary-white-400);
   color: var(--primary-color);
 }
-.btntransprent {
+
+.btn-transprent {
   background-color: transparent;
   color: var(--primary-color);
   border: 1px solid var(--secondary-white-500);
 }
-.btntransprent:hover {
+.btn-transprent:hover {
   background-color: var(--primary-color);
   color: var(--secondary-white);
 }
-.headerbtn {
+
+.header-btn {
   background-color: var(--secondary-white-100);
 }
-.headerbtn:hover {
+.header-btn:hover {
   color: var(--secondary-white);
 }
-.btn2 {
+
+.btn-2 {
   color: var(--secondary-white);
 }
-.btn2:hover {
+.btn-2:hover {
   border: 1px solid transparent;
   color: var(--secondary-white);
 }
@@ -143,10 +144,7 @@ h5 {
 h6 {
   font-size: 20px;
 }
-p,
-.p {
-  font-size: 16px;
-}
-.secondary-para {
+
+.font-14 {
   font-size: 14px;
 }
