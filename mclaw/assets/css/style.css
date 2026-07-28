@@ -479,6 +479,7 @@ header {
 }
 .case-wrapper-title {
   font-weight: 300;
+  max-width: max-content;
 }
 .case-wrapper-sub-title {
   margin-top: 18px;

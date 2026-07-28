@@ -98,9 +98,9 @@ section {
   border: 1px solid var(--secondary-white);
 }
 
-.span-btn {
+.span-number {
   font-family: "Maison Neue", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
 }
 a {
   text-decoration: none;
