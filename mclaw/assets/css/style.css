@@ -309,6 +309,7 @@ header {
 }
 .case-studies-blog-card-content-para {
   color: #192647bf;
+  max-width: max-content;
 }
 .case-studies-arrow {
   transform: rotatez(90deg);
@@ -453,7 +454,7 @@ header {
 }
 .tab-title {
   max-width: 658px;
-  color: var(--gray);
+  color: var(--secondary-white-300);
   font-weight: 300;
 }
 .tab-span-title {
@@ -580,6 +581,12 @@ header {
 .contact-wrapper-title {
   font-weight: 300;
 }
+.contect-circle {
+  border: 1px solid var(--secondary-white-500);
+}
+.contect-circle:hover {
+  background-color: var(--secondary-white);
+}
 .form-content {
   outline: transparent;
   border-radius: 24px;
@@ -633,6 +640,12 @@ textarea {
   align-items: start;
   gap: 20px;
 }
+select {
+  color: var(--gray);
+}
+option {
+  color: var(--primary-color);
+}
 .privacy-wrapper-left-content {
   display: flex;
   justify-content: start;
@@ -641,8 +654,10 @@ textarea {
 }
 
 .left-content-title {
+  font-family: "Maison Neue Book", sans-serif;
   color: #707070;
   transition: 0.3s;
+  font-weight: 400;
 }
 .privacy-wrapper-left-content .left-content-title.active {
   color: var(--primary-color);

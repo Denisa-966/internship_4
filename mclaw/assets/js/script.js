@@ -22,7 +22,7 @@ if (menuBtn && closeBtn && menuLink) {
 // ======================
 // Privacy Section Active Link
 // ======================
-const sections = document.querySelectorAll(".privacy-wrapper-right h2");
+const sections = document.querySelectorAll(".privacy-wrapper-right h3");
 const leftContent = document.querySelectorAll(".privacy-wrapper-left-content");
 
 document.addEventListener("DOMContentLoaded", () => {
