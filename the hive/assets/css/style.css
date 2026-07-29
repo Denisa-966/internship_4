@@ -28,13 +28,16 @@
 }
 /* header-section */
 header {
-  background-color: var(--secondary-color);
   width: 100%;
   padding-block: 74px 30px;
   position: fixed;
   z-index: 999;
   top: 0;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.header-logo1 {
+  color: var(--white);
+  transition: all 0.4s ease-in-out;
 }
 header.scrolled {
   padding-block: 20px;
@@ -61,28 +64,29 @@ header.scrolled {
 .header-content {
   display: none;
 }
-.header-navbar-icon {
-  display: flex;
+.menu-btn {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
 }
-.menu-btn,
-.colse-btn {
-  width: 100%;
-}
-.btn-line {
+.bar {
   width: 40px;
   padding: 2px;
   height: 3px;
-  margin: 6px;
-  border-radius: 6px;
-  background-color: var(--black-100);
+  margin: 5px;
+  border-radius: 10px;
+  background-color: var(--white);
 }
-.btn-line1 {
+.bar1 {
   margin-left: 15px;
 }
 
 /* home-hero-section */
 .home-hero-section {
   padding-block: 142px 225px;
+  background: rgba(0, 0, 0, 0.36);
+  background-size: 100%;
+  background-position: center;
 }
 .home-hero-img-content {
   position: relative;

@@ -7,3 +7,13 @@ window.addEventListener("scroll", () => {
     header.classList.remove("scrolled");
   }
 });
+
+const menuBtn = document.querySelector(".menu-btn");
+const navMenu = document.querySelector(".header-wrapper-navbar-link");
+const headerBar = document.querySelector("header");
+
+menuBtn.addEventListener("click", () => {
+  menuBtn.classList.toggle("active");
+  navMenu.classList.toggle("active");
+  headerBar.classList.toggle("active");
+});
