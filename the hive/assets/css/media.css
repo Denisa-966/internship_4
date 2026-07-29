@@ -105,6 +105,52 @@
 }
 
 @media only screen and (max-width: 429px) {
+  header {
+    padding-block: 30px;
+  }
+  .header-logo1 {
+    color: var(--black-100);
+  }
+  .bar {
+    background-color: var(--black-100);
+  }
+  .img-content {
+    position: static;
+    z-index: 0;
+  }
+  .home-hero-wrapper-img-content {
+    margin-inline: -20px;
+  }
+  .home-hero-section {
+    background-color: var(--white-100);
+    padding-bottom: 0;
+  }
+  .home-hero-wrapper {
+    display: flex;
+    gap: 30px;
+    flex-direction: column-reverse;
+  }
+  .home-hero-wrapper-para {
+    color: var(--black);
+    font-weight: 500;
+  }
+  .home-hero-wrapper-title {
+    color: var(--black);
+    font-size: 40px;
+  }
+  .home-hero-wrapper-btn {
+    flex-direction: column;
+    align-items: start;
+    gap: 16px;
+  }
+  .who-we-are-section-title {
+    font-size: 40px;
+  }
+  .who-we-are-wrapper-img {
+    transform: translate(50%, 16%);
+    width: 470px;
+    height: 470px;
+  }
   .footer-wrapper-top {
     flex-direction: column;
     align-items: start;

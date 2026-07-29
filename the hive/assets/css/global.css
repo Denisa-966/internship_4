@@ -18,13 +18,14 @@
 }
 body {
   font-family: "Libre Franklin", sans-serif;
-  color: var(--white-100);
+  color: var(--white);
   font-weight: 400;
   font-size: 16px;
   display: flex;
   flex-direction: column;
   height: 100vh;
   line-height: 1;
+  background-color: var(--primary-color);
 }
 .container {
   padding-inline: 20px;
@@ -36,12 +37,12 @@ body {
   max-width: 1352px;
 }
 .btn {
-  padding: 30px;
+  padding: 18px 50px;
   font-size: 12px;
   font-weight: 500;
   text-align: center;
-  background-color: var(--secondary-color);
   max-width: 192px;
+  background-color: var(--secondary-color);
   clip-path: polygon(4% 0%, 100% 0%, 96% 100%, 0% 100%);
   transition: all 0.3s ease-in-out;
 }
@@ -50,7 +51,7 @@ body {
 }
 .header-btn {
   padding: 18px 36px;
-  background-color: var(--white-100);
+  background-color: var(--white);
   color: var(--black-100);
   max-width: max-content;
   clip-path: polygon(4% 0%, 100% 0%, 96% 100%, 0% 100%);
@@ -58,7 +59,13 @@ body {
 }
 .header-btn:hover {
   background-color: var(--primary-color);
-  color: var(--white-100);
+  color: var(--white);
+}
+.primary-btn {
+  background-color: var(--primary-color);
+}
+.primary-btn:hover {
+  background-color: var(--secondary-color);
 }
 
 a {
