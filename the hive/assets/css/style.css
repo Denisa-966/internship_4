@@ -99,13 +99,15 @@ footer {
   gap: 40px;
 }
 .footer-wrapper-top-blog-card {
-  display: grid;
-  grid-template-columns: repeat(3, 3fr);
+  display: flex;
+  justify-content: space-between;
   gap: 24px;
+  overflow: hidden;
 }
 .footer-blog-card {
   border-radius: 7px;
   background-color: var(--white);
+  flex-shrink: 1;
 }
 .blog-card-content {
   display: flex;
