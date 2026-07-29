@@ -119,7 +119,7 @@ header.scrolled {
   background-color: var(--secondary-color);
   padding-block: 142px 440px;
   position: relative;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 .who-we-are-section-para {
