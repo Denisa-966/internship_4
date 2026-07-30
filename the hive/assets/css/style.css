@@ -20,14 +20,18 @@
 .social-media-icon:hover {
   color: var(--secondary-color);
 }
-.social-media-wrapper-title {
-  font-weight: 100;
+.social-media-wrapper-content {
+  transition: all 0.3s ease-in-out;
 }
+.social-media-wrapper-content:hover {
+  color: var(--secondary-color);
+}
+
 .social-media-wrapper-span-title {
   font-weight: 800;
 }
 /* header-section */
-header {
+.header {
   width: 100%;
   padding-block: 74px 30px;
   position: fixed;
@@ -39,7 +43,11 @@ header {
   color: var(--white);
   transition: all 0.4s ease-in-out;
 }
-header.scrolled {
+.header-wrapper-logo {
+  max-width: 340px;
+  max-height: 38px;
+}
+.header.scrolled {
   padding-block: 20px;
 }
 .header-wrapper {
@@ -147,11 +155,28 @@ header.scrolled {
   font-weight: 500;
   line-height: 1.6;
 }
+.who-we-are-title:hover {
+  background-color: var(--white-100);
+  color: var(--primary-color);
+}
 /* blog-card-section */
 .what-we-blog-card-section {
   padding-bottom: 120px;
-  margin-top: -12%;
-  z-index: 10;
+  margin-top: -250px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, rgba(4, 60, 57, 1) 100%);
+  position: relative;
+  z-index: 4;
+}
+.what-we-blog-card {
+  position: relative;
+}
+.what-we-blog-card-content {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+.what-we-blog-card-img-content {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%);
 }
 .what-we-blog-card-wrapper-top {
   display: flex;
@@ -160,10 +185,32 @@ header.scrolled {
   gap: 30px;
   margin-bottom: 30px;
 }
+
 .what-we-blog-card-wrapper-bottom {
   display: grid;
   grid-template-columns: repeat(3, 3fr);
   gap: 24px;
+}
+.what-we-blog-card-title {
+  font-weight: 500;
+}
+
+.what-we-blog-card-wrapper-title {
+  font-size: 40px;
+  color: var(--white);
+}
+.what-we-blog-card-circle {
+  background-color: var(--white);
+  width: 30px;
+  height: 30px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blog-card-icon {
+  color: var(--black-100);
 }
 /* footer-section */
 footer {

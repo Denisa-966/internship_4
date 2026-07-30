@@ -1,10 +1,10 @@
 @media only screen and (max-width: 1200px) {
 }
 @media only screen and (max-width: 991px) {
-  header.active {
+  .header.active {
     background-color: var(--white-100);
   }
-  header.active .header-logo1 {
+  .header.active .header-logo1 {
     color: var(--black-100);
   }
   .social-media {
@@ -105,7 +105,7 @@
 }
 
 @media only screen and (max-width: 429px) {
-  header {
+  .header {
     padding-block: 30px;
   }
   .header-logo1 {
