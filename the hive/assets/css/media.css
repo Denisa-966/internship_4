@@ -7,6 +7,9 @@
   .header.active .header-logo1 {
     color: var(--black-100);
   }
+  .header {
+    padding-block: 30px;
+  }
   .social-media {
     display: none;
   }
@@ -105,9 +108,6 @@
 }
 
 @media only screen and (max-width: 429px) {
-  .header {
-    padding-block: 30px;
-  }
   .header-logo1 {
     color: var(--black-100);
   }

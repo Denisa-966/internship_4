@@ -54,17 +54,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 .header-wrapper-navbar-link {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 36px;
+  gap: 38px;
 }
 .navbar-link {
   transition: all 0.3s ease-in-out;
   font-size: 12px;
   font-weight: 500;
+  padding: 10px;
 }
 .navbar-link:hover {
   color: var(--primary-color);
