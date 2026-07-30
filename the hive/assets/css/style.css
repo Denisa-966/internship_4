@@ -150,7 +150,16 @@ header.scrolled {
   line-height: 1.6;
 }
 /* blog-card-section */
-
+.what-we-blog-card-secrion {
+  padding-bottom: 166px;
+  margin-top: -10%;
+  z-index: 1;
+}
+.what-we-blog-card-wrapper-bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  gap: 24px;
+}
 /* footer-section */
 footer {
   margin-top: auto;
