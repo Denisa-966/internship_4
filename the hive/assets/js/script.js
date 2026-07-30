@@ -10,10 +10,17 @@ window.addEventListener("scroll", () => {
 
 const menuBtn = document.querySelector(".menu-btn");
 const navMenu = document.querySelector(".header-wrapper-navbar-link");
-const headerBar = document.querySelector("header");
+const headerBar = document.querySelector(".header");
 
 menuBtn.addEventListener("click", () => {
   menuBtn.classList.toggle("active");
   navMenu.classList.toggle("active");
   headerBar.classList.toggle("active");
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  var splide = new Splide(".splide", {
+    arrows: false,
+  });
+  splide.mount();
 });

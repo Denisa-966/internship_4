@@ -49,21 +49,6 @@ body {
 .btn:hover {
   background-color: var(--primary-color);
 }
-.header-btn {
-  background-color: var(--white);
-  color: var(--black-100);
-}
-.header-btn:hover {
-  background-color: var(--primary-color);
-  color: var(--white);
-}
-.primary-btn {
-  background-color: var(--primary-color);
-}
-.primary-btn:hover {
-  background-color: var(--secondary-color);
-}
-
 a {
   text-decoration: none;
   display: block;
