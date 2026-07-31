@@ -43,6 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
     pagination: false,
     arrows: false,
     width: "auto",
+    gap: 20,
   });
   splide.mount();
 });
