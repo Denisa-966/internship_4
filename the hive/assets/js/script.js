@@ -19,8 +19,17 @@ menuBtn.addEventListener("click", () => {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  var splide = new Splide(".splide", {
+  var splide = new Splide(".testimonial.splide", {
     arrows: false,
+  });
+  splide.mount();
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  var splide = new Splide(".our-resources.splide", {
+    pagination: false,
+    perPage: 3,
+    gap: 22,
   });
   splide.mount();
 });
