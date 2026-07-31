@@ -30,7 +30,8 @@ body {
   font-size: 16px;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-width: none;
+  min-height: 100vh;
   line-height: var(--line-height-1_2);
   background-color: var(--primary-color);
 }

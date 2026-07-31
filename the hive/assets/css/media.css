@@ -118,6 +118,9 @@
   .process-card-wrapper {
     grid-template-columns: repeat(2, 2fr);
   }
+  .our-resources-img {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 768px) {
   .header-wrapper-logo {
@@ -166,6 +169,28 @@
   }
   .process-card-wrapper {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .our-resources-section {
+    padding-block: 116px 100px;
+  }
+  .our-resources-img {
+    width: 100%;
+  }
+  .arrow--prev,
+  .arrow--next {
+    top: 100%;
+    transform: translateY(50%);
+  }
+  .arrow--prev {
+    left: auto;
+    right: 54%;
+  }
+  .arrow--next {
+    left: 48%;
+    right: auto;
+  }
+  .testimonial-section-title {
+    font-size: 34px;
   }
 }
 

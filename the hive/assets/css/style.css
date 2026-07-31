@@ -313,6 +313,7 @@
   gap: 20px;
 }
 .process-card-content-circle {
+  background-color: var(--primary-color);
   box-shadow: 0 0 36px #021f1e;
   border-radius: 100%;
   width: 262px;
@@ -349,21 +350,95 @@ strong {
 }
 /* Our-resources-section */
 .our-resources-section {
-  padding: 180px 243px;
+  padding-block: 180px 243px;
   background-color: var(--white-100);
   color: var(--black-100);
+  overflow: hidden;
+}
+.our-resources-title {
+  font-size: 40px;
+  margin-bottom: 36px;
 }
 .our-resources-content-para {
   font-size: 12px;
   color: var(--secondary-color);
+  margin-block: 24px 12px;
 }
 .our-resources-content-title {
-  font-weight: 500;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+.our-resources-img {
+  height: 253px;
+  width: 360px;
 }
 .our-resources-content-description {
   font-size: 16px;
   color: #00000078;
   line-height: var(--line-height-1_6);
+}
+.our-resources-track {
+  overflow: visible;
+}
+.arrow--prev,
+.arrow--next {
+  width: 45px;
+  height: 45px;
+  aspect-ratio: 1;
+  background-color: var(--primary-color);
+  top: 5%;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+.arrow--prev {
+  left: auto;
+  right: 60px;
+}
+.arrow--next {
+  right: 0;
+}
+.splide__arrow svg {
+  width: 30px;
+  height: 30px;
+  fill: var(--white-100);
+}
+.blog-wrapper-description {
+  font-size: 34px;
+  line-height: var(--line-height-1_2);
+  font-weight: 400;
+}
+.blog-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 40px;
+}
+.blog-para {
+  line-height: var(--line-height-1_6);
+}
+.para1 {
+  margin-top: 20px;
+}
+/* who we are page */
+.about-us-wrapper {
+  max-width: 570px;
+}
+.about-us-para {
+  color: var(--white-100);
+  font-size: 12px;
+}
+/* blog-section */
+.blog-section {
+  padding-block: 110px 136px;
+  background-color: var(--white-100);
+  color: var(--primary-color);
+}
+.card-slider-section {
+  background-color: var(--white-100);
+  padding-bottom: 208px;
+  color: var(--primary-color);
+}
+.card-slider-track {
+  overflow: visible;
 }
 /* footer-section */
 footer {
