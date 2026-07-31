@@ -312,6 +312,10 @@
   align-items: center;
   gap: 20px;
 }
+.process-card-content:hover .process-card-content-circle {
+  transform: scale(1.1);
+}
+
 .process-card-content-circle {
   background-color: var(--primary-color);
   box-shadow: 0 0 36px #021f1e;
@@ -327,6 +331,7 @@
 .process-card-content-circle:hover {
   transform: scale(1.1);
 }
+
 .process-card-content-svg {
   width: 214px;
   height: 182px;
@@ -434,11 +439,18 @@ strong {
 }
 .card-slider-section {
   background-color: var(--white-100);
-  padding-bottom: 208px;
   color: var(--primary-color);
+  overflow: hidden;
+  padding-top: 50px;
 }
 .card-slider-track {
   overflow: visible;
+}
+.card-slider-slide {
+  max-width: 380px;
+}
+.card-slider-circle {
+  box-shadow: none;
 }
 /* footer-section */
 footer {

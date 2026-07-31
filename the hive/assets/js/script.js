@@ -42,8 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var splide = new Splide(".card-splide.splide", {
     pagination: false,
     arrows: false,
-    perPage: 2,
-    gap: 100,
+    width: "auto",
   });
   splide.mount();
 });
