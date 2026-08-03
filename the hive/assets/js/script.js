@@ -19,8 +19,31 @@ menuBtn.addEventListener("click", () => {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  var splide = new Splide(".splide", {
+  var splide = new Splide(".testimonial.splide", {
     arrows: false,
+  });
+  splide.mount();
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  var splide = new Splide(".our-resources.splide", {
+    pagination: false,
+    perPage: 3,
+    gap: 24,
+    breakpoints: {
+      991: { perPage: 2 },
+      600: { perPage: 1 },
+    },
+  });
+  splide.mount();
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  var splide = new Splide(".card-splide.splide", {
+    pagination: false,
+    arrows: false,
+    width: "auto",
+    gap: 20,
   });
   splide.mount();
 });
