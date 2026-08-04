@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  min-height: 100vh;
+  line-height: 1;
+
+}
+.container {
+  padding-inline: 20px;
+  margin-inline: auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.btn {
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+  max-width: max-content;
+  background-color: black;
+  border: 1px solid transparent;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  margin-left: auto;
+  outline: none;
+}
+.btn:hover {
+  background-color: white;
+ color: black;
+}
+.from-section{
+padding-block:100px;
+    background-color: rgb(67, 141, 202);
+   background-image: url(hero-img.png);
+background-size: cover;
+height: 100vh;
+   
+}
+.from-wrapper{
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    max-width: 400px;
+    margin-inline: auto;
+  
+}
+
+.form{
+    display: flex;
+  justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.form-content{
+    display: flex;
+    gap: 30px;
+    align-items:center;
+    justify-content: space-between;
+
+
+}
+input
+{
+padding: 15px;
+outline: none;
+border-radius: 10px;
+border: 1px solid transparent;
+
+}
